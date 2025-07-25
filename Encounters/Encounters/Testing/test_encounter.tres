@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=10 format=3 uid="uid://ctgo3viqqb84u"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_egguq"]
+[ext_resource type="Resource" uid="uid://cxfiaapytgmi7" path="res://Locations/Locations/placeholder_location.tres" id="1_k63om"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_jim2o"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="2_pfr0u"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_k05pn"]
+[ext_resource type="Resource" uid="uid://cjbau02eww67w" path="res://Characters/Placeholder/Sprites/placeholder_default.tres" id="3_o71hc"]
+
+[sub_resource type="Resource" id="Resource_t186i"]
+script = ExtResource("2_pfr0u")
+speaker_sprite = ExtResource("3_o71hc")
+is_player_speaking = false
+text = "Hello, this is a longer textbox
+
+More text"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_k63om"]
+script = ExtResource("2_pfr0u")
+is_player_speaking = true
+text = "Hi"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bq65m"]
+script = ExtResource("2_jim2o")
+lines = Array[ExtResource("2_pfr0u")]([SubResource("Resource_t186i"), SubResource("Resource_k63om")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_k05pn")
+location = ExtResource("1_k63om")
+main_conversation = SubResource("Resource_bq65m")
+presented_evidence = Dictionary[ExtResource("1_egguq"), ExtResource("2_jim2o")]({})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

@@ -2,4 +2,4 @@ extends Resource
 
 class_name TimeSlot
 
-@export var encounters: Dictionary[Location, Encounter]
+@export var encounters: Array[Encounter]
