@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7n11rhrp6jcf"]
+
+[ext_resource type="Texture2D" uid="uid://bk3j8yowbmk1h" path="res://Characters/Placeholder/Sprites/placeholder_sprite.png" id="1_4odr5"]
+[ext_resource type="Script" uid="uid://cf527jcdhxsmj" path="res://Dialogue/DialogueScene/dialogue_scene.gd" id="1_r85g1"]
+
+[node name="DialogueScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_r85g1")
+
+[node name="TextboxPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 205.0
+offset_top = -113.0
+offset_right = -205.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Textbox" type="Label" parent="TextboxPanel"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Portrait" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -165.0
+offset_bottom = 211.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_4odr5")
+expand_mode = 1
+stretch_mode = 5
