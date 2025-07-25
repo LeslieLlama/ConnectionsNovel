@@ -43,6 +43,9 @@ func display_line(line: ConversationLine):
 		
 		await text_advanced
 		
+	if line.recieved_evidence:
+		Inventory.add_evidence(line.recieved_evidence)
+		
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("advance"):
 		text_advanced.emit()

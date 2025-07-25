@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://ckbodbrcnxq0d"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_cffvf"]
+
+[resource]
+script = ExtResource("1_cffvf")
+evidence_name = "Test Evidence"
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"

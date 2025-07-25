@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=10 format=3 uid="uid://ctgo3viqqb84u"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=11 format=3 uid="uid://ctgo3viqqb84u"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_egguq"]
 [ext_resource type="Resource" uid="uid://cxfiaapytgmi7" path="res://Locations/Locations/placeholder_location.tres" id="1_k63om"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="2_pfr0u"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_k05pn"]
 [ext_resource type="Resource" uid="uid://cjbau02eww67w" path="res://Characters/Placeholder/Sprites/placeholder_default.tres" id="3_o71hc"]
+[ext_resource type="Resource" uid="uid://ckbodbrcnxq0d" path="res://Evidence/Evidence/test_evidence.tres" id="3_pfr0u"]
 
 [sub_resource type="Resource" id="Resource_t186i"]
 script = ExtResource("2_pfr0u")
@@ -14,6 +15,7 @@ is_player_speaking = false
 text = "Hello, this is a longer textbox
 
 More text"
+recieved_evidence = ExtResource("3_pfr0u")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_k63om"]
