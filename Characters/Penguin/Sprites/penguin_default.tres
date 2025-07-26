@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://dfgegnwlbudva"]
+[gd_resource type="Resource" script_class="CharacterSprite" load_steps=4 format=3 uid="uid://dfgegnwlbudva"]
 
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_8xvta"]
 [ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_gv7nk"]
+[ext_resource type="Texture2D" uid="uid://dxvmd0jgs6wqm" path="res://Characters/Penguin/Sprites/PenguinSuitSprite.png" id="3_gv7nk"]
 
 [resource]
 script = ExtResource("2_gv7nk")
 character = ExtResource("1_8xvta")
+sprite = ExtResource("3_gv7nk")
 metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"

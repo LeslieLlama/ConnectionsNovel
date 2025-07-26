@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://cohlk5rje0auo"]
+[gd_resource type="Resource" script_class="CharacterSprite" load_steps=4 format=3 uid="uid://cohlk5rje0auo"]
 
 [ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_hbi28"]
 [ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_1k375"]
+[ext_resource type="Texture2D" uid="uid://d1apde741mwdg" path="res://Characters/Doctor/Sprites/DrAckulaDefaultSprite.png" id="3_3kqr4"]
 
 [resource]
 script = ExtResource("2_1k375")
 character = ExtResource("1_hbi28")
+sprite = ExtResource("3_3kqr4")
 metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"

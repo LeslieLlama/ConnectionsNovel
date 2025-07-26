@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://dgg1ht784mj36"]
+[gd_resource type="Resource" script_class="CharacterSprite" load_steps=4 format=3 uid="uid://dgg1ht784mj36"]
 
 [ext_resource type="Resource" uid="uid://2rphc1ckioqh" path="res://Characters/Janitor/janitor.tres" id="1_mq6i8"]
 [ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_tmtet"]
+[ext_resource type="Texture2D" uid="uid://whs5rdgr80l4" path="res://Characters/Janitor/Sprites/JanitorSpriteDefault.png" id="3_trcay"]
 
 [resource]
 script = ExtResource("2_tmtet")
 character = ExtResource("1_mq6i8")
+sprite = ExtResource("3_trcay")
 metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"

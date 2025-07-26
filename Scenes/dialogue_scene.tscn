@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://c7a2x6q7cvsvm"]
+[gd_scene load_steps=3 format=3 uid="uid://c7a2x6q7cvsvm"]
 
 [ext_resource type="Script" uid="uid://cf527jcdhxsmj" path="res://Dialogue/DialogueScene/dialogue_scene.gd" id="1_r85g1"]
+[ext_resource type="Texture2D" uid="uid://dxvmd0jgs6wqm" path="res://Characters/Penguin/Sprites/PenguinSuitSprite.png" id="2_r85g1"]
 
 [node name="DialogueScene" type="Control"]
 layout_mode = 3
@@ -27,10 +28,11 @@ anchors_preset = 14
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_top = -165.0
-offset_bottom = 211.0
+offset_top = -323.0
+offset_bottom = 534.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("2_r85g1")
 expand_mode = 1
 stretch_mode = 5
 
