@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://dgviqcsf6jvjo"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_pqtic"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_y8wvm"]
+
+[resource]
+script = ExtResource("2_y8wvm")
+location_name = "Managers office"
+background = ExtResource("1_pqtic")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"

@@ -1,0 +1,53 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=14 format=3 uid="uid://ccubnut7mexgt"]
+
+[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_8srfn"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_b4ptc"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_kloxp"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_8ph3q"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="5_oe5aj"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="6_0shsl"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="7_8qh1e"]
+
+[sub_resource type="Resource" id="Resource_8ekco"]
+script = ExtResource("3_kloxp")
+speaker_sprite = ExtResource("4_8ph3q")
+line_type = 0
+text = "I can't believe you broke the locks! What a stupid thing to do! As soon as this is all over you're fired!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_f82ng"]
+script = ExtResource("3_kloxp")
+line_type = 1
+text = "Did you know the victim?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_gbark"]
+script = ExtResource("3_kloxp")
+line_type = 0
+text = "Oh shut up. What is this? Are you some kind of detective? Just get out!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_l75ay"]
+script = ExtResource("3_kloxp")
+line_type = 1
+text = "Sir I need to know, this is important, we need to find the killer"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qrsvt"]
+script = ExtResource("3_kloxp")
+line_type = 0
+text = "To hell with the killer! God this is terrible for business...yes, fine, yes I did. Without him we wouldn't have the aquarium. He funded it! Except the bastard wanted a cut! Oh so kind and generous, he wanted 10%! 10%??? Do you know how much that is? The margins here are thin enough as it is!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_evdx8"]
+script = ExtResource("5_oe5aj")
+lines = Array[ExtResource("3_kloxp")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_qrsvt")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("7_8qh1e")
+location = ExtResource("2_b4ptc")
+character = ExtResource("1_8srfn")
+main_conversation = SubResource("Resource_evdx8")
+presented_evidence = Dictionary[ExtResource("6_0shsl"), ExtResource("5_oe5aj")]({})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

@@ -92,7 +92,7 @@ You talk to the Marine Biologist
 - Jan: "I talked to RM, he said that Phil was taking 10%? You still get 90% that sounds pretty good?"
 - M: "Oh for goodness sake of course you spoke to him. Wait you spoke to him first! You bastard!"
 - Jan: "He wrote down notes about your finances, said they're not very good. Said that you took a bad deal?"
-- M: "Yes, okay yes they're not good, but what was I going to do? Not have an aquarium? Look around, I couldn't do any of this! Look if you want advice? Go to talk to the Dr. I heard that he asked Phil to fund a clinic he opened, put a lot of effort into that. But Phil declined, said "A blood clinic should be free to the public good." but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? Why? What a strange thing to do.
+- M: "Yes, okay yes they're not good, but what was I going to do? Not have an aquarium? Look around, I couldn't do any of this! Look if you want advice? Go to talk to the Dr. I heard that he asked Phil to fund a clinic he opened, put a lot of effort into that. But Phil declined, said "A blood clinic should be free to the public good." but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? Why? What a strange thing to do. Here take this, I printed it out for a laugh, but maybe it'll help jog his memory.
 - **Evidence received:** School photo
 ### 4) Hour 4 - Dr Ackular
 Talk to the doctor
