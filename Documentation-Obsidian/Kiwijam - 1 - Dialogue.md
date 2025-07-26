@@ -56,12 +56,10 @@ You talk to the Marine Biologist
 #### Evidence found: finances, ex's name
 - RM: "What an incredible aquarium! Such a shame all of these fish and equipment to go to waste...must of cost a fortune!"
 - Jan: "Did you know the victim?"
-- RM: "Oh right, yes" *he adjusts his jacket* "Quite a shame. But I suppose that's what happens when you don't make safe investments".
-- Jan: "Safe investments?"
-- RM: "Oh yes, he had this stupid idea that he could 'change the world!' shift society in a different more...'egalatarian' view... I suppose when you are just given wealth, then how could you respect it."
+- RM: "Oh right, yes" *he adjusts his jacket* "Quite a shame. But I suppose that's what happens when you don't make safe investments. He had this stupid idea that he could 'change the world!' shift society in a different more...'egalitarian' view... I suppose when you are just given wealth, then how could you respect it."
 - Jan: "Given wealth?"
 - RM: "You *really* don't know much at all do you? Sorry who are you?"
-- Jan: "In the janitor, and I'm going to solve this mystery!"
+- Jan: "I'm the janitor, and I'm going to solve this mystery!"
 - RM: "How quant. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. Especially after that awful divorce..."
 - Jan: "Divorce?"
 - RM: "Yes, oh it was quite the ordeal. I heard it was over a conflict of interest. She wanted to fund a think tank, get more stories for her news agency and investigate others. Phil disagreed, said it was a think tank built to destroy lives. I think it was quite the sound investment personally. Always good to control you public image."
@@ -71,6 +69,7 @@ You talk to the Marine Biologist
 - RM: Oh well. Anyway, can't believe you broke the doors. Any chance I could get out?".
 - Jan: "Not until the killer is found"
 - RM: "Well good luck with that"
+
 - **Evidence shown: Present the card**
 - Jan: "Oh good you have my card. Fantastic. That strumpet Marine must of given it to you. I really can't believe she wore that dress. I really was trying to give her advice on a better one."
 - RM: "Did you kill Phil to steal the fish?"
@@ -78,6 +77,7 @@ You talk to the Marine Biologist
 - **RM reaches into his chest pocket,  pulls out notes in a small folder and hands it to you**
 - RM: "Oh and while you're out there, that penguin, I could have sworn I recognised that perfume. Here, I have written it down on my business cardPlease let me know what he thinks. He's probably absolutely thrilled that Phil isn't getting a cut anymore" *RM thinks for a bit* "...that slimy bastard"
 - *Evidence received: mysterious perfume*
+
 - *You leave the room*
 ### 3) Hour 3 - Man Ager
 #### Evidence given: Finances
@@ -128,13 +128,11 @@ Talk to the doctor
 - Ex: "AHHH YOU HAVE FOUNNNNND MEEEEE!!!! IT IS I! THE MYSTERIOUS, ENIGMATIC, BEAUTIFUL, EX!!!!!!"
 - Jan: *You jump back startled* "Oh!!! Hello! Uh, nice to meet you! Did you happen to know the victim?"
 - Ex: "Did I know them??? Did I KNOW THEM! Oh my, my my, yes I suppose I could have...in a different life...."
-- *Present evidence: Evil ex name*
-- Ex: "Ooooo, so you know my secret? Well then. That bastard had it coming! Oh so high and mighty, bu"
 ### 6) Hour 6 - Dr Ackular
 ***You return to Dr Ackular***
 #### Evidence given: Bucket of meat
 #### Evidence found: Ex's ring
-- Dr: "Hello again, did you ask the penguin about the perfume?"
+- Dr: "Hello again, how is your investigation going?"
 - *Show evidence: Ex's name*
 - Jan: "Why yes I did. When I showed her the note, the suit burst open and Ex jumped out. If asked if she knew him and she said she could have, in a different life?"
 - Dr: "My goodness! Ex! She is here? Hmmmm, how intriguing....Yes, they were married once. Lovely couple. Divorced sadly...some dispute...I heard she wanted to fund a horrible think tank, just to get more stories for her news agency. Phil absolutely went livid, said he couldn't believe it. Divorced her on the spot! Well, announced it. The ceremony and page singing came later...but it was still done."

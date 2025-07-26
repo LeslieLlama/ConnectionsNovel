@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://cwmpwto673bek"]
+
+[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_pw4o5"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_uds17"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_hvmjx"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_hvmjx"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="6_xvaaq"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_tk3o1"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_3g570"]
+
+[sub_resource type="Resource" id="Resource_8ekco"]
+script = ExtResource("3_hvmjx")
+speaker_sprite = ExtResource("4_hvmjx")
+line_type = 0
+text = "What an incredible aquarium! Such a shame all of these fish and equipment to go to waste...must of cost a fortune!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_f82ng"]
+script = ExtResource("3_hvmjx")
+line_type = 1
+text = "Did you know the victim?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_gbark"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "Oh right, yes *he adjusts his jacket* Quite a shame. But I suppose that's what happens when you don't make safe investments. He had this stupid idea that he could 'change the world!' shift society in a different more...'egalitarian' view... I suppose when you are just given wealth, then how could you respect it."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_l75ay"]
+script = ExtResource("3_hvmjx")
+line_type = 1
+text = "Given wealth?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qrsvt"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "You *eally don't know much at all do you? Sorry who are you?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_4ykt3"]
+script = ExtResource("3_hvmjx")
+line_type = 1
+text = "I'm the janitor, and I'm going to solve this mystery!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_dw6jj"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "How quant. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. Especially after that awful divorce..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_l3asl"]
+script = ExtResource("3_hvmjx")
+line_type = 2
+text = "Divorce?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o6eip"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "Yes, oh it was quite the ordeal. I heard it was over a conflict of interest. She wanted to fund a think tank, get more stories for her news agency and investigate others. Phil disagreed, said it was a think tank built to destroy lives. I think it was quite the sound investment personally. Always good to control you public image."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ii87p"]
+script = ExtResource("3_hvmjx")
+line_type = 1
+text = "What was her name? Might be useful"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_pw4o5"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "I believe. Shame she's not here, she'd love this ordeal. Oh well. Anyway, can't believe you broke the doors. Any chance I could get out?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_uds17"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "Not until the killer is found."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_hvmjx"]
+script = ExtResource("3_hvmjx")
+line_type = 1
+text = "Well good luck with that."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_evdx8"]
+script = ExtResource("6_xvaaq")
+lines = Array[ExtResource("3_hvmjx")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_qrsvt"), SubResource("Resource_4ykt3"), SubResource("Resource_dw6jj"), SubResource("Resource_l3asl"), SubResource("Resource_o6eip"), SubResource("Resource_ii87p"), SubResource("Resource_pw4o5"), SubResource("Resource_uds17"), SubResource("Resource_hvmjx")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("8_3g570")
+location = ExtResource("2_uds17")
+character = ExtResource("1_pw4o5")
+main_conversation = SubResource("Resource_evdx8")
+presented_evidence = Dictionary[ExtResource("7_tk3o1"), ExtResource("6_xvaaq")]({})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"
