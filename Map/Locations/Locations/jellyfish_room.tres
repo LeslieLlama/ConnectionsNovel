@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://d1db5ytn8uupp"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_u5le8"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_782k7"]
+
+[resource]
+script = ExtResource("2_782k7")
+location_name = "Jellyfish Room"
+background = ExtResource("1_u5le8")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"

@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://rkkxodlml40x"]
 
-[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_ayl18"]
-[ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_e3ir1"]
+[ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_kl4h4"]
+[ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_fhtim"]
 
 [resource]
-script = ExtResource("2_e3ir1")
-character = ExtResource("1_ayl18")
+script = ExtResource("2_fhtim")
+character = ExtResource("1_kl4h4")
 metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"

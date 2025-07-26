@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=6 format=3 uid="uid://cbnutpw8g4ygd"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_h2qdb"]
+[ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="2_iqwu6"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_kktdj"]
+
+[sub_resource type="Resource" id="Resource_w576q"]
+script = ExtResource("1_h2qdb")
+speaker_sprite = ExtResource("2_iqwu6")
+line_type = 2
+text = "They are pretending to ignore you."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_vt6rj"]
+script = ExtResource("1_h2qdb")
+line_type = 1
+text = "Looks like that wasn't the correct evidence here."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("2_kktdj")
+lines = Array[ExtResource("1_h2qdb")]([SubResource("Resource_w576q"), SubResource("Resource_vt6rj")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

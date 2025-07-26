@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=6 format=3 uid="uid://d21bqwqwel7nd"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_u2eeu"]
+[ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="2_xjrbw"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="3_yt06j"]
+
+[sub_resource type="Resource" id="Resource_p2usy"]
+script = ExtResource("1_u2eeu")
+speaker_sprite = ExtResource("2_xjrbw")
+line_type = 0
+text = "Is that supposed to impress me?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_u23ws"]
+script = ExtResource("1_u2eeu")
+line_type = 0
+text = "How boring! Be gone!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("3_yt06j")
+lines = Array[ExtResource("1_u2eeu")]([SubResource("Resource_p2usy"), SubResource("Resource_u23ws")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

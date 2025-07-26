@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=5 format=3 uid="uid://dcgodnlsrcs2j"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_oiwxf"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="2_bsvyy"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_oaud6"]
+
+[sub_resource type="Resource" id="Resource_ohrtm"]
+script = ExtResource("1_oiwxf")
+speaker_sprite = ExtResource("2_bsvyy")
+line_type = 0
+text = "I'm afraid that I have no interest in what you've just shown me."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("2_oaud6")
+lines = Array[ExtResource("1_oiwxf")]([SubResource("Resource_ohrtm")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

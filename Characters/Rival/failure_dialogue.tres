@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=6 format=3 uid="uid://jf5ca05b5amx"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_najay"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_84p0h"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="2_766md"]
+
+[sub_resource type="Resource" id="Resource_84mug"]
+script = ExtResource("1_najay")
+speaker_sprite = ExtResource("2_766md")
+line_type = 0
+text = "Humph!
+You probably think this evidence proves something, don't you."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_rqsgn"]
+script = ExtResource("1_najay")
+line_type = 0
+text = "Maybe stick to the cleaning for now."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("2_84p0h")
+lines = Array[ExtResource("1_najay")]([SubResource("Resource_84mug"), SubResource("Resource_rqsgn")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

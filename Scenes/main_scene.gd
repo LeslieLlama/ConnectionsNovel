@@ -9,6 +9,7 @@ const SCREEN_FADE_TIME = 0.4
 @export var encounters: EncounterList
 
 func _ready() -> void:
+	Inventory.clear()
 	await do_intro_scene()
 	for time_slot in encounters.encounters:
 		var encounter = await show_map(time_slot)

@@ -5,7 +5,7 @@
 [ext_resource type="Resource" uid="uid://careb6xuaup2s" path="res://Map/Locations/Locations/aqua_tunnel.tres" id="3_d3vki"]
 [ext_resource type="Resource" uid="uid://cbtir3itm72oo" path="res://Map/Locations/Locations/gift_shop.tres" id="4_lig3r"]
 [ext_resource type="Resource" uid="uid://bta82nxdesle0" path="res://Map/Locations/Locations/maintainance_closet.tres" id="5_i02im"]
-[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/marine_biology_room.tres" id="6_ssp6g"]
+[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/jellyfish_room.tres" id="6_ssp6g"]
 [ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="7_hg2b3"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="8_cx7fx"]
 [ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="9_q0agp"]

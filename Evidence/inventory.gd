@@ -9,3 +9,6 @@ func add_evidence(new_evidence: Evidence):
 		var evidence_popup = EVIDENCE_POPUP.instantiate()
 		get_parent().add_child(evidence_popup)
 		evidence_popup.display(new_evidence)
+
+func clear():
+	evidence.clear()

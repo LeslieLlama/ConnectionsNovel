@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://dfgegnwlbudva"]
 
-[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_mrkx8"]
-[ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_5r3un"]
+[ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_8xvta"]
+[ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_gv7nk"]
 
 [resource]
-script = ExtResource("2_5r3un")
-character = ExtResource("1_mrkx8")
+script = ExtResource("2_gv7nk")
+character = ExtResource("1_8xvta")
 metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"
