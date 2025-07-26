@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://j8dbc56faymo"]
 
-[ext_resource type="Texture2D" uid="uid://nwd7at3phnt0" path="res://Characters/Penguin/Sprites/PenguinSuitSprite.png" id="1_5ncov"]
-[ext_resource type="Texture2D" uid="uid://cy6x5wyv57ffu" path="res://Characters/Doctor/Sprites/DrAckulaDefaultSprite.png" id="2_3sr50"]
+[ext_resource type="Texture2D" uid="uid://dxvmd0jgs6wqm" path="res://Characters/Penguin/Sprites/PenguinSuitSprite.png" id="1_5ncov"]
+[ext_resource type="Texture2D" uid="uid://d1apde741mwdg" path="res://Characters/Doctor/Sprites/DrAckulaDefaultSprite.png" id="2_3sr50"]
 
 [node name="LeslieArtTest" type="Control"]
 layout_mode = 3

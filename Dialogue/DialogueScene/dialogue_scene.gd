@@ -7,6 +7,7 @@ const EVIDENCE_PICKER = preload("res://Evidence/EvidencePicker/evidence_picker.t
 @onready var background: TextureRect = %Background
 @onready var namebox: Label = %Namebox
 @onready var namebox_panel: Panel = %NameboxPanel
+@onready var name_container: Control = %NameContainer
 
 var current_speaker_name: String
 var text_tween: Tween
@@ -60,12 +61,12 @@ func display_line(line: ConversationLine):
 		
 	if line.line_type == line.LineType.Player:
 		namebox.text = "Jann"
-		namebox_panel.show()
+		name_container.show()
 	elif line.line_type == line.LineType.Character:
 		namebox.text = current_speaker_name
-		namebox_panel.show()
+		name_container.show()
 	else:
-		namebox_panel.hide()
+		name_container.hide()
 	
 	if Input.is_action_pressed("skip"):
 		textbox.visible_characters = len(line.text)
