@@ -5,11 +5,11 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_hvmjx"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_hvmjx"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="6_xvaaq"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Business_card.tres" id="7_pw4o5"]
+[ext_resource type="Resource" uid="uid://c0rx7djt1hy02" path="res://Evidence/Evidence/Business_card.tres" id="7_pw4o5"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_tk3o1"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_3g570"]
 [ext_resource type="Resource" uid="uid://qmldv21k0sgq" path="res://Evidence/Evidence/X_name.tres" id="8_hvmjx"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_hvmjx")

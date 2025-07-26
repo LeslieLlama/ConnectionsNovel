@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=5 format=3 uid="uid://dcgodnlsrcs2j"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=5 format=3 uid="uid://67bc2k8jvmg3"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_oiwxf"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="2_bsvyy"]

@@ -13,3 +13,4 @@ enum LineType {
 @export_multiline var text: String
 @export var recieved_evidence: Evidence
 @export var update_background: Texture2D
+@export var consumed_evidence: Evidence

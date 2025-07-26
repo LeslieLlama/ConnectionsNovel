@@ -6,10 +6,10 @@
 [ext_resource type="Resource" uid="uid://7fbms1isntul" path="res://Encounters/Encounters/01_MarineBio.tres" id="3_q8u8x"]
 [ext_resource type="Resource" uid="uid://dfgc6fijmshby" path="res://Encounters/Encounters/02_RivalManager.tres" id="4_jfcpk"]
 [ext_resource type="Resource" uid="uid://b43khd7yxo8xp" path="res://Encounters/Encounters/03_Manager.tres" id="5_0agj0"]
-[ext_resource type="Resource" uid="uid://danhxih0h3i52" path="res://Encounters/Encounters/04_Doctor.tres" id="6_qr4da"]
-[ext_resource type="Resource" uid="uid://14f0bxunnrps" path="res://Encounters/Encounters/05_Penguin.tres" id="7_aibs1"]
-[ext_resource type="Resource" uid="uid://j4m1sti0nf5h" path="res://Encounters/Encounters/04_MarineBio.tres" id="7_q8u8x"]
-[ext_resource type="Resource" uid="uid://onfusuttgf5r" path="res://Encounters/Encounters/06_Doctor.tres" id="8_0qnd3"]
+[ext_resource type="Resource" uid="uid://3lcbru651gjk" path="res://Encounters/Encounters/04_Doctor.tres" id="6_qr4da"]
+[ext_resource type="Resource" uid="uid://dpjk246i14euo" path="res://Encounters/Encounters/05_Penguin.tres" id="7_aibs1"]
+[ext_resource type="Resource" uid="uid://c64vwp40chk25" path="res://Encounters/Encounters/04_MarineBio.tres" id="7_q8u8x"]
+[ext_resource type="Resource" uid="uid://jaj1lrwkneo" path="res://Encounters/Encounters/06_Doctor.tres" id="8_0qnd3"]
 
 [sub_resource type="Resource" id="Resource_ms0p5"]
 script = ExtResource("1_7ve7g")

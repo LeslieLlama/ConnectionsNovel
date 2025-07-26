@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://14f0bxunnrps"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=26 format=3 uid="uid://dpjk246i14euo"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_cu7ke"]
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_xqejd"]
@@ -9,7 +9,8 @@
 [ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="4_naght"]
 [ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="7_wxd5h"]
 [ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="8_7j1ip"]
-[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_aejcf"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_aejcf"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="10_m064u"]
 
 [sub_resource type="Resource" id="Resource_h50a5"]
 script = ExtResource("3_m064u")
@@ -27,7 +28,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_bff6c"]
 script = ExtResource("3_m064u")
 line_type = 2
-text = "*The penguin suit covers it's hand with it's wings and shakes it's head.*"
+text = "*The penguin puts its flippers on it's head and shakes its head*"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_xhb26"]
@@ -37,8 +38,14 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_decg5"]
 script = ExtResource("3_m064u")
-line_type = 0
-text = "Ooooo, so you know my secret? Well then. That bastard had it coming! The oh so high and mighty Phil"
+line_type = 1
+text = "Hi, I noticed you're wearing a perfume, is this the right name of it?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_m064u"]
+script = ExtResource("3_m064u")
+line_type = 2
+text = "You awkwardly hold the note by the eyes of the penguin. You think it might be the right height?"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_7dsix"]
@@ -75,7 +82,19 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_0gfnj"]
 script = ExtResource("2_ysgy1")
-lines = Array[ExtResource("3_m064u")]([SubResource("Resource_decg5"), SubResource("Resource_7dsix"), SubResource("Resource_xlgmn"), SubResource("Resource_risml"), SubResource("Resource_ynust"), SubResource("Resource_v3emg")])
+lines = Array[ExtResource("3_m064u")]([SubResource("Resource_decg5"), SubResource("Resource_m064u"), SubResource("Resource_7dsix"), SubResource("Resource_xlgmn"), SubResource("Resource_risml"), SubResource("Resource_ynust"), SubResource("Resource_v3emg")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_naght"]
+script = ExtResource("3_m064u")
+speaker_sprite = ExtResource("4_naght")
+line_type = 0
+text = "*The penguin covers its mouth with its wings looking surprised*"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_wxd5h"]
+script = ExtResource("2_ysgy1")
+lines = Array[ExtResource("3_m064u")]([SubResource("Resource_naght")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [resource]
@@ -84,6 +103,7 @@ location = ExtResource("2_aejcf")
 character = ExtResource("1_xqejd")
 main_conversation = SubResource("Resource_xhb26")
 presented_evidence = Dictionary[ExtResource("1_cu7ke"), ExtResource("2_ysgy1")]({
-ExtResource("7_wxd5h"): SubResource("Resource_0gfnj")
+ExtResource("7_wxd5h"): SubResource("Resource_0gfnj"),
+ExtResource("10_m064u"): SubResource("Resource_wxd5h")
 })
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

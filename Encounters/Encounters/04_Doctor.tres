@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://danhxih0h3i52"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=35 format=3 uid="uid://3lcbru651gjk"]
 
 [ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_ggdih"]
-[ext_resource type="Resource" uid="uid://dcgodnlsrcs2j" path="res://Characters/Doctor/failure_dialogue.tres" id="2_j0w2q"]
+[ext_resource type="Resource" uid="uid://67bc2k8jvmg3" path="res://Characters/Doctor/failure_dialogue.tres" id="2_j0w2q"]
 [ext_resource type="Resource" uid="uid://careb6xuaup2s" path="res://Map/Locations/Locations/aqua_tunnel.tres" id="3_y1uix"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_gis7i"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_khqt7"]
@@ -10,6 +10,8 @@
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_naapu"]
 [ext_resource type="Resource" uid="uid://bsa4b06wtv4e3" path="res://Evidence/Evidence/School photo.tres" id="8_y1uix"]
 [ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="9_gis7i"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="10_khqt7"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="11_w7fsa"]
 
 [sub_resource type="Resource" id="Resource_370qv"]
 script = ExtResource("4_gis7i")
@@ -113,13 +115,45 @@ script = ExtResource("6_w7fsa")
 lines = Array[ExtResource("4_gis7i")]([SubResource("Resource_khqt7"), SubResource("Resource_w7fsa"), SubResource("Resource_82p8o"), SubResource("Resource_naapu"), SubResource("Resource_dg8d6"), SubResource("Resource_3ykru"), SubResource("Resource_5igab"), SubResource("Resource_t1li8"), SubResource("Resource_vdo6q"), SubResource("Resource_phf7j"), SubResource("Resource_7bqsv"), SubResource("Resource_yg7gl")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
+[sub_resource type="Resource" id="Resource_lvvsu"]
+script = ExtResource("4_gis7i")
+line_type = 2
+text = "*You hand the bucket of meat to Dr Ackular*"
+consumed_evidence = ExtResource("10_khqt7")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_coht1"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Wow...what a mysterious thing...that, hmm hang on? What is this?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o0q0i"]
+script = ExtResource("4_gis7i")
+line_type = 2
+text = "*Dr Ackular sticks his hand in. You stomach twists, hand jumping up to cover your mouth before anything can come up*"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7s77v"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Huh, what a strange ring? It's a lovely ring, has a big X on it? How strange? Perhaps the killer lost it in the bucket. Might be useful?"
+recieved_evidence = ExtResource("11_w7fsa")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o2sj3"]
+script = ExtResource("6_w7fsa")
+lines = Array[ExtResource("4_gis7i")]([SubResource("Resource_lvvsu"), SubResource("Resource_coht1"), SubResource("Resource_o0q0i"), SubResource("Resource_7s77v")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
 [resource]
 script = ExtResource("8_naapu")
 location = ExtResource("3_y1uix")
 character = ExtResource("1_ggdih")
 main_conversation = SubResource("Resource_dt2c1")
 presented_evidence = Dictionary[ExtResource("7_82p8o"), ExtResource("6_w7fsa")]({
-ExtResource("8_y1uix"): SubResource("Resource_v5v7v")
+ExtResource("8_y1uix"): SubResource("Resource_v5v7v"),
+ExtResource("10_khqt7"): SubResource("Resource_o2sj3")
 })
 failed_evidence = ExtResource("2_j0w2q")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

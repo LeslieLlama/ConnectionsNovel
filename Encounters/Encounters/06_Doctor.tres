@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://onfusuttgf5r"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://jaj1lrwkneo"]
 
 [ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_1vvj1"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_7k2de"]
@@ -7,8 +7,8 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_7stp4"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_bl4wd"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="4_76xl2"]
-[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_76xl2"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_76xl2"]
 [ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="9_tvbeo"]
 
 [sub_resource type="Resource" id="Resource_tvbeo"]
@@ -51,6 +51,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 script = ExtResource("3_7stp4")
 line_type = 2
 text = "*You hand the bucket of meat to Dr Ackular*"
+consumed_evidence = ExtResource("8_76xl2")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_coht1"]

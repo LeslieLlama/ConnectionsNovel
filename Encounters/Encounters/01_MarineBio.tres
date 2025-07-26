@@ -1,13 +1,25 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=19 format=3 uid="uid://7fbms1isntul"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=26 format=3 uid="uid://7fbms1isntul"]
 
 [ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_6huvg"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_g7k0b"]
-[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/jellyfish_room.tres" id="2_b2kej"]
+[ext_resource type="Resource" path="res://Map/Locations/Locations/jellyfish_room.tres" id="2_b2kej"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_e5rbb"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_gbark"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_vylco"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_l75ay"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Business_card.tres" id="5_b2kej"]
+[ext_resource type="Resource" uid="uid://c0rx7djt1hy02" path="res://Evidence/Evidence/Business_card.tres" id="5_b2kej"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_gbark"]
+
+[sub_resource type="Resource" id="Resource_b2kej"]
+script = ExtResource("3_gbark")
+line_type = 0
+text = "I don't know anything about that, please leave me alone."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_41liw"]
+script = ExtResource("2_e5rbb")
+lines = Array[ExtResource("3_gbark")]([SubResource("Resource_b2kej")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_gbark")
@@ -70,10 +82,36 @@ script = ExtResource("2_e5rbb")
 lines = Array[ExtResource("3_gbark")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_qrsvt"), SubResource("Resource_4ykt3"), SubResource("Resource_dw6jj"), SubResource("Resource_l3asl"), SubResource("Resource_o6eip")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
+[sub_resource type="Resource" id="Resource_8l15b"]
+script = ExtResource("3_gbark")
+line_type = 0
+text = "Yes...that's the business card. I just gave you that. Look why don't you continue searching and come back later?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_274va"]
+script = ExtResource("2_e5rbb")
+lines = Array[ExtResource("3_gbark")]([SubResource("Resource_8l15b")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_un8df"]
+script = ExtResource("3_gbark")
+line_type = 0
+text = "Oh my god!!! Is that.... oh god get that away from me!!!!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7tpsd"]
+script = ExtResource("2_e5rbb")
+lines = Array[ExtResource("3_gbark")]([SubResource("Resource_un8df")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
 [resource]
 script = ExtResource("3_vylco")
 location = ExtResource("2_b2kej")
 character = ExtResource("1_6huvg")
 main_conversation = SubResource("Resource_evdx8")
-presented_evidence = Dictionary[ExtResource("1_g7k0b"), ExtResource("2_e5rbb")]({})
+presented_evidence = Dictionary[ExtResource("1_g7k0b"), ExtResource("2_e5rbb")]({
+ExtResource("5_b2kej"): SubResource("Resource_274va"),
+ExtResource("8_gbark"): SubResource("Resource_7tpsd")
+})
+failed_evidence = SubResource("Resource_41liw")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

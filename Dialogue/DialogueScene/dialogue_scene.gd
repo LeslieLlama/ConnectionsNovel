@@ -86,6 +86,9 @@ func display_line(line: ConversationLine):
 			
 			await wait_for_text_advancement()
 		
+	if line.consumed_evidence:
+		Inventory.remove_evidence(line.consumed_evidence)
+		
 	if line.recieved_evidence:
 		Inventory.add_evidence(line.recieved_evidence)
 		

@@ -13,7 +13,7 @@ func choose() -> Evidence:
 	
 	var cancel_button = Button.new()
 	cancel_button.action_mode = BaseButton.ACTION_MODE_BUTTON_PRESS
-	cancel_button.text = "Don't present anything."
+	cancel_button.text = "Return to the maintainance closet"
 	options.add_child(cancel_button)
 	cancel_button.pressed.connect(pick_option.bind(null))
 	

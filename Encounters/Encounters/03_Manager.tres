@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=21 format=3 uid="uid://b43khd7yxo8xp"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=23 format=3 uid="uid://b43khd7yxo8xp"]
 
 [ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_8srfn"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_b4ptc"]
@@ -7,8 +7,19 @@
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="5_oe5aj"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="6_0shsl"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="7_8qh1e"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Finance notes.tres" id="7_kloxp"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="7_kloxp"]
 [ext_resource type="Resource" uid="uid://bsa4b06wtv4e3" path="res://Evidence/Evidence/School photo.tres" id="8_8ph3q"]
+
+[sub_resource type="Resource" id="Resource_kloxp"]
+script = ExtResource("3_kloxp")
+line_type = 0
+text = "Hmm, I'm not quite sure why you're showing me that. How about you show that to someone else?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_8ph3q"]
+script = ExtResource("5_oe5aj")
+lines = Array[ExtResource("3_kloxp")]([SubResource("Resource_kloxp")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_kloxp")
@@ -87,4 +98,5 @@ main_conversation = SubResource("Resource_evdx8")
 presented_evidence = Dictionary[ExtResource("6_0shsl"), ExtResource("5_oe5aj")]({
 ExtResource("7_kloxp"): SubResource("Resource_in54i")
 })
+failed_evidence = SubResource("Resource_8ph3q")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
