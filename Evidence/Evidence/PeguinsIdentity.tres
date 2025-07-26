@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://blax55u1dc88"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_prdyt"]
+
+[resource]
+script = ExtResource("1_prdyt")
+evidence_name = "The Penguin's Identity"
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"

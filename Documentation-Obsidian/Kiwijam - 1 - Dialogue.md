@@ -128,14 +128,12 @@ Talk to the doctor
 - Ex: "AHHH YOU HAVE FOUNNNNND MEEEEE!!!! IT IS I! THE MYSTERIOUS, ENIGMATIC, BEAUTIFUL, EX!!!!!!"
 - Jan: *You jump back startled* "Oh!!! Hello! Uh, nice to meet you! Did you happen to know the victim?"
 - Ex: "Did I know them??? Did I KNOW THEM! Oh my, my my, yes I suppose I could have...in a different life...."
-- *Present evidence: Evil ex name*
-- Ex: "Ooooo, so you know my secret? Well then. That bastard had it coming! Oh so high and mighty, bu"
 ### 6) Hour 6 - Dr Ackular
 ***You return to Dr Ackular***
 #### Evidence given: Bucket of meat
 #### Evidence found: Ex's ring
 - Dr: "Hello again, did you ask the penguin about the perfume?"
-- *Show evidence: Ex's name*
+- *Show evidence: Penguin's Identity*
 - Jan: "Why yes I did. When I showed her the note, the suit burst open and Ex jumped out. If asked if she knew him and she said she could have, in a different life?"
 - Dr: "My goodness! Ex! She is here? Hmmmm, how intriguing....Yes, they were married once. Lovely couple. Divorced sadly...some dispute...I heard she wanted to fund a horrible think tank, just to get more stories for her news agency. Phil absolutely went livid, said he couldn't believe it. Divorced her on the spot! Well, announced it. The ceremony and page singing came later...but it was still done."
 - *Show evidence: Bucket of meat*
