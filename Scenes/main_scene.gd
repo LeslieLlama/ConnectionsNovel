@@ -11,11 +11,15 @@ const SCREEN_FADE_TIME = 0.4
 const BAD_ENDING = preload("res://Endings/bad_ending.tres")
 const TRUE_ENDING = preload("res://Endings/true_ending.tres")
 const THE_TRUE_KILLER = preload("res://Evidence/Evidence/the_true_killer.tres")
+const BEFORE_ACCUSATION = preload("res://Encounters/Encounters/06.5_BeforeAccusation.tres")
 
 func _ready() -> void:
 	Inventory.clear()
 	await do_conversation(intro_scene)
 	for time_slot in encounters.encounters:
+		if time_slot == encounters.encounters.back():
+			await do_conversation(BEFORE_ACCUSATION)
+		
 		var encounter = await show_map(time_slot)
 		await do_encounter(encounter)
 		

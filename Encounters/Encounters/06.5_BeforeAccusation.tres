@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=9 format=3 uid="uid://djc30v2krmywr"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_sktij"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_i353o"]
+[ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="2_pil2m"]
+
+[sub_resource type="Resource" id="Resource_20epx"]
+script = ExtResource("1_sktij")
+speaker_sprite = ExtResource("2_pil2m")
+line_type = 1
+text = "Alright..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_b6qbb"]
+script = ExtResource("1_sktij")
+line_type = 1
+text = "Looks like I'm out of time."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_aeucu"]
+script = ExtResource("1_sktij")
+line_type = 1
+text = "I've investigated all I can."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bdafd"]
+script = ExtResource("1_sktij")
+line_type = 1
+text = "All that's left for me to do is to catch the culprit."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_d1y05"]
+script = ExtResource("1_sktij")
+line_type = 1
+text = "Time to go pay them a visit..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("2_i353o")
+lines = Array[ExtResource("1_sktij")]([SubResource("Resource_20epx"), SubResource("Resource_b6qbb"), SubResource("Resource_aeucu"), SubResource("Resource_bdafd"), SubResource("Resource_d1y05")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
