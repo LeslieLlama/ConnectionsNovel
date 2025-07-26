@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=11 format=3 uid="uid://ctgo3viqqb84u"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=15 format=3 uid="uid://ctgo3viqqb84u"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_egguq"]
 [ext_resource type="Resource" uid="uid://cxfiaapytgmi7" path="res://Locations/Locations/placeholder_location.tres" id="1_k63om"]
@@ -7,6 +7,17 @@
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_k05pn"]
 [ext_resource type="Resource" uid="uid://cjbau02eww67w" path="res://Characters/Placeholder/Sprites/placeholder_default.tres" id="3_o71hc"]
 [ext_resource type="Resource" uid="uid://ckbodbrcnxq0d" path="res://Evidence/Evidence/test_evidence.tres" id="3_pfr0u"]
+
+[sub_resource type="Resource" id="Resource_pfr0u"]
+script = ExtResource("2_pfr0u")
+is_player_speaking = false
+text = "Incorrect, this evidence is wrong..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o71hc"]
+script = ExtResource("2_jim2o")
+lines = Array[ExtResource("2_pfr0u")]([SubResource("Resource_pfr0u")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_t186i"]
 script = ExtResource("2_pfr0u")
@@ -29,9 +40,24 @@ script = ExtResource("2_jim2o")
 lines = Array[ExtResource("2_pfr0u")]([SubResource("Resource_t186i"), SubResource("Resource_k63om")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
+[sub_resource type="Resource" id="Resource_1lqv8"]
+script = ExtResource("2_pfr0u")
+is_player_speaking = false
+text = "Correct!
+This is the correct evidence."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_mfecf"]
+script = ExtResource("2_jim2o")
+lines = Array[ExtResource("2_pfr0u")]([SubResource("Resource_1lqv8")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
 [resource]
 script = ExtResource("3_k05pn")
 location = ExtResource("1_k63om")
 main_conversation = SubResource("Resource_bq65m")
-presented_evidence = Dictionary[ExtResource("1_egguq"), ExtResource("2_jim2o")]({})
+presented_evidence = Dictionary[ExtResource("1_egguq"), ExtResource("2_jim2o")]({
+ExtResource("3_pfr0u"): SubResource("Resource_mfecf")
+})
+failed_evidence = SubResource("Resource_o71hc")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
