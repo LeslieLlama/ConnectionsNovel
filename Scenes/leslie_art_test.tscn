@@ -1,7 +1,10 @@
 [gd_scene format=3 uid="uid://j8dbc56faymo"]
 
-[node name="LeslieArtTest" type="Node2D"]
+[node name="LeslieArtTest" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 
 [node name="CharacterA" type="TextureRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+layout_mode = 0
+offset_right = 399.0
+offset_bottom = 650.0
