@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=18 format=3 uid="uid://bcvrvpt15nnj6"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_7tw5u"]
+[ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_31gxb"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_5owwt"]
+[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/jellyfish_room.tres" id="2_pmion"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_4vypv"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_31gxb"]
+[ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_5sbhk"]
+
+[sub_resource type="Resource" id="Resource_5sbhk"]
+script = ExtResource("3_4vypv")
+line_type = 1
+text = "Nobody here loves marine life more than you..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o1y6k"]
+script = ExtResource("3_4vypv")
+line_type = 1
+text = "So you took it upon yourself to try to \"Rescue\" the sharks from their glass prison!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_oj6l3"]
+script = ExtResource("3_4vypv")
+line_type = 1
+text = "Little did you realise, that somebody saw you trying to plot your \"Great Escape\""
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_a0ml0"]
+script = ExtResource("3_4vypv")
+line_type = 1
+text = "So you silenced him."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qbiqx"]
+script = ExtResource("3_4vypv")
+line_type = 0
+text = "No, I think the sharks here are quite happy."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_jtpok"]
+script = ExtResource("3_4vypv")
+line_type = 2
+text = "(Oh, looks like I was wrong...)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_if5pk"]
+script = ExtResource("2_5owwt")
+lines = Array[ExtResource("3_4vypv")]([SubResource("Resource_5sbhk"), SubResource("Resource_o1y6k"), SubResource("Resource_oj6l3"), SubResource("Resource_a0ml0"), SubResource("Resource_qbiqx"), SubResource("Resource_jtpok")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_2d768"]
+script = ExtResource("3_4vypv")
+speaker_sprite = ExtResource("4_5sbhk")
+line_type = 2
+text = "(I gathered everybody into the jellyfish room.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_4vypv"]
+script = ExtResource("3_4vypv")
+line_type = 0
+text = "The killer is...
+You, Marina!
+And I have evidence to prove it!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_1ixr6"]
+script = ExtResource("2_5owwt")
+lines = Array[ExtResource("3_4vypv")]([SubResource("Resource_2d768"), SubResource("Resource_4vypv")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_31gxb")
+location = ExtResource("2_pmion")
+character = ExtResource("1_31gxb")
+main_conversation = SubResource("Resource_1ixr6")
+presented_evidence = Dictionary[ExtResource("1_7tw5u"), ExtResource("2_5owwt")]({})
+failed_evidence = SubResource("Resource_if5pk")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

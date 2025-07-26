@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=21 format=3 uid="uid://6154fi3i4ay3"]
+
+[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_qacer"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_ksbx1"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="3_iwyhg"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="3_ksbx1"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_pdysg"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="4_pdysg"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="5_iwyhg"]
+
+[sub_resource type="Resource" id="Resource_ud6mj"]
+script = ExtResource("3_pdysg")
+speaker_sprite = ExtResource("3_iwyhg")
+line_type = 1
+text = "You are literally the rival to this aquarium."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_asqdn"]
+script = ExtResource("3_pdysg")
+line_type = 1
+text = "Your motive is obvious."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_on4kk"]
+script = ExtResource("3_pdysg")
+line_type = 1
+text = "Plus, you act super shady and you are a complete arsehole."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bu1kh"]
+script = ExtResource("3_pdysg")
+line_type = 1
+text = "So it's clearly you!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_268sw"]
+script = ExtResource("3_pdysg")
+line_type = 0
+text = "That's your logic?!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_s1yf0"]
+script = ExtResource("3_pdysg")
+line_type = 0
+text = "I can clealy see why you are just a janitor."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_b6jr3"]
+script = ExtResource("3_pdysg")
+line_type = 0
+text = "Maybe stay that way."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qaysk"]
+script = ExtResource("3_pdysg")
+line_type = 2
+text = "(His words cut deep...)
+(Could it really be true...)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_c830c"]
+script = ExtResource("3_pdysg")
+line_type = 2
+text = "(That I never was cut out for being a detective...)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qodya"]
+script = ExtResource("4_pdysg")
+lines = Array[ExtResource("3_pdysg")]([SubResource("Resource_ud6mj"), SubResource("Resource_asqdn"), SubResource("Resource_on4kk"), SubResource("Resource_bu1kh"), SubResource("Resource_268sw"), SubResource("Resource_s1yf0"), SubResource("Resource_b6jr3"), SubResource("Resource_qaysk"), SubResource("Resource_c830c")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_iwyhg"]
+script = ExtResource("3_pdysg")
+speaker_sprite = ExtResource("3_iwyhg")
+line_type = 2
+text = "(I gathered everybody into the shark tank room.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_s3g7l"]
+script = ExtResource("3_pdysg")
+line_type = 1
+text = "The killer is...
+You, Sloane Sharke!
+And I have evidence to prove it!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_w7xl2"]
+script = ExtResource("4_pdysg")
+lines = Array[ExtResource("3_pdysg")]([SubResource("Resource_iwyhg"), SubResource("Resource_s3g7l")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("5_iwyhg")
+location = ExtResource("2_ksbx1")
+character = ExtResource("1_qacer")
+main_conversation = SubResource("Resource_w7xl2")
+presented_evidence = Dictionary[ExtResource("3_ksbx1"), ExtResource("4_pdysg")]({})
+failed_evidence = SubResource("Resource_qodya")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

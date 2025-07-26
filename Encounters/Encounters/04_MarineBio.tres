@@ -62,7 +62,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 script = ExtResource("3_2es5x")
 line_type = 0
 text = "It's interesting, isn't it?
-It's sort of like a murder, isn't it. Until the mystery is solved, the \"Truth\" is impossible to know. Almost as if all possibilities are true at the same time."
+It's sort of like a murder. Until the mystery is solved, the \"Truth\" is impossible to know. Almost as if all possibilities are true at the same time."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_ewxlw"]

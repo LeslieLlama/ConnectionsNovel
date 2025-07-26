@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=23 format=3 uid="uid://daj5oxdpqchco"]
+
+[ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_vyhy3"]
+[ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="2_ddqmm"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="3_4hj2m"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_ia5uo"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="4_ia5uo"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="4_kfa17"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="5_kfa17"]
+
+[sub_resource type="Resource" id="Resource_4hj2m"]
+script = ExtResource("3_ia5uo")
+speaker_sprite = ExtResource("4_kfa17")
+line_type = 1
+text = "As I am well aware...
+This is not the first time somebody has died in this aquarium."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_kfa17"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "This makes the owner of this place clearly the most suspicious!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_x5oic"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "Phil's stake in this aquaruim was trouble for her."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ysex2"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "He threatened to withdraw his funds."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_smcq1"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "So she had no choice but to silence her."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3bncc"]
+script = ExtResource("3_ia5uo")
+line_type = 0
+text = "What?
+No?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_e2dht"]
+script = ExtResource("3_ia5uo")
+line_type = 0
+text = "That doesn't make sense at all."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_xnlw7"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_xyhgg"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "Yeah you're right.
+I'm sorry boss, please don't fire me!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3x04h"]
+script = ExtResource("3_ia5uo")
+line_type = 0
+text = "It's all good.
+These things happen all the time, no need to worry."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_cf7pl"]
+script = ExtResource("3_ia5uo")
+line_type = 0
+text = "Now lets all go out for dinner. I'm starving!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ia5uo"]
+script = ExtResource("4_ia5uo")
+lines = Array[ExtResource("3_ia5uo")]([SubResource("Resource_4hj2m"), SubResource("Resource_kfa17"), SubResource("Resource_x5oic"), SubResource("Resource_ysex2"), SubResource("Resource_smcq1"), SubResource("Resource_3bncc"), SubResource("Resource_e2dht"), SubResource("Resource_xnlw7"), SubResource("Resource_xyhgg"), SubResource("Resource_3x04h"), SubResource("Resource_cf7pl")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_ix77l"]
+script = ExtResource("3_ia5uo")
+speaker_sprite = ExtResource("4_kfa17")
+line_type = 2
+text = "(I gathered everybody in the manager's office.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_c2bi8"]
+script = ExtResource("3_ia5uo")
+line_type = 1
+text = "I accuse...
+The manager!
+And I have the evidence to prove it!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_idkj7"]
+script = ExtResource("4_ia5uo")
+lines = Array[ExtResource("3_ia5uo")]([SubResource("Resource_ix77l"), SubResource("Resource_c2bi8")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("5_kfa17")
+location = ExtResource("2_ddqmm")
+character = ExtResource("1_vyhy3")
+main_conversation = SubResource("Resource_idkj7")
+presented_evidence = Dictionary[ExtResource("3_4hj2m"), ExtResource("4_ia5uo")]({})
+failed_evidence = SubResource("Resource_ia5uo")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

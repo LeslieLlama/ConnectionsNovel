@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://bpswlj8nsdayy"]
+
+[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_yhchm"]
+[ext_resource type="Resource" uid="uid://careb6xuaup2s" path="res://Map/Locations/Locations/aqua_tunnel.tres" id="2_epcso"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="2_w7y4f"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="3_06far"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="3_w7y4f"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="4_06far"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="5_05ua8"]
+
+[sub_resource type="Resource" id="Resource_05ua8"]
+script = ExtResource("2_w7y4f")
+speaker_sprite = ExtResource("3_06far")
+line_type = 1
+text = "This doctor is no ordinary man..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_q6is2"]
+script = ExtResource("2_w7y4f")
+line_type = 1
+text = "He is a creature of the night!
+That's right..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_74lgq"]
+script = ExtResource("2_w7y4f")
+line_type = 1
+text = "A Vampire!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_hpkcl"]
+script = ExtResource("2_w7y4f")
+line_type = 1
+text = "He killed the victim, so he could feast upon his blood!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ggvk4"]
+script = ExtResource("2_w7y4f")
+line_type = 0
+text = "Wait hang on now."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ukfva"]
+script = ExtResource("2_w7y4f")
+line_type = 0
+text = "Yes while it is true that I enjoy feasting on human blood and flesh."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_h3c4k"]
+script = ExtResource("2_w7y4f")
+line_type = 0
+text = "That doesn't make me a vampire!
+Really, the entire concept is unscientific."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bvxq8"]
+script = ExtResource("2_w7y4f")
+line_type = 0
+text = "As for being a murderer.
+ I have plenty of ethically supplied blood that I get from my work.
+I have no need to kill anyone."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_fb34s"]
+script = ExtResource("2_w7y4f")
+line_type = 2
+text = "(Dang, he makes a good point.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0x0mk"]
+script = ExtResource("2_w7y4f")
+line_type = 2
+text = "(I guess I messed up my logic somewhere.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0pp8u"]
+script = ExtResource("4_06far")
+lines = Array[ExtResource("2_w7y4f")]([SubResource("Resource_05ua8"), SubResource("Resource_q6is2"), SubResource("Resource_74lgq"), SubResource("Resource_hpkcl"), SubResource("Resource_ggvk4"), SubResource("Resource_ukfva"), SubResource("Resource_h3c4k"), SubResource("Resource_bvxq8"), SubResource("Resource_fb34s"), SubResource("Resource_0x0mk")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_8s61k"]
+script = ExtResource("2_w7y4f")
+speaker_sprite = ExtResource("3_06far")
+line_type = 0
+text = "(I gathered everybody together in the Aqua Tunnel)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_e3hdq"]
+script = ExtResource("2_w7y4f")
+line_type = 0
+text = "The killer is...
+Dr. Acular!
+And I can prove it!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_1fn5q"]
+script = ExtResource("4_06far")
+lines = Array[ExtResource("2_w7y4f")]([SubResource("Resource_8s61k"), SubResource("Resource_e3hdq")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("5_05ua8")
+location = ExtResource("2_epcso")
+character = ExtResource("1_yhchm")
+main_conversation = SubResource("Resource_1fn5q")
+presented_evidence = Dictionary[ExtResource("3_w7y4f"), ExtResource("4_06far")]({})
+failed_evidence = SubResource("Resource_0pp8u")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

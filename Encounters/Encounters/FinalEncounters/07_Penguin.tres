@@ -1,0 +1,139 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=30 format=3 uid="uid://bgcuoxoa4cw36"]
+
+[ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_1hqbb"]
+[ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="2_62crh"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="3_2njdv"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_xvy70"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="4_1hqbb"]
+[ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="4_x0sky"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="5_62crh"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_x0sky"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="7_pkvee"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="9_pkvee"]
+[ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="10_e05h8"]
+[ext_resource type="Resource" uid="uid://cgkyy6hd356ga" path="res://Evidence/Evidence/the_true_killer.tres" id="11_pkvee"]
+
+[sub_resource type="Resource" id="Resource_e05h8"]
+script = ExtResource("3_xvy70")
+speaker_sprite = ExtResource("4_x0sky")
+line_type = 2
+text = "(I gathered everybody together in the Penguin Exhibit)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_uu7xw"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "I accuse..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ol62u"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "The person in the Penguin Suit!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7n3as"]
+script = ExtResource("3_xvy70")
+speaker_sprite = ExtResource("5_x0sky")
+line_type = 1
+text = "And I have proof!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qo28i"]
+script = ExtResource("4_1hqbb")
+lines = Array[ExtResource("3_xvy70")]([SubResource("Resource_e05h8"), SubResource("Resource_uu7xw"), SubResource("Resource_ol62u"), SubResource("Resource_7n3as")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_68sri"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "You can take off that silly costume now, X.
+Or should I say, Remora Gray."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_700is"]
+script = ExtResource("3_xvy70")
+speaker_sprite = ExtResource("9_pkvee")
+line_type = 2
+text = "(Everybody Gasped)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_y52t8"]
+script = ExtResource("3_xvy70")
+speaker_sprite = ExtResource("4_x0sky")
+line_type = 0
+text = "..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_1b2ib"]
+script = ExtResource("3_xvy70")
+speaker_sprite = ExtResource("10_e05h8")
+line_type = 2
+text = "(X removed the suit.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_2xbvo"]
+script = ExtResource("3_xvy70")
+line_type = 0
+text = "Ah.
+My ring. I had wondered where that went."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_x0sky"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "I found it in this bucket of meat! No one would go near it, but with the help of Dr Ackular, he reached in and plucked it free."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_pkvee"]
+script = ExtResource("3_xvy70")
+line_type = 0
+text = "And why would my ring be in there?
+And why would it be me, it could have been planted."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_vybo6"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "It could have, but it didn't.
+I found the ring in there."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_gn3xe"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "As, for your motive.
+You convinced him to fund a think tank for your evil gain!
+An innocent man, twisted for your gain."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ev3fx"]
+script = ExtResource("3_xvy70")
+line_type = 1
+text = "He was mortified, and broke it off! It ruined your career, destroyed it!
+The whole world turned against you.
+Your life was over. Furious, you found out about this event, and decided to end his life."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_k3uxe"]
+script = ExtResource("3_xvy70")
+line_type = 0
+text = "HE DESERVED IT!!!
+FOR ENDING MINE!"
+recieved_evidence = ExtResource("11_pkvee")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3rtip"]
+script = ExtResource("4_1hqbb")
+lines = Array[ExtResource("3_xvy70")]([SubResource("Resource_68sri"), SubResource("Resource_700is"), SubResource("Resource_y52t8"), SubResource("Resource_1b2ib"), SubResource("Resource_2xbvo"), SubResource("Resource_x0sky"), SubResource("Resource_pkvee"), SubResource("Resource_vybo6"), SubResource("Resource_gn3xe"), SubResource("Resource_ev3fx"), SubResource("Resource_k3uxe")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("5_62crh")
+location = ExtResource("2_62crh")
+character = ExtResource("1_1hqbb")
+main_conversation = SubResource("Resource_qo28i")
+presented_evidence = Dictionary[ExtResource("3_2njdv"), ExtResource("4_1hqbb")]({
+ExtResource("7_pkvee"): SubResource("Resource_3rtip")
+})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"
