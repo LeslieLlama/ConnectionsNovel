@@ -33,6 +33,9 @@ Stick with just the names first, not titles.
 Jann: *Grabs the intercom* "EVERYONE LISTEN! A MURDER IS A FOOT! NOBODY GETS IN AND NOBODY GETS OUT UNTIL THE MURDERER IS FOUND!"
 *end intro scene*
 ## First branch
+#### 0) Shark tank
+- *The body floats lifelessly in the tank. You notice something in the corner, a murder weapon perhaps? Great big knife, looks clean but it could be the murder weapon*
+- *You return to the maintenance closet*
 #### 1) Hour 1 - Marine Beeologist
 You talk to the Marine Biologist
 - MB: "This is absolutely terrible! I can't believe this is happening. I really hope the fish are going to be okay..."
@@ -65,7 +68,7 @@ You talk to the Marine Biologist
 - **RM reaches into his chest pocket,  pulls out notes in a small folder and hands it to you**
 - RM: "Please let me know what he thinks. He's probably absolutely thrilled that Phil isn't getting a cut anymore" *RM thinks for a bit* "...that slimy bastard"
 - *You leave the room*
-#### 3) Hour 3 -Man Ager
+#### 3) Hour 3 - Man Ager
 ***Talk to the manager***
 - M: "I can't believe you broke the locks! What a stupid thing to do! As soon as this is all over you're fired!"
 - JC: "Did you know the victim?"
@@ -138,7 +141,11 @@ You talk to the Marine Biologist
 - JC: "Given wealth?"
 - RM: "You *really* don't know much at all do you? Sorry who are you?"
 - KC: "In the janitor, and I'm going to solve this mystery!"
-- RM: "How quant. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. But oh well. Anyway, can't believe you broke the doors. Any chance I could get out?".
+- RM: "How quant. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. Especially after that awful divorce..."
+- Jan: "Divorce?"
+- RM: "Yes, oh it was quite the ordeal. I heard it was over a conflict of interest. She wanted to fund a think tank, get more stories for her news agency and investigate others. Phil disagreed, said it was a think tank built to destroy lives. I think it was quite the sound investment personally. Always good to control you public image."
+- Jan: "What was her name? Might be useful"
+- RM: "Ex lover I believe. Shame she's not here, she'd love this big ordeal. Oh well. Anyway, can't believe you broke the doors. Any chance I could get out?".
 - KC: "Not until the killer is found"
 - RM: "Well good luck with that"
 - **Evidence shown: Present the card**
@@ -147,9 +154,9 @@ You talk to the Marine Biologist
 - JC: "Wow. Straight to the accusation? You really shouldn't show you card now. No. I didn't. Are you kidding me? Murder? How could I run my business at all from prison. Look, if you want my help, go talk to the manager. Have you even done that yet? I'm sure he would love to help. Can't believe he accepted a 10% share. With my help he could've got 3% easy. Here, take these notes, I've been recording his finances and I have a few things to talk to him about."
 - **RM reaches into his chest pocket,  pulls out notes in a small folder and hands it to you**
 - RM: "Oh and while you're out there, that penguin, I could have sworn I recognised that perfume. Here, I have written it down on my business cardPlease let me know what he thinks. He's probably absolutely thrilled that Phil isn't getting a cut anymore" *RM thinks for a bit* "...that slimy bastard"
-- 
+- *Evidence received: mysterious perfume*
 - *You leave the room*
-#### 3) Hour 3 -Man Ager
+#### 3) Hour 3 - Man Ager
 ***Talk to the manager***
 - M: "I can't believe you broke the locks! What a stupid thing to do! As soon as this is all over you're fired!"
 - JC: "Did you know the victim?"
@@ -192,10 +199,13 @@ Talk to the doctor
 - Ex: "AHHH YOU HAVE FOUNNNNND MEEEEE!!!! IT IS I! THE MYSTERIOUS, ENIGMATIC, BEAUTIFUL, EX!!!!!!"
 - Jan: *You jump back startled* "Oh!!! Hello! Uh, nice to meet you! Did you happen to know the victim?"
 - Ex: "Did I know them??? Did I KNOW THEM! Oh my, my my, yes I suppose I could have...in a different life...."
+- *Present evidence: Evil ex name*
+- Ex: "Ooooo, so you know my secret? Well then. That bastard had it coming! Oh so high and mighty, bu"
 #### 6) Hour 6 - Dr Ackular
 ***You return to Dr Ackular***
 - Dr: "Hello again, did you ask the penguin about the perfume?"
 - Jan: "Why yes I did. When I showed her the note, the suit burst open and Ex jumped out. If asked if she knew him and she said she could have, in a different life?"
 - Dr: "My goodness! Ex! She is here? Hmmmm, how intriguing....Yes, they were married once. Lovely couple. Divorced sadly...some dispute...I heard she wanted to fund a horrible think tank, just to get more stories for her news agency. Phil absolutely went livid, said he couldn't believe it. Divorced her on the spot! Well, announced it. The ceremony and page singing came later...but it was still done."
-- 
+- *Show evidence: Sharp knife*
+- Dr: "Yes! The murder weapon! With it "
 #### 7) End! Accuse

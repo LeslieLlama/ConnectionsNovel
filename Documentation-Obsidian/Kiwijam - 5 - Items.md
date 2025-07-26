@@ -5,4 +5,5 @@
 
 ### School photo
 
-### 
+### Murder weapon
+- Received at the start.
