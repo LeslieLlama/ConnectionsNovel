@@ -10,7 +10,13 @@ func choose() -> Evidence:
 		new_option.text = inventory_evidence.evidence_name
 		options.add_child(new_option)
 		new_option.pressed.connect(pick_option.bind(inventory_evidence))
-		
+	
+	var cancel_button = Button.new()
+	cancel_button.action_mode = BaseButton.ACTION_MODE_BUTTON_PRESS
+	cancel_button.text = "Don't present anything."
+	options.add_child(cancel_button)
+	cancel_button.pressed.connect(pick_option.bind(null))
+	
 	options.get_child(0).grab_focus()
 	
 	var option = await option_picked
