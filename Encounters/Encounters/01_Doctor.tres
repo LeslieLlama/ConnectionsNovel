@@ -1,0 +1,161 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=34 format=3 uid="uid://c05d87lcxag5"]
+
+[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_3qryy"]
+[ext_resource type="Resource" uid="uid://67bc2k8jvmg3" path="res://Characters/Doctor/failure_dialogue.tres" id="2_wv334"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="3_uastb"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_abhg2"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_wm0oy"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="6_5l3hh"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_bemmi"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="10_ctosp"]
+[ext_resource type="Resource" uid="uid://dhwmsfyvvd5fy" path="res://Evidence/Evidence/MurderKnife.tres" id="11_3qryy"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="11_ve01m"]
+[ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="11_wv334"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="12_o45d6"]
+
+[sub_resource type="Resource" id="Resource_3qryy"]
+script = ExtResource("4_abhg2")
+speaker_sprite = ExtResource("5_wm0oy")
+line_type = 1
+text = "You're a doctor right?
+I take it you have just finished with the body?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_wv334"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "The body?
+What I'm not doing anything suspictious with the body.
+I was just doing my normal duty as a doctor."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_w3otd"]
+script = ExtResource("4_abhg2")
+line_type = 1
+text = "And did you find anything?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_abhg2"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "Well...
+He's dead.
+Looks like that shark must have bitten him to death pretty badly.
+In my opinion as a doctor."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_wm0oy"]
+script = ExtResource("4_abhg2")
+line_type = 2
+text = "(Hmm.. Something he said just now doesn't seem right...)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_uastb"]
+script = ExtResource("4_abhg2")
+line_type = 2
+text = "(I should gift him some evidence that might change his mind...)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5l3hh"]
+script = ExtResource("6_5l3hh")
+lines = Array[ExtResource("4_abhg2")]([SubResource("Resource_3qryy"), SubResource("Resource_wv334"), SubResource("Resource_w3otd"), SubResource("Resource_abhg2"), SubResource("Resource_wm0oy"), SubResource("Resource_uastb")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_lvvsu"]
+script = ExtResource("4_abhg2")
+line_type = 2
+text = "*You hand the bucket of meat to Dr Ackular*"
+consumed_evidence = ExtResource("10_ctosp")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_coht1"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "Wow...what a mysterious thing...that, hmm hang on? What is this?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o0q0i"]
+script = ExtResource("4_abhg2")
+line_type = 2
+text = "*Dr Ackular sticks his hand in. You stomach twists, hand jumping up to cover your mouth before anything can come up*"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7s77v"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "Huh, what a strange ring? It's a lovely ring, has a big X on it? How strange? Perhaps the killer lost it in the bucket. Might be useful?"
+recieved_evidence = ExtResource("11_ve01m")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o2sj3"]
+script = ExtResource("6_5l3hh")
+lines = Array[ExtResource("4_abhg2")]([SubResource("Resource_lvvsu"), SubResource("Resource_coht1"), SubResource("Resource_o0q0i"), SubResource("Resource_7s77v")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_bemmi"]
+script = ExtResource("4_abhg2")
+line_type = 1
+text = "You're wrong.
+This was no shark attack."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_djnfr"]
+script = ExtResource("4_abhg2")
+line_type = 1
+text = "It was murder."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ctosp"]
+script = ExtResource("11_wv334")
+metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"
+
+[sub_resource type="Resource" id="Resource_ve01m"]
+script = ExtResource("4_abhg2")
+speaker_sprite = SubResource("Resource_ctosp")
+line_type = 1
+text = "Take a look in the tank, you can see the knife that the killer left behind."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o45d6"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "...Oh!
+
+I thought that was just a shiny fish."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_2xnts"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "I assumed it was a shark, because the victim had a large bite taken out of them."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_q5ntf"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "But if what you're saying is correct, then does that mean the killer cut a bite shaped hole in the body?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_h1nod"]
+script = ExtResource("4_abhg2")
+line_type = 0
+text = "Hm...
+If that's true, then I wonder where they put the part they cut out?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_lvxd4"]
+script = ExtResource("6_5l3hh")
+lines = Array[ExtResource("4_abhg2")]([SubResource("Resource_bemmi"), SubResource("Resource_djnfr"), SubResource("Resource_ve01m"), SubResource("Resource_o45d6"), SubResource("Resource_2xnts"), SubResource("Resource_q5ntf"), SubResource("Resource_h1nod")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("12_o45d6")
+location = ExtResource("3_uastb")
+character = ExtResource("1_3qryy")
+main_conversation = SubResource("Resource_5l3hh")
+presented_evidence = Dictionary[ExtResource("7_bemmi"), ExtResource("6_5l3hh")]({
+ExtResource("10_ctosp"): SubResource("Resource_o2sj3"),
+ExtResource("11_3qryy"): SubResource("Resource_lvxd4")
+})
+failed_evidence = ExtResource("2_wv334")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"
