@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bnnu564520kqb"]
 
 [ext_resource type="Script" uid="uid://71mu4uprdedf" path="res://Scenes/main_scene.gd" id="1_52fb6"]
-[ext_resource type="Resource" uid="uid://b6sdvgcdq8lpd" path="res://Encounters/Encounters/00_Intro.tres" id="2_jv6wh"]
+[ext_resource type="Resource" uid="uid://d35uxlicatg4v" path="res://Encounters/Encounters/00_Intro.tres" id="2_jv6wh"]
 [ext_resource type="Resource" uid="uid://bqhkc2a1u8cmq" path="res://Encounters/encounter_list.tres" id="5_iacmt"]
 
 [node name="MainScene" type="Control"]

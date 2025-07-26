@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=4 format=3 uid="uid://ccf4lawrsax5y"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_2wskh"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_vy141"]
+
+[sub_resource type="Resource" id="Resource_2wskh"]
+script = ExtResource("1_2wskh")
+line_type = 2
+text = "(Placeholder Text for Bad Ending)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("2_vy141")
+lines = Array[ExtResource("1_2wskh")]([SubResource("Resource_2wskh")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

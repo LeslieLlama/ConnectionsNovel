@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=4 format=3 uid="uid://cl8uc4qy3e7w6"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_72ic1"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_6d7l6"]
+
+[sub_resource type="Resource" id="Resource_72ic1"]
+script = ExtResource("1_72ic1")
+line_type = 2
+text = "(Placeholder Text for True Ending)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("2_6d7l6")
+lines = Array[ExtResource("1_72ic1")]([SubResource("Resource_72ic1")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

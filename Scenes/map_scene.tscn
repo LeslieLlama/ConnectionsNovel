@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bjl6ad3gky342"]
+[gd_scene load_steps=11 format=3 uid="uid://bjl6ad3gky342"]
 
 [ext_resource type="Script" uid="uid://0riqsyd13nig" path="res://Map/map_scene.gd" id="1_wsgkf"]
 [ext_resource type="Script" uid="uid://bly47vcexg8c6" path="res://Scenes/map_location.gd" id="2_74t0d"]
@@ -9,6 +9,7 @@
 [ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="7_hg2b3"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="8_cx7fx"]
 [ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="9_q0agp"]
+[ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="10_lig3r"]
 
 [node name="MapScene" type="Control"]
 layout_mode = 3
@@ -55,7 +56,7 @@ offset_bottom = 165.0
 script = ExtResource("2_74t0d")
 location = ExtResource("5_i02im")
 
-[node name="MarineBiologyRoom" type="Control" parent="MapNodes"]
+[node name="JellyfishRoom" type="Control" parent="MapNodes"]
 anchors_preset = 0
 offset_left = 456.0
 offset_top = 354.0
@@ -90,3 +91,12 @@ offset_right = 994.0
 offset_bottom = 296.0
 script = ExtResource("2_74t0d")
 location = ExtResource("9_q0agp")
+
+[node name="ManagersOffice" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 495.0
+offset_top = 553.0
+offset_right = 495.0
+offset_bottom = 553.0
+script = ExtResource("2_74t0d")
+location = ExtResource("10_lig3r")

@@ -8,17 +8,26 @@ const SCREEN_FADE_TIME = 0.4
 @export var intro_scene: Conversation
 @export var encounters: EncounterList
 
+const BAD_ENDING = preload("res://Endings/bad_ending.tres")
+const TRUE_ENDING = preload("res://Endings/true_ending.tres")
+const THE_TRUE_KILLER = preload("res://Evidence/Evidence/the_true_killer.tres")
+
 func _ready() -> void:
 	Inventory.clear()
-	await do_intro_scene()
+	await do_conversation(intro_scene)
 	for time_slot in encounters.encounters:
 		var encounter = await show_map(time_slot)
 		await do_encounter(encounter)
+		
+	if Inventory.evidence.has(THE_TRUE_KILLER):
+		await do_conversation(TRUE_ENDING)
+	else:
+		await do_conversation(BAD_ENDING)
 
-func do_intro_scene():
+func do_conversation(conversation: Conversation):
 	var dialogue_scene = DIALOGUE_SCENE.instantiate()
 	add_child(dialogue_scene)
-	await dialogue_scene.display_conversation(intro_scene)
+	await dialogue_scene.display_conversation(conversation)
 	await screen_transition()
 	dialogue_scene.queue_free()
 

@@ -80,7 +80,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_7n3as"]
 script = ExtResource("3_xvy70")
-speaker_sprite = ExtResource("5_x0sky")
+speaker_sprite = ExtResource("4_x0sky")
 line_type = 1
 text = "And I have proof!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
