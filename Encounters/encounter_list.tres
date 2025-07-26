@@ -1,19 +1,25 @@
-[gd_resource type="Resource" script_class="EncounterList" load_steps=17 format=3 uid="uid://bqhkc2a1u8cmq"]
+[gd_resource type="Resource" script_class="EncounterList" load_steps=24 format=3 uid="uid://bqhkc2a1u8cmq"]
 
 [ext_resource type="Script" uid="uid://dcljxhfsyotad" path="res://Encounters/time_slot.gd" id="1_7ve7g"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="2_2f8c5"]
 [ext_resource type="Script" uid="uid://7bj4bfkt033y" path="res://Encounters/encounter_list.gd" id="2_pntwk"]
 [ext_resource type="Resource" uid="uid://7fbms1isntul" path="res://Encounters/Encounters/01_MarineBio.tres" id="3_q8u8x"]
 [ext_resource type="Resource" uid="uid://dfgc6fijmshby" path="res://Encounters/Encounters/02_RivalManager.tres" id="4_jfcpk"]
+[ext_resource type="Resource" uid="uid://c05d87lcxag5" path="res://Encounters/Encounters/01_Doctor.tres" id="4_ms0p5"]
 [ext_resource type="Resource" uid="uid://b43khd7yxo8xp" path="res://Encounters/Encounters/03_Manager.tres" id="5_0agj0"]
 [ext_resource type="Resource" uid="uid://3lcbru651gjk" path="res://Encounters/Encounters/04_Doctor.tres" id="6_qr4da"]
 [ext_resource type="Resource" uid="uid://dpjk246i14euo" path="res://Encounters/Encounters/05_Penguin.tres" id="7_aibs1"]
-[ext_resource type="Resource" uid="uid://c64vwp40chk25" path="res://Encounters/Encounters/04_MarineBio.tres" id="7_q8u8x"]
+[ext_resource type="Resource" uid="uid://j4m1sti0nf5h" path="res://Encounters/Encounters/04_MarineBio.tres" id="7_q8u8x"]
 [ext_resource type="Resource" uid="uid://jaj1lrwkneo" path="res://Encounters/Encounters/06_Doctor.tres" id="8_0qnd3"]
+[ext_resource type="Resource" uid="uid://bpswlj8nsdayy" path="res://Encounters/Encounters/FinalEncounters/07_Doctor.tres" id="11_b3j77"]
+[ext_resource type="Resource" uid="uid://daj5oxdpqchco" path="res://Encounters/Encounters/FinalEncounters/07_Manager.tres" id="12_lb1g7"]
+[ext_resource type="Resource" uid="uid://bcvrvpt15nnj6" path="res://Encounters/Encounters/FinalEncounters/07_MarineBio.tres" id="13_kk5hy"]
+[ext_resource type="Resource" uid="uid://bgcuoxoa4cw36" path="res://Encounters/Encounters/FinalEncounters/07_Penguin.tres" id="14_kvtwq"]
+[ext_resource type="Resource" uid="uid://6154fi3i4ay3" path="res://Encounters/Encounters/FinalEncounters/07_RivalManager.tres" id="15_uu02g"]
 
 [sub_resource type="Resource" id="Resource_ms0p5"]
 script = ExtResource("1_7ve7g")
-encounters = Array[ExtResource("2_2f8c5")]([ExtResource("3_q8u8x")])
+encounters = Array[ExtResource("2_2f8c5")]([ExtResource("3_q8u8x"), ExtResource("4_ms0p5")])
 metadata/_custom_type_script = "uid://dcljxhfsyotad"
 
 [sub_resource type="Resource" id="Resource_b3j77"]
@@ -41,7 +47,12 @@ script = ExtResource("1_7ve7g")
 encounters = Array[ExtResource("2_2f8c5")]([ExtResource("8_0qnd3")])
 metadata/_custom_type_script = "uid://dcljxhfsyotad"
 
+[sub_resource type="Resource" id="Resource_88glh"]
+script = ExtResource("1_7ve7g")
+encounters = Array[ExtResource("2_2f8c5")]([ExtResource("11_b3j77"), ExtResource("12_lb1g7"), ExtResource("13_kk5hy"), ExtResource("14_kvtwq"), ExtResource("15_uu02g")])
+metadata/_custom_type_script = "uid://dcljxhfsyotad"
+
 [resource]
 script = ExtResource("2_pntwk")
-encounters = Array[ExtResource("1_7ve7g")]([SubResource("Resource_ms0p5"), SubResource("Resource_b3j77"), SubResource("Resource_lb1g7"), SubResource("Resource_kk5hy"), SubResource("Resource_kvtwq"), SubResource("Resource_uu02g")])
+encounters = Array[ExtResource("1_7ve7g")]([SubResource("Resource_ms0p5"), SubResource("Resource_b3j77"), SubResource("Resource_lb1g7"), SubResource("Resource_kk5hy"), SubResource("Resource_kvtwq"), SubResource("Resource_uu02g"), SubResource("Resource_88glh")])
 metadata/_custom_type_script = "uid://7bj4bfkt033y"
