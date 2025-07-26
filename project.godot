@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Inventory="*res://Evidence/inventory.gd"
+MusicManager="*res://Managers/MusicManager.gd"
 
 [display]
 

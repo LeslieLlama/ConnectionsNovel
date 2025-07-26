@@ -16,6 +16,7 @@ const TEXT_SPEED: float = 0.02
 signal text_advanced
 
 func do_encounter(encounter: Encounter):
+	MusicManager.play_track(MusicManager.AQUATIC_CONNECTION)
 	background.texture = encounter.location.background
 	await display_conversation(encounter.main_conversation)
 	
@@ -30,6 +31,8 @@ func do_encounter(encounter: Encounter):
 			await display_conversation(encounter.presented_evidence[picked_evidence])
 		elif picked_evidence:
 			await display_conversation(encounter.failed_evidence)
+			
+	MusicManager.stop_track()
 
 func display_conversation(conversation: Conversation):
 	for line in conversation.lines:
