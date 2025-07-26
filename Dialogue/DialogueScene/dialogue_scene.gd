@@ -26,10 +26,9 @@ func do_encounter(encounter: Encounter):
 		await get_tree().process_frame
 		var picked_evidence = await evidence_picker.choose()
 		
-
 		if picked_evidence in encounter.presented_evidence:
 			await display_conversation(encounter.presented_evidence[picked_evidence])
-		else:
+		elif picked_evidence:
 			await display_conversation(encounter.failed_evidence)
 
 func display_conversation(conversation: Conversation):

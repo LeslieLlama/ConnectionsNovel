@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://onfusuttgf5r"]
+
+[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_1vvj1"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_7k2de"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_1n7pa"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_467nl"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_7stp4"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_bl4wd"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="4_76xl2"]
+[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_76xl2"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="9_tvbeo"]
+
+[sub_resource type="Resource" id="Resource_tvbeo"]
+script = ExtResource("3_7stp4")
+speaker_sprite = ExtResource("4_76xl2")
+line_type = 0
+text = "Hello again, how is your little investigation going?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0s0ft"]
+script = ExtResource("2_467nl")
+lines = Array[ExtResource("3_7stp4")]([SubResource("Resource_tvbeo")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_7stp4"]
+script = ExtResource("3_7stp4")
+line_type = 1
+text = "It's going well, actually.
+When I showed the penguin the note you gave me, the suit burst open and somebody named X jumped out. I asked if she knew Phil, and she said she could have, in a different life?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_76xl2"]
+script = ExtResource("3_7stp4")
+line_type = 0
+text = "My goodness! X! She is here? Hmmmm, how intriguing.... Yes, they were married once. Lovely couple. Divorced sadly...some dispute... I heard she wanted to fund a horrible think tank, just to get more stories for her news agency."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_vopey"]
+script = ExtResource("3_7stp4")
+line_type = 0
+text = "Phil absolutely went livid, said he couldn't believe it. Divorced her on the spot! Well, announced it. The ceremony and page singing came later...but it was still done."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_p23s4"]
+script = ExtResource("2_467nl")
+lines = Array[ExtResource("3_7stp4")]([SubResource("Resource_7stp4"), SubResource("Resource_76xl2"), SubResource("Resource_vopey")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_lvvsu"]
+script = ExtResource("3_7stp4")
+line_type = 2
+text = "*You hand the bucket of meat to Dr Ackular*"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_coht1"]
+script = ExtResource("3_7stp4")
+line_type = 0
+text = "Wow...what a mysterious thing...that, hmm hang on? What is this?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o0q0i"]
+script = ExtResource("3_7stp4")
+line_type = 2
+text = "*Dr Ackular sticks his hand in. You stomach twists, hand jumping up to cover your mouth before anything can come up*"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7s77v"]
+script = ExtResource("3_7stp4")
+line_type = 0
+text = "Huh, what a strange ring? It's a lovely ring, has a big X on it? How strange? Perhaps the killer lost it in the bucket. Might be useful?"
+recieved_evidence = ExtResource("9_tvbeo")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_junhf"]
+script = ExtResource("2_467nl")
+lines = Array[ExtResource("3_7stp4")]([SubResource("Resource_lvvsu"), SubResource("Resource_coht1"), SubResource("Resource_o0q0i"), SubResource("Resource_7s77v")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_bl4wd")
+location = ExtResource("2_1n7pa")
+character = ExtResource("1_1vvj1")
+main_conversation = SubResource("Resource_0s0ft")
+presented_evidence = Dictionary[ExtResource("1_7k2de"), ExtResource("2_467nl")]({
+ExtResource("7_1n7pa"): SubResource("Resource_p23s4"),
+ExtResource("8_76xl2"): SubResource("Resource_junhf")
+})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

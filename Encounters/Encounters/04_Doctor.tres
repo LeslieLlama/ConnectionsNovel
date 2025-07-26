@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://danhxih0h3i52"]
+
+[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_ggdih"]
+[ext_resource type="Resource" uid="uid://dcgodnlsrcs2j" path="res://Characters/Doctor/failure_dialogue.tres" id="2_j0w2q"]
+[ext_resource type="Resource" uid="uid://careb6xuaup2s" path="res://Map/Locations/Locations/aqua_tunnel.tres" id="3_y1uix"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_gis7i"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_khqt7"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="6_w7fsa"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_82p8o"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_naapu"]
+[ext_resource type="Resource" uid="uid://bsa4b06wtv4e3" path="res://Evidence/Evidence/School photo.tres" id="8_y1uix"]
+[ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="9_gis7i"]
+
+[sub_resource type="Resource" id="Resource_370qv"]
+script = ExtResource("4_gis7i")
+speaker_sprite = ExtResource("5_khqt7")
+line_type = 0
+text = "How dreadful about this aquarium....absolutely dreadful....I wonder what will happen to all the fish? Would be a shame for them to all go to waste..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_6fq06"]
+script = ExtResource("4_gis7i")
+line_type = 1
+text = "Did you know the victim?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_hjhqv"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_dt2c1"]
+script = ExtResource("6_w7fsa")
+lines = Array[ExtResource("4_gis7i")]([SubResource("Resource_370qv"), SubResource("Resource_6fq06"), SubResource("Resource_hjhqv")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_khqt7"]
+script = ExtResource("4_gis7i")
+line_type = 1
+text = "I spoke to the manager, he said you went to school with Phil?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_w7fsa"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Oh DID he know? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_82p8o"]
+script = ExtResource("4_gis7i")
+line_type = 1
+text = "He said you wanted to open a new clinic?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_naapu"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Yes...I did....and the mighty Phill, what did he do when I offered the opportunity for people to give blood? He said no!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_dg8d6"]
+script = ExtResource("4_gis7i")
+line_type = 1
+text = "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhuman."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3ykru"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. That rich blood, oh yes, let's just give it away! And now look at Phil, floating in that pool. Good thing he died, not a drop to go around!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5igab"]
+script = ExtResource("4_gis7i")
+line_type = 1
+text = "You killed him for that?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_t1li8"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Oh goodness no, what good would that do. Killing him won't give me my clinic. Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_vdo6q"]
+script = ExtResource("4_gis7i")
+line_type = 1
+text = "You know them? What was the name of that perfume? Could be a clue?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_phf7j"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Do you have a pen and paper? You'd butcher the pronunciation if I told you."
+recieved_evidence = ExtResource("9_gis7i")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7bqsv"]
+script = ExtResource("4_gis7i")
+line_type = 0
+text = "Ask the penguin if that's the right one. It's very hard to come by and I'd love to know where they got it."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_yg7gl"]
+script = ExtResource("4_gis7i")
+line_type = 2
+text = "(I left the room after that)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_v5v7v"]
+script = ExtResource("6_w7fsa")
+lines = Array[ExtResource("4_gis7i")]([SubResource("Resource_khqt7"), SubResource("Resource_w7fsa"), SubResource("Resource_82p8o"), SubResource("Resource_naapu"), SubResource("Resource_dg8d6"), SubResource("Resource_3ykru"), SubResource("Resource_5igab"), SubResource("Resource_t1li8"), SubResource("Resource_vdo6q"), SubResource("Resource_phf7j"), SubResource("Resource_7bqsv"), SubResource("Resource_yg7gl")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("8_naapu")
+location = ExtResource("3_y1uix")
+character = ExtResource("1_ggdih")
+main_conversation = SubResource("Resource_dt2c1")
+presented_evidence = Dictionary[ExtResource("7_82p8o"), ExtResource("6_w7fsa")]({
+ExtResource("8_y1uix"): SubResource("Resource_v5v7v")
+})
+failed_evidence = ExtResource("2_j0w2q")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

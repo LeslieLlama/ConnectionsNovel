@@ -115,4 +115,3 @@ At the end of every scene, you can then show evidence to get extra dialogue
 	- Motive: Angry the philanthropist funded the aquarium instead of his clinic. Thought it would be a fitting way to die.
 	- Design: Dracula style
 	- Secret: Drinks blood. Wants to drink the victims blood and gain his power
-
