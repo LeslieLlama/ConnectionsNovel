@@ -1,6 +1,5 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=14 format=3 uid="uid://ccubnut7mexgt"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=13 format=3 uid="uid://b43khd7yxo8xp"]
 
-[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_8srfn"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_b4ptc"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_kloxp"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_8ph3q"]
@@ -47,7 +46,6 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 [resource]
 script = ExtResource("7_8qh1e")
 location = ExtResource("2_b4ptc")
-character = ExtResource("1_8srfn")
 main_conversation = SubResource("Resource_evdx8")
 presented_evidence = Dictionary[ExtResource("6_0shsl"), ExtResource("5_oe5aj")]({})
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

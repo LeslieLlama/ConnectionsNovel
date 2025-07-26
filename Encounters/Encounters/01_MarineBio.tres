@@ -2,14 +2,12 @@
 
 [ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_6huvg"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_g7k0b"]
+[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/jellyfish_room.tres" id="2_b2kej"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_e5rbb"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_gbark"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_vylco"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_l75ay"]
 [ext_resource type="Resource" path="res://Evidence/Evidence/Business_card.tres" id="5_b2kej"]
-
-[sub_resource type="Resource" id="Resource_6huvg"]
-metadata/__load_path__ = "res://Map/Locations/Locations/marine_biology_room.tres"
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_gbark")
@@ -58,13 +56,13 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 script = ExtResource("3_gbark")
 line_type = 2
 text = "You reach into the bin and grab the business card and add it to the evidence."
+recieved_evidence = ExtResource("5_b2kej")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_o6eip"]
 script = ExtResource("3_gbark")
 line_type = 0
 text = "I hope it's helpful"
-recieved_evidence = ExtResource("5_b2kej")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_evdx8"]
@@ -74,7 +72,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [resource]
 script = ExtResource("3_vylco")
-location = SubResource("Resource_6huvg")
+location = ExtResource("2_b2kej")
 character = ExtResource("1_6huvg")
 main_conversation = SubResource("Resource_evdx8")
 presented_evidence = Dictionary[ExtResource("1_g7k0b"), ExtResource("2_e5rbb")]({})

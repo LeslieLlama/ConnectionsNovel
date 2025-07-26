@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="Conversation" load_steps=7 format=3 uid="uid://bpq7le3hbhoyv"]
+
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_gb2ox"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="2_gb2ox"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="3_u0i0c"]
+
+[sub_resource type="Resource" id="Resource_m306u"]
+script = ExtResource("1_gb2ox")
+speaker_sprite = ExtResource("2_gb2ox")
+line_type = 0
+text = "Oh, no need to worry about all this."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_u0i0c"]
+script = ExtResource("1_gb2ox")
+line_type = 0
+text = "This will all sort itself out, no problem!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_gb2ox"]
+script = ExtResource("1_gb2ox")
+line_type = 2
+text = "(She totally ignored me...)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[resource]
+script = ExtResource("3_u0i0c")
+lines = Array[ExtResource("1_gb2ox")]([SubResource("Resource_m306u"), SubResource("Resource_u0i0c"), SubResource("Resource_gb2ox")])
+metadata/_custom_type_script = "uid://wyclueyiircq"

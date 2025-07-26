@@ -40,9 +40,9 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 205.0
-offset_top = -113.0
-offset_right = -205.0
+offset_left = 167.0
+offset_top = -140.0
+offset_right = -167.0
 grow_horizontal = 2
 grow_vertical = 0
 
@@ -54,6 +54,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+autowrap_mode = 3
+visible_characters_behavior = 1
 
 [node name="NameboxPanel" type="Panel" parent="TextboxPanel"]
 unique_name_in_owner = true
@@ -62,13 +64,16 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = -50.0
-offset_right = -582.0
-offset_bottom = -119.0
+offset_right = -618.0
+offset_bottom = -143.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Namebox" type="Label" parent="TextboxPanel/NameboxPanel"]
 unique_name_in_owner = true
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://cwmpwto673bek"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://dfgc6fijmshby"]
 
 [ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_pw4o5"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_uds17"]
@@ -36,7 +36,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_qrsvt"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "You *eally don't know much at all do you? Sorry who are you?"
+text = "You *really don't know much at all do you? Sorry who are you?"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_4ykt3"]
@@ -48,7 +48,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_dw6jj"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "How quant. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. Especially after that awful divorce..."
+text = "How quaint. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. Especially after that awful divorce..."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_l3asl"]
@@ -72,7 +72,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_pw4o5"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "I believe. Shame she's not here, she'd love this ordeal. Oh well. Anyway, can't believe you broke the doors. Any chance I could get out?"
+text = "Remora Gray, I believe. Shame she's not here, she'd love this ordeal. Oh well. Anyway, can't believe you broke the doors. Any chance I could get out?"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_uds17"]

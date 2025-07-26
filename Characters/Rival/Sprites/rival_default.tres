@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://dc0k8cfmtflgq"]
 
-[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_1nhyj"]
+[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_0sici"]
 [ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_6ihtm"]
 
 [resource]
 script = ExtResource("2_6ihtm")
-character = ExtResource("1_1nhyj")
+character = ExtResource("1_0sici")
 metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"
