@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://bh8e0l4fjk8vn"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_gqmgq"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_a1xmp"]
+
+[resource]
+script = ExtResource("2_a1xmp")
+location_name = "Penguin Exhibit"
+background = ExtResource("1_gqmgq")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://cbtir3itm72oo"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_g0pn8"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_pysuc"]
+
+[resource]
+script = ExtResource("2_pysuc")
+location_name = "Gift Shop"
+background = ExtResource("1_g0pn8")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"

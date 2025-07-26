@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://bta82nxdesle0"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_rp72l"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_fmfwg"]
+
+[resource]
+script = ExtResource("2_fmfwg")
+location_name = "Maintainance Closet"
+background = ExtResource("1_rp72l")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"

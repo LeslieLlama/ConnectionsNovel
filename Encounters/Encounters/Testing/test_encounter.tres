@@ -1,12 +1,13 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=15 format=3 uid="uid://ctgo3viqqb84u"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=16 format=3 uid="uid://ctgo3viqqb84u"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_egguq"]
-[ext_resource type="Resource" uid="uid://cxfiaapytgmi7" path="res://Locations/Locations/placeholder_location.tres" id="1_k63om"]
+[ext_resource type="Resource" uid="uid://d10iyajlsd0y2" path="res://Characters/Placeholder/placeholder.tres" id="1_o71hc"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_jim2o"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="2_pfr0u"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_k05pn"]
 [ext_resource type="Resource" uid="uid://cjbau02eww67w" path="res://Characters/Placeholder/Sprites/placeholder_default.tres" id="3_o71hc"]
 [ext_resource type="Resource" uid="uid://ckbodbrcnxq0d" path="res://Evidence/Evidence/test_evidence.tres" id="3_pfr0u"]
+[ext_resource type="Resource" uid="uid://cbtir3itm72oo" path="res://Map/Locations/Locations/gift_shop.tres" id="4_o71hc"]
 
 [sub_resource type="Resource" id="Resource_pfr0u"]
 script = ExtResource("2_pfr0u")
@@ -54,7 +55,8 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [resource]
 script = ExtResource("3_k05pn")
-location = ExtResource("1_k63om")
+location = ExtResource("4_o71hc")
+character = ExtResource("1_o71hc")
 main_conversation = SubResource("Resource_bq65m")
 presented_evidence = Dictionary[ExtResource("1_egguq"), ExtResource("2_jim2o")]({
 ExtResource("3_pfr0u"): SubResource("Resource_mfecf")

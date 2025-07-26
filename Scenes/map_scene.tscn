@@ -1,0 +1,92 @@
+[gd_scene load_steps=10 format=3 uid="uid://bjl6ad3gky342"]
+
+[ext_resource type="Script" uid="uid://0riqsyd13nig" path="res://Map/map_scene.gd" id="1_wsgkf"]
+[ext_resource type="Script" uid="uid://bly47vcexg8c6" path="res://Scenes/map_location.gd" id="2_74t0d"]
+[ext_resource type="Resource" uid="uid://careb6xuaup2s" path="res://Map/Locations/Locations/aqua_tunnel.tres" id="3_d3vki"]
+[ext_resource type="Resource" uid="uid://cbtir3itm72oo" path="res://Map/Locations/Locations/gift_shop.tres" id="4_lig3r"]
+[ext_resource type="Resource" uid="uid://bta82nxdesle0" path="res://Map/Locations/Locations/maintainance_closet.tres" id="5_i02im"]
+[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/marine_biology_room.tres" id="6_ssp6g"]
+[ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="7_hg2b3"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="8_cx7fx"]
+[ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="9_q0agp"]
+
+[node name="MapScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wsgkf")
+
+[node name="MapNodes" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AquaTunnel" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 106.0
+offset_top = 77.0
+offset_right = 106.0
+offset_bottom = 77.0
+script = ExtResource("2_74t0d")
+location = ExtResource("3_d3vki")
+
+[node name="GiftShop" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 304.0
+offset_top = 68.0
+offset_right = 304.0
+offset_bottom = 68.0
+script = ExtResource("2_74t0d")
+location = ExtResource("4_lig3r")
+
+[node name="MaintainanceCloset" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 597.0
+offset_top = 165.0
+offset_right = 597.0
+offset_bottom = 165.0
+script = ExtResource("2_74t0d")
+location = ExtResource("5_i02im")
+
+[node name="MarineBiologyRoom" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 456.0
+offset_top = 354.0
+offset_right = 456.0
+offset_bottom = 354.0
+script = ExtResource("2_74t0d")
+location = ExtResource("6_ssp6g")
+
+[node name="PenguinExhibit" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 225.0
+offset_top = 389.0
+offset_right = 225.0
+offset_bottom = 389.0
+script = ExtResource("2_74t0d")
+location = ExtResource("7_hg2b3")
+
+[node name="SharkTank" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 791.0
+offset_top = 424.0
+offset_right = 791.0
+offset_bottom = 424.0
+script = ExtResource("2_74t0d")
+location = ExtResource("8_cx7fx")
+
+[node name="SmallCreatureExhibit" type="Control" parent="MapNodes"]
+anchors_preset = 0
+offset_left = 994.0
+offset_top = 296.0
+offset_right = 994.0
+offset_bottom = 296.0
+script = ExtResource("2_74t0d")
+location = ExtResource("9_q0agp")
