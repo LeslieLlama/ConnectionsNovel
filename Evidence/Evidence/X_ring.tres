@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://dke8werhuqa4x"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_hot6h"]
+
+[resource]
+script = ExtResource("1_hot6h")
+evidence_name = "Bucket of meat"
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"

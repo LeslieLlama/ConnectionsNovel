@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://ckih8q1mp0prq"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_gxchh"]
+
+[resource]
+script = ExtResource("1_gxchh")
+evidence_name = "Business card"
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"

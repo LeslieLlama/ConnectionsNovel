@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://bsa4b06wtv4e3"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_f6qu8"]
+
+[resource]
+script = ExtResource("1_f6qu8")
+evidence_name = "Perfume_name"
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"

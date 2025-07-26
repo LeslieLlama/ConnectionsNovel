@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://qmldv21k0sgq"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_r442l"]
+
+[resource]
+script = ExtResource("1_r442l")
+evidence_name = "X's ring"
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"
