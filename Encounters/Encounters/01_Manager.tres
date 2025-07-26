@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=18 format=3 uid="uid://dq78l455ekhpq"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_2ynkx"]
+[ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_261m5"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_w7nc3"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_2ynkx"]
+[ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="2_t75es"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_5g22d"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="4_jbrkv"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="7_j42wf"]
+
+[sub_resource type="Resource" id="Resource_8ekco"]
+script = ExtResource("1_w7nc3")
+speaker_sprite = ExtResource("4_jbrkv")
+line_type = 0
+text = "Don't worry about the broken locks.
+The insurance covers it."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_f82ng"]
+script = ExtResource("1_w7nc3")
+line_type = 1
+text = "Did you know the victim?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_gbark"]
+script = ExtResource("1_w7nc3")
+line_type = 0
+text = "Not physically...
+But all my customers are connected to me in spirit.
+- Not to mention financially!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_l75ay"]
+script = ExtResource("1_w7nc3")
+line_type = 1
+text = "I need to know, this is important, we need to find the killer"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qrsvt"]
+script = ExtResource("1_w7nc3")
+line_type = 0
+text = "To hell with the killer! God this is terrible for business...yes, fine, yes I did. Without him we wouldn't have the aquarium. He funded it! Except the bastard wanted a cut! Oh so kind and generous, he wanted 10%! 10%??? Do you know how much that is? The margins here are thin enough as it is!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_f6f8u"]
+script = ExtResource("1_w7nc3")
+line_type = 0
+text = "While you're here, would you mind cleaning the tank? Ask Marine for assistance if she isn't cleaning the tank already. You have cleaning equipment I assume?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_sfmi8"]
+script = ExtResource("2_2ynkx")
+lines = Array[ExtResource("1_w7nc3")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_qrsvt"), SubResource("Resource_f6f8u")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_prr17"]
+script = ExtResource("1_w7nc3")
+line_type = 0
+text = "Oh what is that dear? Oh. Oh that's awful why did you bring that in here? That's....lovely that you found that but surely you can show that to someone else?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_asruw"]
+script = ExtResource("2_2ynkx")
+lines = Array[ExtResource("1_w7nc3")]([SubResource("Resource_prr17")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_5g22d")
+location = ExtResource("2_t75es")
+character = ExtResource("1_261m5")
+main_conversation = SubResource("Resource_sfmi8")
+presented_evidence = Dictionary[ExtResource("1_2ynkx"), ExtResource("2_2ynkx")]({
+ExtResource("7_j42wf"): SubResource("Resource_asruw")
+})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

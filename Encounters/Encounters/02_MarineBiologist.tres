@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://bhmwtevxdkbc1"]
+
+[ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_jiwcs"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_qqlkt"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_6hhjf"]
+[ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Characters/MarineBio/jellyfish_room.tres" id="2_bjw8c"]
+[ext_resource type="Resource" uid="uid://ca43q26gjkkyo" path="res://Evidence/Evidence/failure_dialogue.tres" id="2_rjrbi"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_4i73m"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_rjrbi"]
+[ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_rpr7b"]
+[ext_resource type="Resource" uid="uid://c0rx7djt1hy02" path="res://Evidence/Evidence/Business_card.tres" id="7_keh2i"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_bjw8c"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="10_rpr7b"]
+
+[sub_resource type="Resource" id="Resource_3ichf"]
+script = ExtResource("3_rjrbi")
+speaker_sprite = ExtResource("4_rpr7b")
+line_type = 0
+text = "Hello again, how's the investigation going?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0ktr7"]
+script = ExtResource("2_6hhjf")
+lines = Array[ExtResource("3_rjrbi")]([SubResource("Resource_3ichf")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_b4r20"]
+script = ExtResource("3_rjrbi")
+line_type = 2
+text = "You show her the business card"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_na4gc"]
+script = ExtResource("3_rjrbi")
+line_type = 0
+text = "Yes that's the business card I just showed you...I really think you should be talking to other people."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_wmgy1"]
+script = ExtResource("2_6hhjf")
+lines = Array[ExtResource("3_rjrbi")]([SubResource("Resource_b4r20"), SubResource("Resource_na4gc")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_rjrbi"]
+script = ExtResource("3_rjrbi")
+line_type = 2
+text = "You show Marine the bucket of meat"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_rpr7b"]
+script = ExtResource("3_rjrbi")
+line_type = 0
+text = "WHY ARE YOU SHOWING ME THIS??? GET IT AWAY EWWWWWWW!!!!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_keh2i"]
+script = ExtResource("3_rjrbi")
+line_type = 2
+text = "The bucket of meat was not very effective."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7onul"]
+script = ExtResource("2_6hhjf")
+lines = Array[ExtResource("3_rjrbi")]([SubResource("Resource_rjrbi"), SubResource("Resource_rpr7b"), SubResource("Resource_keh2i")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_o1g1w"]
+script = ExtResource("3_rjrbi")
+line_type = 2
+text = "You show Marine the ring"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_58epb"]
+script = ExtResource("3_rjrbi")
+line_type = 0
+text = "Ooo what an interesting ring, I love the big X!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qdgs2"]
+script = ExtResource("3_rjrbi")
+line_type = 0
+text = "....what is that smell...smells awful. Please tell me you didn't pull this off the victim..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_74dyh"]
+script = ExtResource("3_rjrbi")
+line_type = 1
+text = "Oh no I didn't get it from the body, I just found it in a bucket of human flesh"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_nweil"]
+script = ExtResource("3_rjrbi")
+line_type = 0
+text = "YOU WHAT??????"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_d45is"]
+script = ExtResource("3_rjrbi")
+line_type = 2
+text = "You think it might be best to continue searching."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_u0ieg"]
+script = ExtResource("2_6hhjf")
+lines = Array[ExtResource("3_rjrbi")]([SubResource("Resource_o1g1w"), SubResource("Resource_58epb"), SubResource("Resource_qdgs2"), SubResource("Resource_74dyh"), SubResource("Resource_nweil"), SubResource("Resource_d45is")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_4i73m")
+location = ExtResource("2_bjw8c")
+character = ExtResource("1_jiwcs")
+main_conversation = SubResource("Resource_0ktr7")
+presented_evidence = Dictionary[ExtResource("1_qqlkt"), ExtResource("2_6hhjf")]({
+ExtResource("7_keh2i"): SubResource("Resource_wmgy1"),
+ExtResource("8_bjw8c"): SubResource("Resource_7onul"),
+ExtResource("10_rpr7b"): SubResource("Resource_u0ieg")
+})
+failed_evidence = ExtResource("2_rjrbi")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

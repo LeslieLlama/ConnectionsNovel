@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Evidence" load_steps=2 format=3 uid="uid://bo5esvbi64ulr"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_en6e1"]
+
+[resource]
+script = ExtResource("1_en6e1")
+evidence_name = "Bird Knowledge"
+consumed = false
+metadata/_custom_type_script = "uid://dud2ohjq2nnl2"

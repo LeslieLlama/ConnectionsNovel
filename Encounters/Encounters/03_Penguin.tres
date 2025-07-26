@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=24 format=3 uid="uid://bleaqbgtgelme"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_36er2"]
+[ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_vnmaa"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_gb2mp"]
+[ext_resource type="Resource" uid="uid://dmmftk7rfgm60" path="res://Characters/Penguin/failure_dialogue.tres" id="2_w6a1o"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_73nvs"]
+[ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="3_aw7cw"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_msbya"]
+[ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="5_n2xgs"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_w6a1o"]
+[ext_resource type="Resource" uid="uid://bo5esvbi64ulr" path="res://Evidence/Evidence/Bird_knowledge.tres" id="9_aw7cw"]
+
+[sub_resource type="Resource" id="Resource_20aq2"]
+script = ExtResource("4_msbya")
+speaker_sprite = ExtResource("5_n2xgs")
+line_type = 0
+text = "The penguin stares at you"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_u55mv"]
+script = ExtResource("4_msbya")
+line_type = 1
+text = "Did you know the victim?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_jve78"]
+script = ExtResource("4_msbya")
+line_type = 1
+text = "The penguin does a little dance"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5qtif"]
+script = ExtResource("2_gb2mp")
+lines = Array[ExtResource("4_msbya")]([SubResource("Resource_20aq2"), SubResource("Resource_u55mv"), SubResource("Resource_jve78")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_3aeor"]
+script = ExtResource("4_msbya")
+line_type = 2
+text = "You show the bucket of meat to the penguin"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_dqftt"]
+script = ExtResource("4_msbya")
+line_type = 0
+text = "BLLLEEEAAAARRRGGGGG!!!!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_aw7cw"]
+script = ExtResource("4_msbya")
+line_type = 2
+text = "You decide to leave"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_msbya"]
+script = ExtResource("2_gb2mp")
+lines = Array[ExtResource("4_msbya")]([SubResource("Resource_3aeor"), SubResource("Resource_dqftt"), SubResource("Resource_aw7cw")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_n2xgs"]
+script = ExtResource("4_msbya")
+line_type = 2
+text = "You gaze upon the penguin with impecible bird knowledge"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_64onj"]
+script = ExtResource("4_msbya")
+line_type = 2
+text = "and take a photo of it and put it into Google search"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_rje86"]
+script = ExtResource("4_msbya")
+line_type = 2
+text = "ALL IS REVEALED! THIS IS INDEED A PENGUIN SUIT!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_vjlkt"]
+script = ExtResource("4_msbya")
+line_type = 2
+text = "You're so smart"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_47y00"]
+script = ExtResource("2_gb2mp")
+lines = Array[ExtResource("4_msbya")]([SubResource("Resource_n2xgs"), SubResource("Resource_64onj"), SubResource("Resource_rje86"), SubResource("Resource_vjlkt")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_73nvs")
+location = ExtResource("3_aw7cw")
+character = ExtResource("1_vnmaa")
+main_conversation = SubResource("Resource_5qtif")
+presented_evidence = Dictionary[ExtResource("1_36er2"), ExtResource("2_gb2mp")]({
+ExtResource("8_w6a1o"): SubResource("Resource_msbya"),
+ExtResource("9_aw7cw"): SubResource("Resource_47y00")
+})
+failed_evidence = ExtResource("2_w6a1o")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

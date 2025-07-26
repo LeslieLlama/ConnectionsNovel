@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=25 format=3 uid="uid://bekr45ibeo0eg"]
+
+[ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_lfbuy"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_ud6ii"]
+[ext_resource type="Resource" uid="uid://bpq7le3hbhoyv" path="res://Characters/Manager/failure_dialogue.tres" id="2_5jef3"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_jmexl"]
+[ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="2_rbq8t"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_jgw0r"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_p0tas"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="6_3vuy4"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="7_5jef3"]
+[ext_resource type="Resource" uid="uid://bsa4b06wtv4e3" path="res://Evidence/Evidence/School photo.tres" id="8_bp7y7"]
+
+[sub_resource type="Resource" id="Resource_3vuy4"]
+script = ExtResource("3_p0tas")
+line_type = 0
+text = "Did you manage to clean the tank?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5jef3"]
+script = ExtResource("2_jmexl")
+lines = Array[ExtResource("3_p0tas")]([SubResource("Resource_3vuy4")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_3udkf"]
+script = ExtResource("3_p0tas")
+line_type = 0
+text = "Ahhhh!!!!!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_qwj7u"]
+script = ExtResource("3_p0tas")
+line_type = 2
+text = "She throws up in the bin"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_8vjhl"]
+script = ExtResource("3_p0tas")
+line_type = 0
+text = "You are a terrible detective..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_jhi1h"]
+script = ExtResource("3_p0tas")
+line_type = 2
+text = "You decide to investigate others befire she asks you to clean it up."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_6cy3w"]
+script = ExtResource("3_p0tas")
+line_type = 1
+text = "I'm a great detective"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3g2ae"]
+script = ExtResource("3_p0tas")
+line_type = 2
+text = "You're not a great detective"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_wsv6x"]
+script = ExtResource("2_jmexl")
+lines = Array[ExtResource("3_p0tas")]([SubResource("Resource_3udkf"), SubResource("Resource_qwj7u"), SubResource("Resource_8vjhl"), SubResource("Resource_jhi1h"), SubResource("Resource_6cy3w"), SubResource("Resource_3g2ae")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_oe5aj"]
+script = ExtResource("3_p0tas")
+line_type = 1
+text = "I talked to Sloan Shark, he said that Phil was taking 10%? You still got 90% that sounds pretty good?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0shsl"]
+script = ExtResource("3_p0tas")
+line_type = 0
+text = "Well yes, but this is a business and unfortunately not all of the money goes to me. You can't just put the fish in water and call it it a day sadly. They thrive in the ocean current, then you plop them into water and they just forget how to stay alive. I am a bit upset that you spoke to him first dear, you should've spoken to me first."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_8qh1e"]
+script = ExtResource("3_p0tas")
+line_type = 1
+text = "He wrote down notes about your finances, said they're not very good. Said that you took a bad deal?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5lclk"]
+script = ExtResource("3_p0tas")
+line_type = 0
+text = "Oh he did, did he? Well that's good to know that he has an opinion on my work. 10% is high yes, but I supposed that it was better than not having an aquarium. Another asset is better than no asset. I mean look at Dr Ackular, he asked Phil to fund a clinic he wanted to open but Phil declined. Said \"A blood clinic should be free to the public good.\" but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? What a strange thing to do. Here take this, I printed it out for a laugh, but maybe it'll help jog his memory."
+recieved_evidence = ExtResource("8_bp7y7")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_esv6r"]
+script = ExtResource("2_jmexl")
+lines = Array[ExtResource("3_p0tas")]([SubResource("Resource_oe5aj"), SubResource("Resource_0shsl"), SubResource("Resource_8qh1e"), SubResource("Resource_5lclk")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_jgw0r")
+location = ExtResource("2_rbq8t")
+character = ExtResource("1_lfbuy")
+main_conversation = SubResource("Resource_5jef3")
+presented_evidence = Dictionary[ExtResource("1_ud6ii"), ExtResource("2_jmexl")]({
+ExtResource("6_3vuy4"): SubResource("Resource_wsv6x"),
+ExtResource("7_5jef3"): SubResource("Resource_esv6r")
+})
+failed_evidence = ExtResource("2_5jef3")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

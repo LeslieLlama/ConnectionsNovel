@@ -10,7 +10,8 @@
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_tk3o1"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_3g570"]
 [ext_resource type="Resource" uid="uid://qmldv21k0sgq" path="res://Evidence/Evidence/X_name.tres" id="8_hvmjx"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="11_1a17h"]
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_hvmjx")
@@ -126,13 +127,25 @@ script = ExtResource("6_xvaaq")
 lines = Array[ExtResource("3_hvmjx")]([SubResource("Resource_tt60m"), SubResource("Resource_1a17h"), SubResource("Resource_pw4o5"), SubResource("Resource_xvaaq"), SubResource("Resource_tk3o1"), SubResource("Resource_b5u0u"), SubResource("Resource_kpcj8"), SubResource("Resource_3edi8"), SubResource("Resource_xa0js"), SubResource("Resource_3g570"), SubResource("Resource_jixc3")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
+[sub_resource type="Resource" id="Resource_b428u"]
+script = ExtResource("3_hvmjx")
+line_type = 0
+text = "What the hell is that? Where you just carrying it around? God you're an awful detective no get that away from me!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ngupn"]
+script = ExtResource("6_xvaaq")
+lines = Array[ExtResource("3_hvmjx")]([SubResource("Resource_b428u")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
 [resource]
 script = ExtResource("8_3g570")
 location = ExtResource("2_uds17")
 character = ExtResource("1_pw4o5")
 main_conversation = SubResource("Resource_evdx8")
 presented_evidence = Dictionary[ExtResource("7_tk3o1"), ExtResource("6_xvaaq")]({
-ExtResource("7_pw4o5"): SubResource("Resource_48kee")
+ExtResource("7_pw4o5"): SubResource("Resource_48kee"),
+ExtResource("11_1a17h"): SubResource("Resource_ngupn")
 })
 failed_evidence = ExtResource("2_tt60m")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
