@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://j8dbc56faymo"]
+[gd_scene load_steps=3 format=3 uid="uid://j8dbc56faymo"]
+
+[ext_resource type="Texture2D" uid="uid://nwd7at3phnt0" path="res://Characters/Penguin/Sprites/PenguinSuitSprite.png" id="1_5ncov"]
+[ext_resource type="Texture2D" uid="uid://cy6x5wyv57ffu" path="res://Characters/Doctor/Sprites/DrAckulaDefaultSprite.png" id="2_3sr50"]
 
 [node name="LeslieArtTest" type="Control"]
 layout_mode = 3
@@ -8,3 +11,12 @@ anchors_preset = 0
 layout_mode = 0
 offset_right = 399.0
 offset_bottom = 650.0
+texture = ExtResource("1_5ncov")
+
+[node name="CharacterA2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 674.0
+offset_top = 4.0
+offset_right = 1148.0
+offset_bottom = 654.0
+texture = ExtResource("2_3sr50")
