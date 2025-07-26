@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=19 format=3 uid="uid://j4m1sti0nf5h"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_5ac2e"]
+[ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_vayf0"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_2qthx"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_4h8eu"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_2es5x"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_l3wyg"]
+[ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_mspri"]
+
+[sub_resource type="Resource" id="Resource_xuawc"]
+script = ExtResource("3_2es5x")
+speaker_sprite = ExtResource("4_mspri")
+line_type = 0
+text = "Oh hello there."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_40c3m"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "Say, are you familiar with the concept of \"Hirst's Shark\""
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_cm8ga"]
+script = ExtResource("3_2es5x")
+line_type = 1
+text = "I don't think we have that type of shark here, no."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_nv1up"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "No, no.
+Its not a type of shark, it's a famous thought experiment."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_impl5"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "Imagine you take a shark, and put it inside a glass tank filled with formaldehyde."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_hvh5m"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "Now, the question is: Is the shark dead, or is it alive?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_s4rw5"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "Until you open the tank it's impossible to know."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_evvpg"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "You could even say that the shark is both \"Alive\" and \"Dead\" at the same time."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3hhts"]
+script = ExtResource("3_2es5x")
+line_type = 0
+text = "It's interesting, isn't it?
+It's sort of like a murder, isn't it. Until the mystery is solved, the \"Truth\" is impossible to know. Almost as if all possibilities are true at the same time."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ewxlw"]
+script = ExtResource("3_2es5x")
+line_type = 1
+text = "(It was an interesting conversation, but I don't think it brought me any closer to solving this case.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_kxiis"]
+script = ExtResource("2_2qthx")
+lines = Array[ExtResource("3_2es5x")]([SubResource("Resource_xuawc"), SubResource("Resource_40c3m"), SubResource("Resource_cm8ga"), SubResource("Resource_nv1up"), SubResource("Resource_impl5"), SubResource("Resource_hvh5m"), SubResource("Resource_s4rw5"), SubResource("Resource_evvpg"), SubResource("Resource_3hhts"), SubResource("Resource_ewxlw")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_l3wyg")
+location = ExtResource("2_4h8eu")
+character = ExtResource("1_vayf0")
+main_conversation = SubResource("Resource_kxiis")
+presented_evidence = Dictionary[ExtResource("1_5ac2e"), ExtResource("2_2qthx")]({})
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"
