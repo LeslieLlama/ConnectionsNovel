@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CharacterSprite" load_steps=3 format=3 uid="uid://dfmhsjbbj6r44"]
+
+[ext_resource type="Resource" uid="uid://dryqk1h5lixaf" path="res://Characters/Ex/ex.tres" id="1_xqcni"]
+[ext_resource type="Script" uid="uid://cyi5t1mrsg6gp" path="res://Dialogue/Characters/character_sprite.gd" id="2_cl87w"]
+
+[resource]
+script = ExtResource("2_cl87w")
+character = ExtResource("1_xqcni")
+metadata/_custom_type_script = "uid://cyi5t1mrsg6gp"

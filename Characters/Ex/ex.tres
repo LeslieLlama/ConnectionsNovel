@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Character" load_steps=2 format=3 uid="uid://dryqk1h5lixaf"]
+
+[ext_resource type="Script" uid="uid://cn0ouqhl823wp" path="res://Dialogue/Characters/character.gd" id="1_6ixen"]
+
+[resource]
+script = ExtResource("1_6ixen")
+character_name = "X"
+metadata/_custom_type_script = "uid://cn0ouqhl823wp"

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Character" load_steps=2 format=3 uid="uid://cgyseqc5j8bx7"]
+
+[ext_resource type="Script" uid="uid://cn0ouqhl823wp" path="res://Dialogue/Characters/character.gd" id="1_pasgv"]
+
+[resource]
+script = ExtResource("1_pasgv")
+character_name = "Rival"
+metadata/_custom_type_script = "uid://cn0ouqhl823wp"
