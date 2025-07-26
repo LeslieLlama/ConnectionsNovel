@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"ae27ac407d2c9b3d","x":840,"y":-600,"width":400,"height":400,"type":"group","label":"Manager"},
+		{"id":"6e0faf7401ce6634","x":680,"y":-180,"width":400,"height":400,"type":"group","label":"Doctor"},
+		{"id":"c676163d1015b814","x":380,"y":-700,"width":300,"height":260,"type":"group","label":"Philanthropist - Victim"},
+		{"id":"a148e5d6682994a5","type":"group","x":380,"y":-1020,"width":300,"height":260,"label":"Janitor - Player character"},
+		{"id":"074286d7d6071e7b","x":400,"y":-680,"width":180,"height":60,"type":"text","text":"Evidence: None"},
+		{"id":"72a29f45d9c34774","x":860,"y":-580,"width":200,"height":60,"type":"text","text":"Evidence: Brochure"},
+		{"id":"26571ee51f2af8d6","x":860,"y":-480,"width":200,"height":60,"type":"text","text":"Gives: Fish notes"},
+		{"id":"7e35e44b6dc95e1f","x":720,"y":-80,"width":220,"height":60,"type":"text","text":"Evidence: Fish notes"},
+		{"id":"7214454c7656fb03","x":860,"y":-380,"width":250,"height":60,"type":"text","text":"Doctor: "},
+		{"id":"d96d057354e3835a","x":400,"y":-610,"width":250,"height":60,"type":"text","text":"Manager: Funded business"}
+	],
+	"edges":[
+		{"id":"3b59271a78c868d8","fromNode":"d96d057354e3835a","fromSide":"right","toNode":"ae27ac407d2c9b3d","toSide":"left"}
+	]
+}
