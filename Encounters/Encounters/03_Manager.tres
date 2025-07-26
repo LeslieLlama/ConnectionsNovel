@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=14 format=3 uid="uid://b43khd7yxo8xp"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=21 format=3 uid="uid://b43khd7yxo8xp"]
 
 [ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_8srfn"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_b4ptc"]
@@ -7,6 +7,8 @@
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="5_oe5aj"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="6_0shsl"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="7_8qh1e"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="7_kloxp"]
+[ext_resource type="Resource" uid="uid://bsa4b06wtv4e3" path="res://Evidence/Evidence/School photo.tres" id="8_8ph3q"]
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_kloxp")
@@ -47,10 +49,42 @@ script = ExtResource("5_oe5aj")
 lines = Array[ExtResource("3_kloxp")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_qrsvt")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
+[sub_resource type="Resource" id="Resource_oe5aj"]
+script = ExtResource("3_kloxp")
+line_type = 1
+text = "I talked to Sloan Shark, he said that Phil was taking 10%? You still got 90% that sounds pretty good?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0shsl"]
+script = ExtResource("3_kloxp")
+line_type = 0
+text = "Well yes, but this is a business and unfortunately not all of the money goes to me. You can't just put the fish in water and call it it a day sadly. They thrive in the ocean current, then you plop them into water and they just forget how to stay alive. I am a bit upset that you spoke to him first dear, you should've spoken to me first."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_8qh1e"]
+script = ExtResource("3_kloxp")
+line_type = 1
+text = "He wrote down notes about your finances, said they're not very good. Said that you took a bad deal?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5lclk"]
+script = ExtResource("3_kloxp")
+line_type = 0
+text = "Oh he did, did he? Well that's good to know that he has an opinion on my work. 10% is high yes, but I supposed that it was better than not having an aquarium. Another asset is better than no asset. I mean look at Dr Ackular, he asked Phil to fund a clinic he wanted to open but Phil declined. Said \"A blood clinic should be free to the public good.\" but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? What a strange thing to do. Here take this, I printed it out for a laugh, but maybe it'll help jog his memory."
+recieved_evidence = ExtResource("8_8ph3q")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_in54i"]
+script = ExtResource("5_oe5aj")
+lines = Array[ExtResource("3_kloxp")]([SubResource("Resource_oe5aj"), SubResource("Resource_0shsl"), SubResource("Resource_8qh1e"), SubResource("Resource_5lclk")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
 [resource]
 script = ExtResource("7_8qh1e")
 location = ExtResource("2_b4ptc")
 character = ExtResource("1_8srfn")
 main_conversation = SubResource("Resource_evdx8")
-presented_evidence = Dictionary[ExtResource("6_0shsl"), ExtResource("5_oe5aj")]({})
+presented_evidence = Dictionary[ExtResource("6_0shsl"), ExtResource("5_oe5aj")]({
+ExtResource("7_kloxp"): SubResource("Resource_in54i")
+})
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
