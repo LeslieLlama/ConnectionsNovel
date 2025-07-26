@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=19 format=3 uid="uid://j4m1sti0nf5h"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=20 format=3 uid="uid://j4m1sti0nf5h"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_5ac2e"]
 [ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_vayf0"]
+[ext_resource type="Resource" uid="uid://ca43q26gjkkyo" path="res://Characters/MarineBio/failure_dialogue.tres" id="2_2es5x"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_2qthx"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_4h8eu"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_2es5x"]
@@ -82,4 +83,5 @@ location = ExtResource("2_4h8eu")
 character = ExtResource("1_vayf0")
 main_conversation = SubResource("Resource_kxiis")
 presented_evidence = Dictionary[ExtResource("1_5ac2e"), ExtResource("2_2qthx")]({})
+failed_evidence = ExtResource("2_2es5x")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

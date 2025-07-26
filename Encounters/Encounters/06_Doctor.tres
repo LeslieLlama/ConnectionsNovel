@@ -1,13 +1,14 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://jaj1lrwkneo"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=23 format=3 uid="uid://jaj1lrwkneo"]
 
 [ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_1vvj1"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_7k2de"]
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="2_1n7pa"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_467nl"]
+[ext_resource type="Resource" uid="uid://67bc2k8jvmg3" path="res://Characters/Doctor/failure_dialogue.tres" id="2_tvbeo"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_7stp4"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_bl4wd"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="4_76xl2"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
+[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_76xl2"]
 [ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="9_tvbeo"]
 
@@ -87,4 +88,5 @@ presented_evidence = Dictionary[ExtResource("1_7k2de"), ExtResource("2_467nl")](
 ExtResource("7_1n7pa"): SubResource("Resource_p23s4"),
 ExtResource("8_76xl2"): SubResource("Resource_junhf")
 })
+failed_evidence = ExtResource("2_tvbeo")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

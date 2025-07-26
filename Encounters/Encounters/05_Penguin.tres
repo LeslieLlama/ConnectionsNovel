@@ -1,15 +1,16 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=26 format=3 uid="uid://dpjk246i14euo"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=27 format=3 uid="uid://dpjk246i14euo"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_cu7ke"]
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_xqejd"]
 [ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="2_aejcf"]
+[ext_resource type="Resource" uid="uid://cbnutpw8g4ygd" path="res://Characters/Penguin/failure_dialogue.tres" id="2_naght"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_ysgy1"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_m064u"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_odaot"]
 [ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="4_naght"]
 [ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="7_wxd5h"]
 [ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="8_7j1ip"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_aejcf"]
+[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_aejcf"]
 [ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="10_m064u"]
 
 [sub_resource type="Resource" id="Resource_h50a5"]
@@ -106,4 +107,5 @@ presented_evidence = Dictionary[ExtResource("1_cu7ke"), ExtResource("2_ysgy1")](
 ExtResource("7_wxd5h"): SubResource("Resource_0gfnj"),
 ExtResource("10_m064u"): SubResource("Resource_wxd5h")
 })
+failed_evidence = ExtResource("2_naght")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
