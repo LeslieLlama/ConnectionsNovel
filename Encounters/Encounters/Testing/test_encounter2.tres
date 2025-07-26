@@ -11,7 +11,7 @@
 
 [sub_resource type="Resource" id="Resource_pfr0u"]
 script = ExtResource("2_dnjov")
-is_player_speaking = false
+line_type = 0
 text = "Incorrect, this evidence is wrong..."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
@@ -23,7 +23,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 [sub_resource type="Resource" id="Resource_t186i"]
 script = ExtResource("2_dnjov")
 speaker_sprite = ExtResource("6_tc6al")
-is_player_speaking = false
+line_type = 0
 text = "Hello, this is a longer textbox
 
 More text"
@@ -32,7 +32,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_k63om"]
 script = ExtResource("2_dnjov")
-is_player_speaking = true
+line_type = 1
 text = "Hi"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
@@ -43,7 +43,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_1lqv8"]
 script = ExtResource("2_dnjov")
-is_player_speaking = false
+line_type = 0
 text = "Correct!
 This is the correct evidence."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
