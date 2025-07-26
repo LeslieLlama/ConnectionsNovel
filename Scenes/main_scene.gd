@@ -32,16 +32,20 @@ func do_conversation(conversation: Conversation):
 	dialogue_scene.queue_free()
 
 func do_encounter(encounter: Encounter):
+	MusicManager.play_track(MusicManager.AQUATIC_CONNECTION)
 	var dialogue_scene = DIALOGUE_SCENE.instantiate()
 	add_child(dialogue_scene)
 	await dialogue_scene.do_encounter(encounter)
+	MusicManager.stop_track()
 	await screen_transition()
 	dialogue_scene.queue_free()
 
 func show_map(time_slot: TimeSlot) -> Encounter:
+	MusicManager.play_track(MusicManager.CONNECT_THE_DOTS)
 	var map_scene = MAP_SCENE.instantiate()
 	add_child(map_scene)
 	var encounter = await map_scene.display_encounter_choices(time_slot)
+	MusicManager.stop_track()
 	await screen_transition()
 	map_scene.queue_free()
 	

@@ -1,7 +1,8 @@
 extends AudioStreamPlayer
 const AQUATIC_CONNECTION = preload("res://Assets/Music/AquaticConnection.ogg")
+const CONNECT_THE_DOTS = preload("res://Assets/Music/ConnectTheDots.ogg")
 
-const FADE_OUT_TIME = 1
+const FADE_OUT_TIME = 0.4
 var tween: Tween
 
 func stop_track():
