@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c7a2x6q7cvsvm"]
+[gd_scene load_steps=5 format=3 uid="uid://c7a2x6q7cvsvm"]
 
 [ext_resource type="Theme" uid="uid://dv7j8wq7gkng7" path="res://Themes/FishTheme.tres" id="1_4i2g3"]
 [ext_resource type="Script" uid="uid://cf527jcdhxsmj" path="res://Dialogue/DialogueScene/dialogue_scene.gd" id="1_r85g1"]
 [ext_resource type="Texture2D" uid="uid://dxvmd0jgs6wqm" path="res://Characters/Penguin/Sprites/PenguinSuitSprite.png" id="2_r85g1"]
+[ext_resource type="AudioStream" uid="uid://cjxxlo2e0bveo" path="res://Assets/SFX/SelectTick.wav" id="4_ti2d6"]
 
 [node name="DialogueScene" type="Control"]
 layout_mode = 3
@@ -86,3 +87,8 @@ layout_mode = 2
 unique_name_in_owner = true
 layout_mode = 2
 text = "Penguin of the"
+
+[node name="NextSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_ti2d6")
+
+[connection signal="next_textbox" from="." to="NextSound" method="play"]

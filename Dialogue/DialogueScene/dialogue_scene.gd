@@ -15,6 +15,7 @@ var text_tween: Tween
 const TEXT_SPEED: float = 0.02
 
 signal text_advanced
+signal next_textbox
 
 func do_encounter(encounter: Encounter):
 	background.texture = encounter.location.background
@@ -50,8 +51,6 @@ func switch_background(new_background: Texture2D):
 	
 
 func display_line(line: ConversationLine):
-	textbox.show()
-	textbox.text = line.text
 	if line.update_background:
 		switch_background(line.update_background)
 	
@@ -68,8 +67,21 @@ func display_line(line: ConversationLine):
 	else:
 		name_container.hide()
 	
+	for text_chunk in line.text.split("\n\n"):
+		await display_textbox(text_chunk)
+	
+	if line.consumed_evidence:
+		Inventory.remove_evidence(line.consumed_evidence)
+		
+	if line.recieved_evidence:
+		Inventory.add_evidence(line.recieved_evidence)
+
+func display_textbox(text: String):
+	textbox.show()
+	textbox.text = text
+	
 	if Input.is_action_pressed("skip"):
-		textbox.visible_characters = len(line.text)
+		textbox.visible_characters = len(text)
 		await get_tree().create_timer(0.1).timeout
 	else:
 		textbox.visible_characters = 0
@@ -77,22 +89,18 @@ func display_line(line: ConversationLine):
 			text_tween.kill()
 		
 		text_tween = create_tween()
-		text_tween.tween_property(textbox, "visible_characters", len(line.text), TEXT_SPEED*len(line.text))
+		text_tween.tween_property(textbox, "visible_characters", len(text), TEXT_SPEED*len(text))
 		
 		await wait_for_text_advancement()
 		
-		if textbox.visible_characters < len(line.text):
+		if textbox.visible_characters < len(text):
 			text_tween.kill()
-			textbox.visible_characters = len(line.text)
+			textbox.visible_characters = len(text)
 			
 			await wait_for_text_advancement()
-		
-	if line.consumed_evidence:
-		Inventory.remove_evidence(line.consumed_evidence)
-		
-	if line.recieved_evidence:
-		Inventory.add_evidence(line.recieved_evidence)
-		
+			
+	next_textbox.emit()
+	
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("advance"):
 		text_advanced.emit()
