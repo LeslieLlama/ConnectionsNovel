@@ -5,5 +5,8 @@
 
 ### School photo
 
-### Murder weapon
+### Bucket of meat
 - Received at the start.
+- Action: Present to Dr Ackular to find the ring
+### X's ring
+- Found: Present bucket of meat to Dr Ackular
