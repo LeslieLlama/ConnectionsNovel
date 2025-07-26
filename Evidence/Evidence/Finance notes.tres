@@ -4,5 +4,5 @@
 
 [resource]
 script = ExtResource("1_p02rc")
-evidence_name = "Business card"
+evidence_name = "Finance notes"
 metadata/_custom_type_script = "uid://dud2ohjq2nnl2"
