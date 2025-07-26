@@ -1,23 +1,19 @@
-Dialogue options
-
-### Mechanics
+## Mechanics
 - Encounter
 - Conversation
 - Presented_evidence [Evidence, Conversation]
 - Failed_evidence [Conversation] - "I don't know anything about that, goodbye"
-### Back and forth scene
+## Notes
 - No set order
 - Could miss clues depending on who you talk to
 - Each hour you have x amount of characters you can talk to
 - You have to choose which evidence to show to get the right option.
-
-Show evidence once per scene
-#### To remember
+- Show evidence once per scene
 - Keep them short!
 #### Todo
 - Add red hearings
 - Add other branches
-#### Intro
+## Intro
 Stick with just the names first, not titles.
 "Grand opening night! The aquarium is filled with eclectic figures!"
 0) "Phil Anthropist! The great benevolent benefactor, without him, the aquarium could never exist!"
@@ -26,9 +22,18 @@ Stick with just the names first, not titles.
 3) "The **Rival Aquarium Owner**. Visiting the aquarium on the grand opening night."
 4) " Her beautiful dress barely touches the floor."
 5) "**Dr Ackular**. Standing proud, looking very smart in his great coat""
-6) "Our Humble hero Jan! Keeping the aquarium clean, staying out of way in the maintainance closet. Putting up his map while listening to murder mystery podcasts"
-### First branch
-#### 1) Hour 1
+6) "Our Humble hero Jan! Keeping the aquarium clean, staying out of way in the maintenance closet. Putting up his map while listening to murder mystery podcasts"
+
+"Ahhhhh!!!!!! There's a dead body in the shark tank!"
+
+"A dead body? In the shark tank! That could only mean one thing... A MURDER MYSTERY IS A FOOT!"
+
+"Our humble hero, picks up a mighty wrench and swings it at the fuse box! The wrench crashes against the box, sparks fly. In the distance...the main entrance door slam shuts! In the other direction, the loading bay door slams shut too!"
+
+Jann: *Grabs the intercom* "EVERYONE LISTEN! A MURDER IS A FOOT! NOBODY GETS IN AND NOBODY GETS OUT UNTIL THE MURDERER IS FOUND!"
+*end intro scene*
+## First branch
+#### 1) Hour 1 - Marine Beeologist
 You talk to the Marine Biologist
 - MB: "This is absolutely terrible! I can't believe this is happening. I really hope the fish are going to be okay..."
 - JC: "Did you see anything? Are you going to be okay?"
@@ -40,9 +45,8 @@ You talk to the Marine Biologist
 - *You reach into the bin and grab the business card and add it to the evidence*
 - MB: "I hope it's helpful"
 - *end scene*
-
-2) Hour 2
-Talk to the rival manager
+#### 2) Hour 2 - Rival manager
+**Talk to the rival manager**
 - RM: "What an incredible aquarium! Such a shame all of these fish and equipment to go to waste...must of cost a fortune!"
 - JC: "Did you know the victim?"
 - RM: "Oh right, yes" *he adjusts his jacket* "Quite a shame. But I suppose that's what happens when you don't make safe investments".
@@ -57,19 +61,141 @@ Talk to the rival manager
 - **Evidence shown: Present the card**
 - JC: "Oh good you have my card. Fantastic. That strumpet Marine must of given it to you. I really can't believe she wore that dress. I really was trying to give her advice on a better one."
 - RM: "Did you kill Phil to steal the fish?"
-- JC: "Wow. Straight to the accusation? You really shouldn't show you card now. No. I didn't. Are you kidding me? Murder? How could I run my business at all from prison. Look, if you want my help, go talk to the manager. Have you even done that yet? I'm sure he would love to help. Can't imagine how he'd pay off his loan after this lot. Here, take these notes, I've been recording his finances and I have a few things to talk to him about."
+- JC: "Wow. Straight to the accusation? You really shouldn't show you card now. No. I didn't. Are you kidding me? Murder? How could I run my business at all from prison. Look, if you want my help, go talk to the manager. Have you even done that yet? I'm sure he would love to help. Can't believe he accepted a 10% share. With my help he could've got 3% easy. Here, take these notes, I've been recording his finances and I have a few things to talk to him about."
 - **RM reaches into his chest pocket,  pulls out notes in a small folder and hands it to you**
-- RM: "Please let me know what he thinks."
-
-2) Hour 3 - Talk to the manager
-Talk to the manager
-- They talk about how this is bad for business and you're fired for breaking the locks
-- **You present the new fish brochure**
-- They talk about the new fish, about how they've been working on it with the doctor. They give you notes on the fish 
-- **Evidence received:** New fish notes
-
-4) Hour 4
+- RM: "Please let me know what he thinks. He's probably absolutely thrilled that Phil isn't getting a cut anymore" *RM thinks for a bit* "...that slimy bastard"
+- *You leave the room*
+#### 3) Hour 3 -Man Ager
+***Talk to the manager***
+- M: "I can't believe you broke the locks! What a stupid thing to do! As soon as this is all over you're fired!"
+- JC: "Did you know the victim?"
+- M: "Oh shut up. What is this? Are you some kind of detective? Just get out!"
+- JC: "Sir I need to know, this is important, we need to find the killer"
+- M: "To hell with the killer! God this is terrible for business...yes, fine, yes I did. Without him we wouldn't have the aquarium. He funded it! Except the bastard wanted a cut! Oh so kind and generous, he wanted 10%! 10%??? Do you know how much that is? The margins here are thin enough as it is!"
+- *Present evidence: finances*
+- JC: "I talked to RM, he said that Phil was taking 10%? You still get 90% that sounds pretty good?"
+- M: "Oh for goodness sake of course you spoke to him. Wait you spoke to him first! You bastard!"
+- JC: "He wrote down notes about your finances, said they're not very good. Said that you took a bad deal?"
+- M: "Yes, okay yes they're not good, but what was I going to do? Not have an aquarium? Look around, I couldn't do any of this! Look if you want advice? Go to talk to the Dr. I heard that he asked Phil to fund a clinic he opened, put a lot of effort into that. But Phil declined, said "A blood clinic should be free to the public good." but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? Why? What a strange thing to do.
+- **Evidence received:** School photo
+#### 4) Hour 4 - Dr Ackular
 Talk to the doctor
-- Doctor talks about how they are sad that the clinic is dying, and wonders what will happen to all of the fish
-- **You present the fish notes**
-- They talk about how they helped with 
+- Dr: "How dreadful about this aquarium....absolutely dreadful....I wonder what will happen to all the fish? Would be a shame for them to all go to waste..."
+- Jan: "Did you know the victim?"
+- Dr: "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
+- *Present: school photo*
+- Jan: "I spoke to the manager, he said you went to school with Phil?"
+- Dr: "Oh DID he know? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
+- Jan: "He said you wanted to open a new clinic?"
+- Dr: "Yes...I did....and the mighty Phill, what did he do when I offered the opportunity for people to give blood? He said no!"
+- Jan: "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhumane"
+- Dr: "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. That rich blood, oh yes, let's just give it away! And now look at Phil, floating in that pool. Good thing he died, not a drop to go around!"
+- Jan: "You killed him for that?"
+- Dr: "Oh goodness no, what good would that do. Killing him won't give me my clinic. Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
+- Jan: "You know them? What was the name of that perfume? Could be a clue?"
+- Dr: "Do you have a pen and paper? You'd butcher the pronunciation if I told you"
+- *Evidence received: mysterious perfume*
+- Dr: "Ask the penguin if that's the right one. It's very hard to come by and I'd love to know where they got it"
+- *You leave the room*
+#### 5) Hour 5 - Penguin suit
+**Talk to the person in the penguin suit**
+- *The penguin suit stares at you*
+- Jan: "Did you know the victim?"
+- *The penguin suit covers it's hand with it's wings and shakes it's head.*
+- **Show evidence: mysterious perfume**
+- Jan: "Hi, I noticed you're wearing a perfume, is this the right name of it?" *You awkwardly hold the note by the eyes of the penguin. You think it might be the right height?*
+- *The penguin suits starts to shake! Then bursts open!*
+- Ex: "AHHH YOU HAVE FOUNNNNND MEEEEE!!!! IT IS I! THE MYSTERIOUS, ENIGMATIC, BEAUTIFUL, EX!!!!!!"
+- Jan: *You jump back startled* "Oh!!! Hello! Uh, nice to meet you! Did you happen to know the victim?"
+- Ex: "Did I know them??? Did I KNOW THEM! Oh my, my my, yes I suppose I could have...in a different life...."
+#### 6) Hour 6 - Dr Ackular
+***You return to Dr Ackular***
+- Dr: "Hello again, did you ask the penguin about the perfume?"
+- Jan: "Why yes I did. When I showed her the note, the suit burst open and Ex jumped out. If asked if she knew him and she said she could have, in a different life?"
+- Dr: "My goodness! Ex! She is here? Hmmmm, how intriguing....Yes, they were married once. Lovely couple. Divorced sadly...some dispute...I heard she wanted to fund a horrible think tank, just to get more stories for her news agency. Phil absolutely went livid, said he couldn't believe it. Divorced her on the spot! Well, announced it. The ceremony and page singing came later...but it was still done."
+- 
+#### 7) End! Accuse!
+## Second branch
+#### 1) Hour 1 - Marine Beeologist
+You talk to the Marine Biologist
+- MB: "This is absolutely terrible! I can't believe this is happening. I really hope the fish are going to be okay..."
+- JC: "Did you see anything? Are you going to be okay?"
+- MB: "Yeah I'm okay... I just hope the fish are going to be okay. The tanks, these are specialist tanks you know? A lot of money has been put into this. These fish were brought from all over the world, with enclosures made specifically for them. Yes sorry, no I didn't see anything. Just mingling with the crowd. Oh god, I bet they're going to go to that other awful aquarium. I bet it's all he's thinking about."
+- "Who's thinking about the fish?"
+- "That awful man over there in that awful turtle neck. Thinks he's some genius. He owns multiple businesses around town, including an aquarium. He even came up to me to show photos of the gift shop! I don't give a shit about your gift shop!"
+- "He own's an aquarium? You think he did it?"
+- "God, maybe, he even gave me his business card. I threw it in the bin if you want it."
+- *You reach into the bin and grab the business card and add it to the evidence*
+- MB: "I hope it's helpful"
+- *end scene*
+#### 2) Hour 2 - Rival manager
+**Talk to the rival manager**
+- RM: "What an incredible aquarium! Such a shame all of these fish and equipment to go to waste...must of cost a fortune!"
+- JC: "Did you know the victim?"
+- RM: "Oh right, yes" *he adjusts his jacket* "Quite a shame. But I suppose that's what happens when you don't make safe investments".
+- JC: "Safe investments?"
+- RM: "Oh yes, he had this stupid idea that he could 'change the world!' shift society in a different more...'egalatarian' view... I suppose when you are just given wealth, then how could you respect it."
+- JC: "Given wealth?"
+- RM: "You *really* don't know much at all do you? Sorry who are you?"
+- KC: "In the janitor, and I'm going to solve this mystery!"
+- RM: "How quant. Well, his parents died and he inherited their wealth. Spending it everywhere. If he just took my advice and invested in other things he would have so much more to invest in his playthings. But oh well. Anyway, can't believe you broke the doors. Any chance I could get out?".
+- KC: "Not until the killer is found"
+- RM: "Well good luck with that"
+- **Evidence shown: Present the card**
+- JC: "Oh good you have my card. Fantastic. That strumpet Marine must of given it to you. I really can't believe she wore that dress. I really was trying to give her advice on a better one."
+- RM: "Did you kill Phil to steal the fish?"
+- JC: "Wow. Straight to the accusation? You really shouldn't show you card now. No. I didn't. Are you kidding me? Murder? How could I run my business at all from prison. Look, if you want my help, go talk to the manager. Have you even done that yet? I'm sure he would love to help. Can't believe he accepted a 10% share. With my help he could've got 3% easy. Here, take these notes, I've been recording his finances and I have a few things to talk to him about."
+- **RM reaches into his chest pocket,  pulls out notes in a small folder and hands it to you**
+- RM: "Oh and while you're out there, that penguin, I could have sworn I recognised that perfume. Here, I have written it down on my business cardPlease let me know what he thinks. He's probably absolutely thrilled that Phil isn't getting a cut anymore" *RM thinks for a bit* "...that slimy bastard"
+- 
+- *You leave the room*
+#### 3) Hour 3 -Man Ager
+***Talk to the manager***
+- M: "I can't believe you broke the locks! What a stupid thing to do! As soon as this is all over you're fired!"
+- JC: "Did you know the victim?"
+- M: "Oh shut up. What is this? Are you some kind of detective? Just get out!"
+- JC: "Sir I need to know, this is important, we need to find the killer"
+- M: "To hell with the killer! God this is terrible for business...yes, fine, yes I did. Without him we wouldn't have the aquarium. He funded it! Except the bastard wanted a cut! Oh so kind and generous, he wanted 10%! 10%??? Do you know how much that is? The margins here are thin enough as it is!"
+- *Present evidence: finances*
+- JC: "I talked to RM, he said that Phil was taking 10%? You still get 90% that sounds pretty good?"
+- M: "Oh for goodness sake of course you spoke to him. Wait you spoke to him first! You bastard!"
+- JC: "He wrote down notes about your finances, said they're not very good. Said that you took a bad deal?"
+- M: "Yes, okay yes they're not good, but what was I going to do? Not have an aquarium? Look around, I couldn't do any of this! Look if you want advice? Go to talk to the Dr. I heard that he asked Phil to fund a clinic he opened, put a lot of effort into that. But Phil declined, said "A blood clinic should be free to the public good." but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? Why? What a strange thing to do.
+- **Evidence received:** School photo
+#### 4) Hour 4 - Dr Ackular
+Talk to the doctor
+- Dr: "How dreadful about this aquarium....absolutely dreadful....I wonder what will happen to all the fish? Would be a shame for them to all go to waste..."
+- Jan: "Did you know the victim?"
+- Dr: "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
+- *Present: school photo*
+- Jan: "I spoke to the manager, he said you went to school with Phil?"
+- Dr: "Oh DID he know? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
+- Jan: "He said you wanted to open a new clinic?"
+- Dr: "Yes...I did....and the mighty Phill, what did he do when I offered the opportunity for people to give blood? He said no!"
+- Jan: "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhumane"
+- Dr: "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. That rich blood, oh yes, let's just give it away! And now look at Phil, floating in that pool. Good thing he died, not a drop to go around!"
+- Jan: "You killed him for that?"
+- Dr: "Oh goodness no, what good would that do. Killing him won't give me my clinic. Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
+- Jan: "You know them? What was the name of that perfume? Could be a clue?"
+- Dr: "Do you have a pen and paper? You'd butcher the pronunciation if I told you"
+- *Evidence received: mysterious perfume*
+- Dr: "Ask the penguin if that's the right one. It's very hard to come by and I'd love to know where they got it"
+- *You leave the room*
+#### 5) Hour 5 - Penguin suit
+**Talk to the person in the penguin suit**
+- *The penguin suit stares at you*
+- Jan: "Did you know the victim?"
+- *The penguin suit covers it's hand with it's wings and shakes it's head.*
+- **Show evidence: mysterious perfume**
+- Jan: "Hi, I noticed you're wearing a perfume, is this the right name of it?" *You awkwardly hold the note by the eyes of the penguin. You think it might be the right height?*
+- *The penguin suits starts to shake! Then bursts open!*
+- Ex: "AHHH YOU HAVE FOUNNNNND MEEEEE!!!! IT IS I! THE MYSTERIOUS, ENIGMATIC, BEAUTIFUL, EX!!!!!!"
+- Jan: *You jump back startled* "Oh!!! Hello! Uh, nice to meet you! Did you happen to know the victim?"
+- Ex: "Did I know them??? Did I KNOW THEM! Oh my, my my, yes I suppose I could have...in a different life...."
+#### 6) Hour 6 - Dr Ackular
+***You return to Dr Ackular***
+- Dr: "Hello again, did you ask the penguin about the perfume?"
+- Jan: "Why yes I did. When I showed her the note, the suit burst open and Ex jumped out. If asked if she knew him and she said she could have, in a different life?"
+- Dr: "My goodness! Ex! She is here? Hmmmm, how intriguing....Yes, they were married once. Lovely couple. Divorced sadly...some dispute...I heard she wanted to fund a horrible think tank, just to get more stories for her news agency. Phil absolutely went livid, said he couldn't believe it. Divorced her on the spot! Well, announced it. The ceremony and page singing came later...but it was still done."
+- 
+#### 7) End! Accuse
