@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=16 format=3 uid="uid://bxrfhiwbeq05h"]
+
+[ext_resource type="Resource" uid="uid://d10iyajlsd0y2" path="res://Characters/Placeholder/placeholder.tres" id="1_7g05v"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="2_dnjov"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="3_t0jhy"]
+[ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="4_7g05v"]
+[ext_resource type="Resource" uid="uid://ckbodbrcnxq0d" path="res://Evidence/Evidence/test_evidence.tres" id="5_v8tvl"]
+[ext_resource type="Resource" uid="uid://cjbau02eww67w" path="res://Characters/Placeholder/Sprites/placeholder_default.tres" id="6_tc6al"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_akfaq"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_t6yix"]
+
+[sub_resource type="Resource" id="Resource_pfr0u"]
+script = ExtResource("2_dnjov")
+is_player_speaking = false
+text = "Incorrect, this evidence is wrong..."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o71hc"]
+script = ExtResource("3_t0jhy")
+lines = Array[ExtResource("2_dnjov")]([SubResource("Resource_pfr0u")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_t186i"]
+script = ExtResource("2_dnjov")
+speaker_sprite = ExtResource("6_tc6al")
+is_player_speaking = false
+text = "Hello, this is a longer textbox
+
+More text"
+recieved_evidence = ExtResource("5_v8tvl")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_k63om"]
+script = ExtResource("2_dnjov")
+is_player_speaking = true
+text = "Hi"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bq65m"]
+script = ExtResource("3_t0jhy")
+lines = Array[ExtResource("2_dnjov")]([SubResource("Resource_t186i"), SubResource("Resource_k63om")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_1lqv8"]
+script = ExtResource("2_dnjov")
+is_player_speaking = false
+text = "Correct!
+This is the correct evidence."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_mfecf"]
+script = ExtResource("3_t0jhy")
+lines = Array[ExtResource("2_dnjov")]([SubResource("Resource_1lqv8")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("8_t6yix")
+location = ExtResource("4_7g05v")
+character = ExtResource("1_7g05v")
+main_conversation = SubResource("Resource_bq65m")
+presented_evidence = Dictionary[ExtResource("7_akfaq"), ExtResource("3_t0jhy")]({
+ExtResource("5_v8tvl"): SubResource("Resource_mfecf")
+})
+failed_evidence = SubResource("Resource_o71hc")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

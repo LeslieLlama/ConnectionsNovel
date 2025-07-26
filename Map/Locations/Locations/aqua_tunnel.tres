@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://careb6xuaup2s"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_jiwjr"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_6c6oh"]
+
+[resource]
+script = ExtResource("2_6c6oh")
+location_name = "Aqua Tunnel"
+background = ExtResource("1_jiwjr")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"

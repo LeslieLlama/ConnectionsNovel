@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://0r7g5re4qwhx"]
+
+[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_8fyef"]
+[ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_htwmj"]
+
+[resource]
+script = ExtResource("2_htwmj")
+location_name = "Small Creature Exhibit"
+background = ExtResource("1_8fyef")
+metadata/_custom_type_script = "uid://2el1q03jh0uy"
