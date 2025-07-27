@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=21 format=3 uid="uid://cl8uc4qy3e7w6"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=22 format=3 uid="uid://cl8uc4qy3e7w6"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_72ic1"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_6d7l6"]
 [ext_resource type="AudioStream" uid="uid://cvcc06fw22nlj" path="res://Assets/Music/GrandOpening.ogg" id="2_lunxg"]
 [ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="3_0loaf"]
 [ext_resource type="Resource" uid="uid://bo5i4aygiw3ho" path="res://Characters/PodcastHost/podcast_host_default.tres" id="3_lunxg"]
+[ext_resource type="Texture2D" uid="uid://cgbdpjx8isr3s" path="res://Assets/Backgrounds/PodcastBackground.png" id="4_rsbj1"]
 [ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="4_yicpf"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_goekv"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_ys7v5"]
@@ -16,6 +17,7 @@ script = ExtResource("1_72ic1")
 speaker_sprite = ExtResource("3_lunxg")
 line_type = 1
 text = "... and that's the story of how I caught the killer."
+update_background = ExtResource("4_rsbj1")
 change_bgm = ExtResource("2_lunxg")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 

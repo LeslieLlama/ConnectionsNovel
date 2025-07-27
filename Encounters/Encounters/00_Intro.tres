@@ -1,9 +1,10 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=33 format=3 uid="uid://d35uxlicatg4v"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=35 format=3 uid="uid://d35uxlicatg4v"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_n7ltg"]
 [ext_resource type="AudioStream" uid="uid://cvcc06fw22nlj" path="res://Assets/Music/GrandOpening.ogg" id="2_x1gnk"]
 [ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="3_x1gnk"]
+[ext_resource type="Texture2D" uid="uid://bm3yc5r2joyne" path="res://Assets/Backgrounds/FoyerBackground.png" id="4_378lr"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_d2e85"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_lma1i"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="6_wgyij"]
@@ -14,12 +15,14 @@
 [ext_resource type="Texture2D" uid="uid://nl4ryfm6wwcx" path="res://Assets/Backgrounds/SharkMurderScene.png" id="11_xf7la"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="12_4fvrl"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="13_nmr7s"]
+[ext_resource type="Texture2D" uid="uid://begqlhx60c6vd" path="res://Assets/Backgrounds/MatinenceClosetBackground.png" id="13_o5bqp"]
 
 [sub_resource type="Resource" id="Resource_l18ce"]
 script = ExtResource("1_n7ltg")
 speaker_sprite = ExtResource("2_xf7la")
 line_type = 2
 text = "Grand opening night! The aquarium is filled with eclectic figures!"
+update_background = ExtResource("4_378lr")
 change_bgm = ExtResource("2_x1gnk")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
@@ -94,12 +97,14 @@ text = "Our humble hero, picks up a mighty wrench and swings it at the fuse box!
 The wrench crashes against the box, sending sparks flying!
 
 In the distance...the main entrance door slam shuts! In the other direction, the loading bay door slams shut too!"
+update_background = ExtResource("13_o5bqp")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_378lr"]
 script = ExtResource("1_n7ltg")
 line_type = 1
 text = "EVERYONE LISTEN! A MURDER IS A FOOT! NOBODY GETS IN AND NOBODY GETS OUT UNTIL THE MURDERER IS FOUND!"
+update_background = ExtResource("4_378lr")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_o5bqp"]

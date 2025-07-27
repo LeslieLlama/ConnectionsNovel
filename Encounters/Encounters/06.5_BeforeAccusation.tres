@@ -1,14 +1,16 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=9 format=3 uid="uid://bx60hjddwf3vp"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=10 format=3 uid="uid://bx60hjddwf3vp"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_sktij"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_i353o"]
 [ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="2_pil2m"]
+[ext_resource type="Texture2D" uid="uid://begqlhx60c6vd" path="res://Assets/Backgrounds/MatinenceClosetBackground.png" id="3_pil2m"]
 
 [sub_resource type="Resource" id="Resource_20epx"]
 script = ExtResource("1_sktij")
 speaker_sprite = ExtResource("2_pil2m")
 line_type = 1
 text = "Alright..."
+update_background = ExtResource("3_pil2m")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_b6qbb"]
