@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=27 format=3 uid="uid://dpjk246i14euo"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://dpjk246i14euo"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_cu7ke"]
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_xqejd"]
@@ -59,14 +59,16 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 script = ExtResource("3_m064u")
 speaker_sprite = ExtResource("8_7j1ip")
 line_type = 0
-text = "AHHH YOU HAVE FOUNNNNND MEEEEE!!!! IT IS I! THE MYSTERIOUS, ENIGMATIC, BEAUTIFUL, X!!!!!!"
+text = "Hello, yes sorry for that, it is indeed time I reveal myself, would be silly to continue in that awful suit.
+
+Allow me to introduce myself. My name is X."
 recieved_evidence = ExtResource("8_aejcf")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_risml"]
 script = ExtResource("3_m064u")
 line_type = 2
-text = "(I jumped back, startled.)"
+text = "You jump back startled."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_ynust"]
@@ -78,12 +80,18 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_v3emg"]
 script = ExtResource("3_m064u")
 line_type = 0
-text = "Did I know them??? Did I KNOW THEM! Oh my, my my, yes I suppose I could have...in a different life...."
+text = "Did I know them? Yes, I suppose I could have...in a different life...."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7j1ip"]
+script = ExtResource("3_m064u")
+line_type = 2
+text = "Confused, you head back to the maintainance closet."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_0gfnj"]
 script = ExtResource("2_ysgy1")
-lines = Array[ExtResource("3_m064u")]([SubResource("Resource_decg5"), SubResource("Resource_m064u"), SubResource("Resource_7dsix"), SubResource("Resource_xlgmn"), SubResource("Resource_risml"), SubResource("Resource_ynust"), SubResource("Resource_v3emg")])
+lines = Array[ExtResource("3_m064u")]([SubResource("Resource_decg5"), SubResource("Resource_m064u"), SubResource("Resource_7dsix"), SubResource("Resource_xlgmn"), SubResource("Resource_risml"), SubResource("Resource_ynust"), SubResource("Resource_v3emg"), SubResource("Resource_7j1ip")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_naght"]

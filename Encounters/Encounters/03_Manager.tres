@@ -55,7 +55,7 @@ script = ExtResource("3_kloxp")
 line_type = 0
 text = "Alright dear slow down. Yes without him we wouldn't have the aquarium. 
 
-He founded the whole thing."
+He funded the whole thing."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_evdx8"]
@@ -74,7 +74,7 @@ script = ExtResource("3_kloxp")
 line_type = 0
 text = "Well yes, but this is a business and unfortunately not all of the money goes to me. 
 
-You can't just put the fish in water and call it it a day sadly. They thrive in the ocean current, then you plop them into water and they just forget how to stay alive. 
+You can't just put the fish in water and call it it a day sadly. They thrive in the ocean current, then you plop them into safe tank of water and they just forget how to stay alive. 
 
 I am a bit upset that you spoke to him first dear, you should've spoken to me first."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
@@ -92,9 +92,11 @@ text = "Oh he did, did he? Well that's good to know that he has an opinion on my
 
 10% is high yes, but I supposed that it was better than not having an aquarium. Another asset is better than no asset. 
 
-I mean look at Dr Ackular, he asked Phil to fund a clinic he wanted to open but Phil declined. Said \"A blood clinic should be free to the public good.\" but Dr Ackular wanted to make it profitable. 
+I mean look at Dr Ackular, he asked Phil to fund a clinic he wanted to open but Phil declined. 
 
-Said he wanted to store the blood there? What a strange thing to do. 
+Said \"A blood clinic should be free to the public good.\" but Dr Ackular wanted to make it profitable. 
+
+Said he wanted to store the blood there. What a strange thing to do. 
 
 Here take this, I printed it out for a laugh, but maybe it'll help jog his memory."
 recieved_evidence = ExtResource("8_8ph3q")

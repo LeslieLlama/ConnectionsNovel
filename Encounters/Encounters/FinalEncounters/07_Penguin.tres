@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=38 format=3 uid="uid://bgcuoxoa4cw36"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=37 format=3 uid="uid://bgcuoxoa4cw36"]
 
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_1hqbb"]
 [ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="2_62crh"]
@@ -145,19 +145,13 @@ text = "It could have, but it didn't.
 I found the ring in there."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
-[sub_resource type="Resource" id="Resource_gn3xe"]
-script = ExtResource("3_xvy70")
-line_type = 1
-text = "As, for your motive.
-You convinced him to fund a think tank for your evil gain!
-An innocent man, twisted for your gain."
-metadata/_custom_type_script = "uid://cyus3nuisb47q"
-
 [sub_resource type="Resource" id="Resource_ev3fx"]
 script = ExtResource("3_xvy70")
 line_type = 1
 text = "He was mortified, and broke it off! It ruined your career, destroyed it!
+
 The whole world turned against you.
+
 Your life was over. Furious, you found out about this event, and decided to end his life."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
@@ -171,7 +165,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_3rtip"]
 script = ExtResource("4_1hqbb")
-lines = Array[ExtResource("3_xvy70")]([SubResource("Resource_68sri"), SubResource("Resource_700is"), SubResource("Resource_y52t8"), SubResource("Resource_1b2ib"), SubResource("Resource_2xbvo"), SubResource("Resource_x0sky"), SubResource("Resource_pkvee"), SubResource("Resource_vybo6"), SubResource("Resource_gn3xe"), SubResource("Resource_ev3fx"), SubResource("Resource_k3uxe")])
+lines = Array[ExtResource("3_xvy70")]([SubResource("Resource_68sri"), SubResource("Resource_700is"), SubResource("Resource_y52t8"), SubResource("Resource_1b2ib"), SubResource("Resource_2xbvo"), SubResource("Resource_x0sky"), SubResource("Resource_pkvee"), SubResource("Resource_vybo6"), SubResource("Resource_ev3fx"), SubResource("Resource_k3uxe")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [resource]
