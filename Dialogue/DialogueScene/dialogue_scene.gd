@@ -54,6 +54,9 @@ func display_line(line: ConversationLine):
 	if line.update_background:
 		switch_background(line.update_background)
 	
+	if line.change_bgm:
+		MusicManager.play_track(line.change_bgm)
+	
 	if line.speaker_sprite:
 		current_speaker_name = line.speaker_sprite.character.character_name
 		portrait.texture = line.speaker_sprite.sprite

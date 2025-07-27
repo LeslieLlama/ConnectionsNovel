@@ -1,126 +1,128 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=29 format=3 uid="uid://d35uxlicatg4v"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=30 format=3 uid="uid://d35uxlicatg4v"]
 
-[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_l18ce"]
-[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_3tieq"]
-[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="2_gtfbg"]
-[ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="3_e1smj"]
-[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_skcc3"]
-[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_eqg7w"]
-[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="6_e1smj"]
-[ext_resource type="Texture2D" uid="uid://c6tb0egex1qj4" path="res://Assets/Backgrounds/shark_tank.png" id="7_skcc3"]
-[ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="7_w4lfs"]
-[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_eqg7w"]
-[ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="8_rs50s"]
-[ext_resource type="Resource" uid="uid://dhwmsfyvvd5fy" path="res://Evidence/Evidence/MurderKnife.tres" id="9_rs50s"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_n7ltg"]
+[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="3_x1gnk"]
+[ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_d2e85"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_lma1i"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="6_wgyij"]
+[ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="7_oskk5"]
+[ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="8_jh4gw"]
+[ext_resource type="AudioStream" uid="uid://bkhwcdmx7fjur" path="res://Assets/Music/BodyInTheTank.ogg" id="9_7yrec"]
+[ext_resource type="Resource" uid="uid://dhwmsfyvvd5fy" path="res://Evidence/Evidence/MurderKnife.tres" id="10_brjnd"]
+[ext_resource type="Texture2D" uid="uid://c6tb0egex1qj4" path="res://Assets/Backgrounds/shark_tank.png" id="11_lag5e"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="12_4fvrl"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="13_nmr7s"]
 
 [sub_resource type="Resource" id="Resource_l18ce"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("6_e1smj")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("2_xf7la")
 line_type = 2
 text = "Grand opening night! The aquarium is filled with eclectic figures!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_eq8ag"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "Phil Anthropist! Look at him mingling with the crowd"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_w4lfs"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("2_gtfbg")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("3_x1gnk")
 line_type = 2
 text = "The dutiful manager, absolutely ecstatic on the opening night! Drinking champagne in her best suit."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_rs50s"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("3_e1smj")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("4_d2e85")
 line_type = 2
 text = "Marine Beeologist! Darting through the crowd from tank to tank."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_aye3l"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("4_skcc3")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("5_lma1i")
 line_type = 2
 text = "The slick Sloan Shark standing proud and slick."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_8uisl"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("5_eqg7w")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("6_wgyij")
 line_type = 2
 text = "Dr Ackular. Standing proud, looking very smart in his big coat."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_gtfbg"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("7_w4lfs")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("7_oskk5")
 line_type = 2
 text = "and.....a penguin?"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_e1smj"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("8_rs50s")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("8_jh4gw")
 line_type = 2
 text = "And who could forget, our humble hero Jann! Keeping the aquarium clean, staying out of the way in the maintainance closet. Putting up their map while listening to murder mystery podcasts."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_skcc3"]
-script = ExtResource("1_l18ce")
-speaker_sprite = ExtResource("6_e1smj")
+script = ExtResource("1_n7ltg")
+speaker_sprite = ExtResource("2_xf7la")
 line_type = 2
 text = "\"Ahhhh!!!!! There's a dead body in the shark tank!\""
+change_bgm = ExtResource("9_7yrec")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_eqg7w"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "A dead body? In the shark tank! That could only mean one thing... A MURDER MYSTERY IS A FOOT!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_tgriw"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "Our humble hero, picks up a mighty wrench and swings it at the fuse box! The wrench crashes against the box, sparks fly. In the distance...the main entrance door slam shuts! In the other direction, the loading bay door slams shut too!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_378lr"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 1
 text = "EVERYONE LISTEN! A MURDER IS A FOOT! NOBODY GETS IN AND NOBODY GETS OUT UNTIL THE MURDERER IS FOUND!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_o5bqp"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "The body floats lifelessly in the tank. You notice something in the corner, a murder weapon perhaps? Oh there's a bucket of...oh no...."
-recieved_evidence = ExtResource("9_rs50s")
-update_background = ExtResource("7_skcc3")
+recieved_evidence = ExtResource("10_brjnd")
+update_background = ExtResource("11_lag5e")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_bdehd"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "Human remains!!!!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_v1vnq"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "*bleeeeeerrrrgggghhhhh!!!!!*"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_f1igd"]
-script = ExtResource("1_l18ce")
+script = ExtResource("1_n7ltg")
 line_type = 2
 text = "You throw up in the corner of the room. Wiping your mouth you pick it up and add it to your evidence list. I mean, it is evidence...."
-recieved_evidence = ExtResource("8_eqg7w")
+recieved_evidence = ExtResource("12_4fvrl")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [resource]
-script = ExtResource("2_3tieq")
-lines = Array[ExtResource("1_l18ce")]([SubResource("Resource_l18ce"), SubResource("Resource_eq8ag"), SubResource("Resource_w4lfs"), SubResource("Resource_rs50s"), SubResource("Resource_aye3l"), SubResource("Resource_8uisl"), SubResource("Resource_gtfbg"), SubResource("Resource_e1smj"), SubResource("Resource_skcc3"), SubResource("Resource_eqg7w"), SubResource("Resource_tgriw"), SubResource("Resource_378lr"), SubResource("Resource_o5bqp"), SubResource("Resource_bdehd"), SubResource("Resource_v1vnq"), SubResource("Resource_f1igd")])
+script = ExtResource("13_nmr7s")
+lines = Array[ExtResource("1_n7ltg")]([SubResource("Resource_l18ce"), SubResource("Resource_eq8ag"), SubResource("Resource_w4lfs"), SubResource("Resource_rs50s"), SubResource("Resource_aye3l"), SubResource("Resource_8uisl"), SubResource("Resource_gtfbg"), SubResource("Resource_e1smj"), SubResource("Resource_skcc3"), SubResource("Resource_eqg7w"), SubResource("Resource_tgriw"), SubResource("Resource_378lr"), SubResource("Resource_o5bqp"), SubResource("Resource_bdehd"), SubResource("Resource_v1vnq"), SubResource("Resource_f1igd")])
 metadata/_custom_type_script = "uid://wyclueyiircq"

@@ -14,3 +14,4 @@ enum LineType {
 @export var recieved_evidence: Evidence
 @export var update_background: Texture2D
 @export var consumed_evidence: Evidence
+@export var change_bgm: AudioStream
