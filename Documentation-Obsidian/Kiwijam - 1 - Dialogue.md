@@ -100,7 +100,11 @@ Talk to the doctor
 #### Evidence found: Perfume name
 - Dr: "How dreadful about this aquarium....absolutely dreadful....I wonder what will happen to all the fish? Would be a shame for them to all go to waste..."
 - Jan: "Did you know the victim?"
-- Dr: "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
+- Dr: "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! 
+
+I'm sorry but are you serious? 
+
+What an awful name...should be asking him about what happened to his parents."
 - *Present: school photo*
 - Jan: "I spoke to the manager, he said you went to school with Phil?"
 - Dr: "Oh DID she now?? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."

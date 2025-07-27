@@ -29,7 +29,11 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_hjhqv"]
 script = ExtResource("4_gis7i")
 line_type = 0
-text = "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist!' I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
+text = "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist!' 
+
+I'm sorry but are you serious? 
+
+What an awful name...should be asking him about what happened to his parents."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_dt2c1"]
@@ -73,7 +77,12 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_3ykru"]
 script = ExtResource("4_gis7i")
 line_type = 0
-text = "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. That rich blood, oh yes, let's just give it away! And now look at Phil, floating in that pool. Good thing he died, not a drop to go around!"
+text = "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. 
+
+That rich blood, oh yes, let's just give it away! 
+
+And now look at Phil, floating in that pool. 
+Good thing he died, not a drop to go around!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_5igab"]
