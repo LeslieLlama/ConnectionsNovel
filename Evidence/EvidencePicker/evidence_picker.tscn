@@ -1,20 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://cbcx8b7as03s1"]
+[gd_scene load_steps=3 format=3 uid="uid://cbcx8b7as03s1"]
 
+[ext_resource type="Theme" uid="uid://dv7j8wq7gkng7" path="res://Themes/FishTheme.tres" id="1_5t7nl"]
 [ext_resource type="Script" uid="uid://carrtbgbimlxp" path="res://Evidence/EvidencePicker/evidence_picker.gd" id="1_x5geq"]
 
 [node name="EvidencePicker" type="Panel"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 107.0
-offset_top = 60.0
-offset_right = -107.0
-offset_bottom = -60.0
+offset_left = 70.0
+offset_top = 47.0
+offset_right = -70.0
+offset_bottom = -47.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_5t7nl")
 script = ExtResource("1_x5geq")
 
-[node name="Options" type="GridContainer" parent="."]
+[node name="Options" type="VBoxContainer" parent="."]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
@@ -22,6 +25,11 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
+offset_left = -124.0
+offset_top = -70.5
+offset_right = 124.0
+offset_bottom = 70.5
 grow_horizontal = 2
 grow_vertical = 2
-columns = 5
+theme_override_constants/separation = 6
+alignment = 1

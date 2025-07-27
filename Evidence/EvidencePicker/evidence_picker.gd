@@ -1,7 +1,7 @@
 extends Control
 
 signal option_picked
-@onready var options: GridContainer = %Options
+@onready var options: VBoxContainer = %Options
 
 func choose() -> Evidence:
 	for inventory_evidence in Inventory.evidence:

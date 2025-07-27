@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://tlyis3yyj03w"]
+
+[ext_resource type="StyleBox" uid="uid://cghu62avtx6nh" path="res://Themes/buttonEvidencePicker.tres" id="1_1aikf"]
+
+[node name="EvidencePickerButton" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+theme_override_styles/normal = ExtResource("1_1aikf")
+text = "Hello"
