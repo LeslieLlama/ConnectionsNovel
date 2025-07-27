@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bjl6ad3gky342"]
+[gd_scene load_steps=13 format=3 uid="uid://bjl6ad3gky342"]
 
 [ext_resource type="Script" uid="uid://0riqsyd13nig" path="res://Map/map_scene.gd" id="1_wsgkf"]
 [ext_resource type="Script" uid="uid://bly47vcexg8c6" path="res://Scenes/map_location.gd" id="2_74t0d"]
@@ -10,6 +10,8 @@
 [ext_resource type="Resource" uid="uid://ctvilm557v4vb" path="res://Map/Locations/Locations/shark_tank.tres" id="8_cx7fx"]
 [ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="9_q0agp"]
 [ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="10_lig3r"]
+[ext_resource type="Texture2D" uid="uid://pynr5rsjxbi0" path="res://Assets/Backgrounds/AquariumMap.png" id="11_i02im"]
+[ext_resource type="PackedScene" uid="uid://c6yxni5lq4ih0" path="res://Themes/navigation_button.tscn" id="12_ssp6g"]
 
 [node name="MapScene" type="Control"]
 layout_mode = 3
@@ -31,72 +33,87 @@ grow_vertical = 2
 
 [node name="AquaTunnel" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 106.0
-offset_top = 77.0
-offset_right = 106.0
-offset_bottom = 77.0
+offset_left = 839.0
+offset_top = 279.0
+offset_right = 839.0
+offset_bottom = 279.0
 script = ExtResource("2_74t0d")
 location = ExtResource("3_d3vki")
 
 [node name="GiftShop" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 304.0
-offset_top = 68.0
-offset_right = 304.0
-offset_bottom = 68.0
+offset_left = 579.0
+offset_top = 489.0
+offset_right = 579.0
+offset_bottom = 489.0
 script = ExtResource("2_74t0d")
 location = ExtResource("4_lig3r")
 
 [node name="MaintainanceCloset" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 597.0
-offset_top = 165.0
-offset_right = 597.0
-offset_bottom = 165.0
+offset_left = 878.0
+offset_top = 421.0
+offset_right = 878.0
+offset_bottom = 421.0
 script = ExtResource("2_74t0d")
 location = ExtResource("5_i02im")
 
 [node name="JellyfishRoom" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 456.0
-offset_top = 354.0
-offset_right = 456.0
-offset_bottom = 354.0
+offset_left = 573.0
+offset_top = 205.0
+offset_right = 573.0
+offset_bottom = 205.0
 script = ExtResource("2_74t0d")
 location = ExtResource("6_d3vki")
 
 [node name="PenguinExhibit" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 225.0
-offset_top = 389.0
-offset_right = 225.0
-offset_bottom = 389.0
+offset_left = 202.0
+offset_top = 308.0
+offset_right = 202.0
+offset_bottom = 308.0
 script = ExtResource("2_74t0d")
 location = ExtResource("7_hg2b3")
 
 [node name="SharkTank" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 791.0
-offset_top = 424.0
-offset_right = 791.0
-offset_bottom = 424.0
+offset_left = 831.0
+offset_top = 28.0
+offset_right = 831.0
+offset_bottom = 28.0
 script = ExtResource("2_74t0d")
 location = ExtResource("8_cx7fx")
 
 [node name="SmallCreatureExhibit" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 994.0
-offset_top = 296.0
-offset_right = 994.0
-offset_bottom = 296.0
+offset_left = 442.0
+offset_top = 58.0
+offset_right = 442.0
+offset_bottom = 58.0
 script = ExtResource("2_74t0d")
 location = ExtResource("9_q0agp")
 
 [node name="ManagersOffice" type="Control" parent="MapNodes"]
 anchors_preset = 0
-offset_left = 495.0
-offset_top = 553.0
-offset_right = 495.0
-offset_bottom = 553.0
+offset_left = 909.0
+offset_top = 105.0
+offset_right = 909.0
+offset_bottom = 105.0
 script = ExtResource("2_74t0d")
 location = ExtResource("10_lig3r")
+
+[node name="Visual" type="TextureRect" parent="."]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("11_i02im")
+
+[node name="NavigationButton" parent="." instance=ExtResource("12_ssp6g")]
+visible = false
+layout_mode = 0
+anchors_preset = 0

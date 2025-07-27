@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6yxni5lq4ih0"]
+
+[ext_resource type="Theme" uid="uid://dv7j8wq7gkng7" path="res://Themes/FishTheme.tres" id="1_l14il"]
+
+[node name="NavigationButton" type="Button"]
+anchors_preset = -1
+anchor_right = 0.196
+anchor_bottom = 0.09
+offset_right = 0.207993
+offset_bottom = -0.320004
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_l14il")
+text = "Connect with Dr Ackula"
+autowrap_mode = 3
