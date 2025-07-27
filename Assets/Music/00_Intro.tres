@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=30 format=3 uid="uid://d35uxlicatg4v"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=31 format=3 uid="uid://d35uxlicatg4v"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_n7ltg"]
+[ext_resource type="AudioStream" uid="uid://cvcc06fw22nlj" path="res://Assets/Music/GrandOpening.ogg" id="2_x1gnk"]
 [ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="3_x1gnk"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_d2e85"]
@@ -19,6 +20,7 @@ script = ExtResource("1_n7ltg")
 speaker_sprite = ExtResource("2_xf7la")
 line_type = 2
 text = "Grand opening night! The aquarium is filled with eclectic figures!"
+change_bgm = ExtResource("2_x1gnk")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_eq8ag"]
