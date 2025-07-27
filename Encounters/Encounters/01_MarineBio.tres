@@ -45,7 +45,9 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_qrsvt"]
 script = ExtResource("3_gbark")
 line_type = 0
-text = "That awful man over there in that awful turtle neck. He thinks he's some genius. He owns multiple businesses around town, including an aquarium. 
+text = "That awful man over there In that awful shirt of his. 
+
+He thinks he's some genius. He owns multiple businesses around town, including an aquarium. 
 
 He even came up to me to show photos of the gift shop! I don't give a shit about your gift shop!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
