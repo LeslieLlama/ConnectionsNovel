@@ -15,6 +15,17 @@ script = ExtResource("1_52fb6")
 intro_scene = ExtResource("2_jv6wh")
 encounters = ExtResource("5_iacmt")
 
+[node name="BackgroundLayer" type="CanvasLayer" parent="."]
+layer = -2
+
+[node name="ColorRect" type="ColorRect" parent="BackgroundLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="ScreenFade" type="ColorRect" parent="CanvasLayer"]
