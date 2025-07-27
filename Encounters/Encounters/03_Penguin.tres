@@ -1,15 +1,15 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=24 format=3 uid="uid://bleaqbgtgelme"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=24 format=3 uid="uid://1ua1smdwcrqq"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_36er2"]
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_vnmaa"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_gb2mp"]
-[ext_resource type="Resource" uid="uid://dmmftk7rfgm60" path="res://Characters/Penguin/failure_dialogue.tres" id="2_w6a1o"]
+[ext_resource type="Resource" uid="uid://cbnutpw8g4ygd" path="res://Characters/Penguin/failure_dialogue.tres" id="2_w6a1o"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_73nvs"]
 [ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="3_aw7cw"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_msbya"]
 [ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="5_n2xgs"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_w6a1o"]
-[ext_resource type="Resource" uid="uid://bo5esvbi64ulr" path="res://Evidence/Evidence/Bird_knowledge.tres" id="9_aw7cw"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/Bird_knowledge.tres" id="9_aw7cw"]
 
 [sub_resource type="Resource" id="Resource_20aq2"]
 script = ExtResource("4_msbya")

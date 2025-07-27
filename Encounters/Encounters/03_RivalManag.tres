@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=12 format=3 uid="uid://cgnbak7a40rfx"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=12 format=3 uid="uid://03c2b4se2pxl"]
 
 [ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_4s2ns"]
 [ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="2_3s2ws"]

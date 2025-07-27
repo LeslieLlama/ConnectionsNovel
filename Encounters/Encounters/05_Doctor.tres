@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=33 format=3 uid="uid://dkrimmtv6d5l2"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=33 format=3 uid="uid://doaxaqs8np4fe"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_30kqa"]
 [ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_xkpkw"]

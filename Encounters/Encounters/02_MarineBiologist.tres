@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://bhmwtevxdkbc1"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://bc7isp1sgp2ud"]
 
 [ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_jiwcs"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_qqlkt"]
