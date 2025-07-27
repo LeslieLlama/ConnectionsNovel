@@ -115,3 +115,21 @@ At the end of every scene, you can then show evidence to get extra dialogue
 	- Motive: Angry the philanthropist funded the aquarium instead of his clinic. Thought it would be a fitting way to die.
 	- Design: Dracula style
 	- Secret: Drinks blood. Wants to drink the victims blood and gain his power
+
+## Ending
+To get the correct ending you need to
+- Get X's ring
+- Accuse X
+To do that the "player" needs to know that it's X to accuse them.
+Could also be a good laugh if they just guess the penguin and the ring. But to get penguin to jump out you need to show them
+- Perfume name
+- X's old name
+
+X is out of the suit in the ending if you accuse!
+
+## Characters
+3 - Marine
+3 - Manager
+3 - Rival 
+2 - Penguin
+3 - Doctor
