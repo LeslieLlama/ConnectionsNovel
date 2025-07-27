@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_anw6m"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_yykb0"]
 [ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="4_ftlca"]
-[ext_resource type="Resource" uid="uid://bo5esvbi64ulr" path="res://Evidence/Evidence/Bird_knowledge.tres" id="5_i51y7"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/Bird_knowledge.tres" id="5_i51y7"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_5evyr"]
 
 [sub_resource type="Resource" id="Resource_am68a"]
