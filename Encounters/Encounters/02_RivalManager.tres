@@ -10,7 +10,7 @@
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_tk3o1"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_3g570"]
 [ext_resource type="Resource" uid="uid://qmldv21k0sgq" path="res://Evidence/Evidence/X_name.tres" id="8_hvmjx"]
-[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="11_1a17h"]
 
 [sub_resource type="Resource" id="Resource_8ekco"]
