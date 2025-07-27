@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://o6ln4pg8kjqf"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=28 format=3 uid="uid://o6ln4pg8kjqf"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_kwx2k"]
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_laia6"]
@@ -10,6 +10,7 @@
 [ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="7_rlk5a"]
 [ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_pi0vs"]
 [ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="9_h6630"]
+[ext_resource type="Resource" uid="uid://bo5esvbi64ulr" path="res://Evidence/Evidence/Bird_knowledge.tres" id="10_rlk5a"]
 
 [sub_resource type="Resource" id="Resource_kn7iq"]
 script = ExtResource("3_3sf5x")
@@ -79,13 +80,49 @@ script = ExtResource("2_v6ekd")
 lines = Array[ExtResource("3_3sf5x")]([SubResource("Resource_decg5"), SubResource("Resource_m064u"), SubResource("Resource_7dsix"), SubResource("Resource_xlgmn"), SubResource("Resource_risml"), SubResource("Resource_ynust"), SubResource("Resource_v3emg"), SubResource("Resource_7j1ip")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
+[sub_resource type="Resource" id="Resource_pi0vs"]
+script = ExtResource("3_3sf5x")
+line_type = 1
+text = "BIIIIIIRRRRD KNOWLEDGEEEEEEE!!!!!!!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_h6630"]
+script = ExtResource("3_3sf5x")
+line_type = 2
+text = "You stare at it. Focused. Unbreakable. Staring deep into it's soul.
+
+You see something, deep inside, something you hadn't seen before. 
+
+You know. You feel it. This penguin. It speaks to you. Calls to you. SQUAAAAAARKS at you. 
+
+You know. You know it's secrets. You hear it. So incredibly loud."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ie56r"]
+script = ExtResource("3_3sf5x")
+line_type = 0
+text = "The penguin stares blankly at you."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_l7gtb"]
+script = ExtResource("3_3sf5x")
+line_type = 1
+text = "I'll uncover your secrets, penguin."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bw06c"]
+script = ExtResource("2_v6ekd")
+lines = Array[ExtResource("3_3sf5x")]([SubResource("Resource_pi0vs"), SubResource("Resource_h6630"), SubResource("Resource_ie56r"), SubResource("Resource_l7gtb")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
 [resource]
 script = ExtResource("3_wfy2n")
 location = ExtResource("2_nix2n")
 character = ExtResource("1_laia6")
 main_conversation = SubResource("Resource_gvd2i")
 presented_evidence = Dictionary[ExtResource("1_kwx2k"), ExtResource("2_v6ekd")]({
-ExtResource("7_rlk5a"): SubResource("Resource_rlk5a")
+ExtResource("7_rlk5a"): SubResource("Resource_rlk5a"),
+ExtResource("10_rlk5a"): SubResource("Resource_bw06c")
 })
 failed_evidence = ExtResource("2_gvd2i")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
