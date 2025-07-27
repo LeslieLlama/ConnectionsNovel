@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_2wskh"]
 [ext_resource type="AudioStream" uid="uid://bld7fxsd7mn5c" path="res://Assets/Music/MissedConnections.ogg" id="2_v4jfq"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_vy141"]
-[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="3_v4jfq"]
+[ext_resource type="Resource" uid="uid://de7v3um3f5sw5" path="res://Characters/Placeholder/Sprites/blank.tres" id="3_v4jfq"]
 [ext_resource type="Texture2D" uid="uid://begqlhx60c6vd" path="res://Assets/Backgrounds/MatinenceClosetBackground.png" id="4_pw3xo"]
 
 [sub_resource type="Resource" id="Resource_2wskh"]
