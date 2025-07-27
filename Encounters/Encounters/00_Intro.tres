@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_n7ltg"]
 [ext_resource type="AudioStream" uid="uid://cvcc06fw22nlj" path="res://Assets/Music/GrandOpening.ogg" id="2_x1gnk"]
-[ext_resource type="Resource" uid="uid://de7v3um3f5sw5" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
+[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="3_x1gnk"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_d2e85"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_lma1i"]
@@ -11,7 +11,7 @@
 [ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="8_jh4gw"]
 [ext_resource type="AudioStream" uid="uid://bkhwcdmx7fjur" path="res://Assets/Music/BodyInTheTank.ogg" id="9_7yrec"]
 [ext_resource type="Resource" uid="uid://dhwmsfyvvd5fy" path="res://Evidence/Evidence/MurderKnife.tres" id="10_brjnd"]
-[ext_resource type="Texture2D" uid="uid://c6tb0egex1qj4" path="res://Assets/Backgrounds/shark_tank.png" id="11_lag5e"]
+[ext_resource type="Texture2D" uid="uid://nl4ryfm6wwcx" path="res://Assets/Backgrounds/SharkMurderScene.png" id="11_xf7la"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="12_4fvrl"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="13_nmr7s"]
 
@@ -83,6 +83,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 script = ExtResource("1_n7ltg")
 line_type = 2
 text = "A dead body? In the shark tank! That could only mean one thing... A MURDER MYSTERY IS A FOOT!"
+update_background = ExtResource("11_xf7la")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_tgriw"]
@@ -106,7 +107,7 @@ script = ExtResource("1_n7ltg")
 line_type = 2
 text = "The body floats lifelessly in the tank. You notice something in the corner, a murder weapon perhaps?"
 recieved_evidence = ExtResource("10_brjnd")
-update_background = ExtResource("11_lag5e")
+update_background = ExtResource("11_xf7la")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_xf7la"]
