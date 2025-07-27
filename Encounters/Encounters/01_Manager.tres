@@ -38,10 +38,12 @@ line_type = 1
 text = "I need to know, this is important, we need to find the killer"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
-[sub_resource type="Resource" id="Resource_qrsvt"]
+[sub_resource type="Resource" id="Resource_t75es"]
 script = ExtResource("1_w7nc3")
 line_type = 0
-text = "To hell with the killer! God this is terrible for business...yes, fine, yes I did. Without him we wouldn't have the aquarium. He funded it! Except the bastard wanted a cut! Oh so kind and generous, he wanted 10%! 10%??? Do you know how much that is? The margins here are thin enough as it is!"
+text = "Alright dear slow down. Yes without him we wouldn't have the aquarium. 
+
+He funded the whole thing."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_f6f8u"]
@@ -52,7 +54,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_sfmi8"]
 script = ExtResource("2_2ynkx")
-lines = Array[ExtResource("1_w7nc3")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_qrsvt"), SubResource("Resource_f6f8u")])
+lines = Array[ExtResource("1_w7nc3")]([SubResource("Resource_8ekco"), SubResource("Resource_f82ng"), SubResource("Resource_gbark"), SubResource("Resource_l75ay"), SubResource("Resource_t75es"), SubResource("Resource_f6f8u")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_prr17"]
