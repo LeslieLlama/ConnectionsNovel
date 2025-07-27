@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="ConnectionsNovel"
-run/main_scene="uid://bnnu564520kqb"
+run/main_scene="uid://dujioy7ioaxjp"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 

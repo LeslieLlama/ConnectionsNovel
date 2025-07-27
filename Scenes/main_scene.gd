@@ -13,6 +13,8 @@ const TRUE_ENDING = preload("res://Endings/true_ending.tres")
 const THE_TRUE_KILLER = preload("res://Evidence/Evidence/the_true_killer.tres")
 const BEFORE_ACCUSATION = preload("res://Encounters/Encounters/06.5_BeforeAccusation.tres")
 
+signal game_completed
+
 func _ready() -> void:
 	Inventory.clear()
 	await do_conversation(intro_scene)
@@ -27,6 +29,9 @@ func _ready() -> void:
 		await do_conversation(TRUE_ENDING)
 	else:
 		await do_conversation(BAD_ENDING)
+	
+	MusicManager.stop_track()
+	game_completed.emit()
 
 func do_conversation(conversation: Conversation):
 	var dialogue_scene = DIALOGUE_SCENE.instantiate()
