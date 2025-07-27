@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=6 format=3 uid="uid://dmmftk7rfgm60"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=6 format=3 uid="uid://cbnutpw8g4ygd"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_h2qdb"]
 [ext_resource type="Resource" uid="uid://dfgegnwlbudva" path="res://Characters/Penguin/Sprites/penguin_default.tres" id="2_iqwu6"]

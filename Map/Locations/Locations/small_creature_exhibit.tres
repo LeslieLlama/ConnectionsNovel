@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Location" load_steps=3 format=3 uid="uid://0r7g5re4qwhx"]
 
-[ext_resource type="Texture2D" uid="uid://indal5ue72rx" path="res://Assets/Backgrounds/placeholder.png" id="1_8fyef"]
+[ext_resource type="Texture2D" uid="uid://bcgb0350oj6c4" path="res://Assets/Backgrounds/SmallCreaturesBackground.png" id="1_8fyef"]
 [ext_resource type="Script" uid="uid://2el1q03jh0uy" path="res://Map/Locations/location.gd" id="2_htwmj"]
 
 [resource]

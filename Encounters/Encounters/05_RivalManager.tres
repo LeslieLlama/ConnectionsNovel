@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=18 format=3 uid="uid://bjfuv5cj42j4n"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=18 format=3 uid="uid://cwnjau2bwscy7"]
 
 [ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_rx42p"]
-[ext_resource type="Resource" uid="uid://ylfrf6r5wbpb" path="res://Characters/Rival/failure_dialogue.tres" id="2_wnlky"]
+[ext_resource type="Resource" uid="uid://jf5ca05b5amx" path="res://Characters/Rival/failure_dialogue.tres" id="2_wnlky"]
 [ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="3_vb8vc"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_uwj0w"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_lqq2v"]

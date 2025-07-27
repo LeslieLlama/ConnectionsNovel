@@ -1,14 +1,14 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://dbtgilmawo4i"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=22 format=3 uid="uid://o6ln4pg8kjqf"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_kwx2k"]
 [ext_resource type="Resource" uid="uid://cgyseqc5j8bx7" path="res://Characters/Penguin/Penguin.tres" id="1_laia6"]
-[ext_resource type="Resource" uid="uid://dmmftk7rfgm60" path="res://Characters/Penguin/failure_dialogue.tres" id="2_gvd2i"]
+[ext_resource type="Resource" uid="uid://cbnutpw8g4ygd" path="res://Characters/Penguin/failure_dialogue.tres" id="2_gvd2i"]
 [ext_resource type="Resource" uid="uid://bh8e0l4fjk8vn" path="res://Map/Locations/Locations/penguin_exhibit.tres" id="2_nix2n"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_v6ekd"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_3sf5x"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_wfy2n"]
 [ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="7_rlk5a"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_pi0vs"]
+[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="8_pi0vs"]
 [ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="9_h6630"]
 
 [sub_resource type="Resource" id="Resource_kn7iq"]

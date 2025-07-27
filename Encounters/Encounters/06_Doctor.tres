@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_7stp4"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_bl4wd"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="4_76xl2"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
+[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_1n7pa"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_76xl2"]
 [ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="9_tvbeo"]
 
