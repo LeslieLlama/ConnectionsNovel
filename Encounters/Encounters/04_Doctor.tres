@@ -46,7 +46,10 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_w7fsa"]
 script = ExtResource("4_gis7i")
 line_type = 0
-text = "Oh DID he know? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
+text = "Oh DID she now?? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? 
+
+Yes, I suppose I did. 
+Phil was....well he just had it easier didn't he."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_82p8o"]
@@ -64,7 +67,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_dg8d6"]
 script = ExtResource("4_gis7i")
 line_type = 1
-text = "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhuman."
+text = "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhumane."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_3ykru"]
@@ -82,7 +85,9 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_t1li8"]
 script = ExtResource("4_gis7i")
 line_type = 0
-text = "Oh goodness no, what good would that do. Killing him won't give me my clinic. Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
+text = "Oh goodness no, what good would that do. Killing him won't give me my clinic. 
+
+Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_vdo6q"]
@@ -107,7 +112,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_yg7gl"]
 script = ExtResource("4_gis7i")
 line_type = 2
-text = "(I left the room after that)"
+text = "You left the room after that"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_v5v7v"]

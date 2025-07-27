@@ -44,7 +44,7 @@ You talk to the Marine Biologist
 - Jan: "Did you see anything? Are you going to be okay?"
 - MB: "Yeah I'm okay... I just hope the fish are going to be okay. The tanks, these are specialist tanks you know? A lot of money has been put into this. These fish were brought from all over the world, with enclosures made specifically for them. Yes sorry, no I didn't see anything. Just mingling with the crowd. Oh god, I bet they're going to go to that other awful aquarium. I bet it's all he's thinking about."
 - "Who's thinking about the fish?"
-- "That awful man over there in that awful turtle neck. Thinks he's some genius. He owns multiple businesses around town, including an aquarium. He even came up to me to show photos of the gift shop! I don't give a shit about your gift shop!"
+- "That awful man over there In that awful shirt of his. Thinks he's some genius. He owns multiple businesses around town, including an aquarium. He even came up to me to show photos of the gift shop! I don't give a shit about your gift shop!"
 - "He own's an aquarium? You think he did it?"
 - "God, maybe, he even gave me his business card. I threw it in the bin if you want it."
 - *You reach into the bin and grab the business card and add it to the evidence*
@@ -103,13 +103,15 @@ Talk to the doctor
 - Dr: "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
 - *Present: school photo*
 - Jan: "I spoke to the manager, he said you went to school with Phil?"
-- Dr: "Oh DID he know? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
+- Dr: "Oh DID she now?? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
 - Jan: "He said you wanted to open a new clinic?"
 - Dr: "Yes...I did....and the mighty Phill, what did he do when I offered the opportunity for people to give blood? He said no!"
 - Jan: "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhumane"
 - Dr: "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. That rich blood, oh yes, let's just give it away! And now look at Phil, floating in that pool. Good thing he died, not a drop to go around!"
 - Jan: "You killed him for that?"
-- Dr: "Oh goodness no, what good would that do. Killing him won't give me my clinic. Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
+- Dr: "Oh goodness no, what good would that do. Killing him won't give me my clinic. 
+
+Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
 - Jan: "You know them? What was the name of that perfume? Could be a clue?"
 - Dr: "Do you have a pen and paper? You'd butcher the pronunciation if I told you"
 - *Evidence received: mysterious perfume*

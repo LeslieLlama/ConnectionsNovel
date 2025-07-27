@@ -52,7 +52,11 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 [sub_resource type="Resource" id="Resource_tt60m"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "Oh good you have my card. Fantastic. Marine must of given it to you. I really can't believe she wore that dress. I really was trying to give her advice on a better one."
+text = "Oh good you have my card. 
+Fantastic. 
+Marine must of given it to you. 
+
+I really can't believe she wore that dress. I really was trying to give her advice on a better one."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_1a17h"]
@@ -97,7 +101,8 @@ script = ExtResource("3_hvmjx")
 line_type = 0
 text = "Yes, oh it was quite the ordeal. I heard it was over a conflict of interest. 
 
-She wanted to fund a think tank, get more stories for her news agency and investigate others. Phil disagreed, said it was a think tank built to destroy lives. 
+She wanted to fund a think tank, get more stories for her news agency and investigate others. 
+Phil disagreed, said it was a think tank built to destroy lives. 
 
 I think it was quite the sound investment personally. Always good to control you public image."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
@@ -124,7 +129,10 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_jixc3"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "Can't believe she accepted a 10% share. With my help she could've got 3% easy. Here, take these notes, I've been recording her finances and I think they show an interesting story..."
+text = "Can't believe she accepted a 10% share. 
+With my help she could've got 3% easy. 
+
+Here, take these notes, I've been recording her finances and I think they show an interesting story..."
 recieved_evidence = ExtResource("9_tt60m")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
