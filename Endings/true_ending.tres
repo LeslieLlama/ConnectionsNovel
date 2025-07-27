@@ -1,15 +1,110 @@
-[gd_resource type="Resource" script_class="Conversation" load_steps=4 format=3 uid="uid://cl8uc4qy3e7w6"]
+[gd_resource type="Resource" script_class="Conversation" load_steps=21 format=3 uid="uid://cl8uc4qy3e7w6"]
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_72ic1"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_6d7l6"]
+[ext_resource type="AudioStream" uid="uid://cvcc06fw22nlj" path="res://Assets/Music/GrandOpening.ogg" id="2_lunxg"]
+[ext_resource type="Resource" uid="uid://dgg1ht784mj36" path="res://Characters/Janitor/Sprites/janitor_default.tres" id="3_0loaf"]
+[ext_resource type="Resource" uid="uid://bo5i4aygiw3ho" path="res://Characters/PodcastHost/podcast_host_default.tres" id="3_lunxg"]
+[ext_resource type="Resource" uid="uid://dfmhsjbbj6r44" path="res://Characters/Ex/Sprites/ex_default.tres" id="4_yicpf"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_goekv"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_ys7v5"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="6_goekv"]
+[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="9_egsxc"]
 
 [sub_resource type="Resource" id="Resource_72ic1"]
 script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("3_lunxg")
+line_type = 1
+text = "... and that's the story of how I caught the killer."
+change_bgm = ExtResource("2_lunxg")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_hy461"]
+script = ExtResource("1_72ic1")
 line_type = 2
-text = "(Placeholder Text for True Ending)"
+text = "(It had been six months since the events at the aquarium that day.)
+
+(My solving of the murder had made me a minor celebrity.)
+
+(And now, I have achieved my greatest dream...)
+
+(Being featured on a True Crime podcast.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_0loaf"]
+script = ExtResource("1_72ic1")
+line_type = 0
+text = "Wow.
+That's an incredible story.
+
+The way you connected all the evidence together was remarkable."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_lunxg"]
+script = ExtResource("1_72ic1")
+line_type = 1
+text = "Thank you.
+
+Now if you'll excuse me, I will have to end this interview here, my agent has lined up my whole afternoon with more interviews."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_egsxc"]
+script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("4_yicpf")
+line_type = 2
+text = "(X, or rather Remora Gray, was given a life sentance for murder.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_1vv0d"]
+script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("5_goekv")
+line_type = 2
+text = "(Sloane decided it was time to launch his political career.)
+
+(He is now running for mayor, on a platform of \"Demolish Everything and Replace it all with a Gigantic 3D Printed Car Park.\")
+
+(He is currently polling at 52%)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_rsbj1"]
+script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("5_ys7v5")
+line_type = 2
+text = "(Dr. Ackular later lost his medical licence for malpractice after he was caught drinking from a bag of transfusion blood.)
+
+(He then switched careers, and invented an artifical meat substitute that made him rich.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_rqqmh"]
+script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("6_goekv")
+line_type = 2
+text = "(The Manager continued to run the Aquarium.)
+
+(Since that day, there has been another 3 murders that have occurred there, and each time she invites me over to help solve.)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_goekv"]
+script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("3_0loaf")
+line_type = 1
+text = "And as for me...
+
+Well, I then became wrapped up in a puzzling case that occurred at the local amusement park.
+
+But that's a story for another time."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_m2e6j"]
+script = ExtResource("1_72ic1")
+speaker_sprite = ExtResource("9_egsxc")
+line_type = 2
+text = "The End
+
+Thank you for playing!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [resource]
 script = ExtResource("2_6d7l6")
-lines = Array[ExtResource("1_72ic1")]([SubResource("Resource_72ic1")])
+lines = Array[ExtResource("1_72ic1")]([SubResource("Resource_72ic1"), SubResource("Resource_hy461"), SubResource("Resource_0loaf"), SubResource("Resource_lunxg"), SubResource("Resource_egsxc"), SubResource("Resource_1vv0d"), SubResource("Resource_rsbj1"), SubResource("Resource_rqqmh"), SubResource("Resource_goekv"), SubResource("Resource_m2e6j")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
