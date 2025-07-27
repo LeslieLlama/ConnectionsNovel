@@ -1,39 +1,41 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=11 format=3 uid="uid://cgnbak7a40rfx"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=12 format=3 uid="uid://cgnbak7a40rfx"]
 
-[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_rf5a3"]
-[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_tnetd"]
-[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_l7480"]
-[ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="2_m2e2t"]
-[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_0glw2"]
-[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_6ml0o"]
+[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_4s2ns"]
+[ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="2_3s2ws"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_xwn4y"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_sr8ru"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="5_83s7b"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="6_lvfxj"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="7_4ug0i"]
 
 [sub_resource type="Resource" id="Resource_massq"]
-script = ExtResource("3_6ml0o")
+script = ExtResource("3_xwn4y")
+speaker_sprite = ExtResource("4_sr8ru")
 line_type = 0
 text = "Hello, how goes the investigation?"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_6at8r"]
-script = ExtResource("3_6ml0o")
+script = ExtResource("3_xwn4y")
 line_type = 1
 text = "Swimmingly!!!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_bf16o"]
-script = ExtResource("3_6ml0o")
+script = ExtResource("3_xwn4y")
 line_type = 0
 text = "...."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_e2btw"]
-script = ExtResource("2_l7480")
-lines = Array[ExtResource("3_6ml0o")]([SubResource("Resource_massq"), SubResource("Resource_6at8r"), SubResource("Resource_bf16o")])
+script = ExtResource("5_83s7b")
+lines = Array[ExtResource("3_xwn4y")]([SubResource("Resource_massq"), SubResource("Resource_6at8r"), SubResource("Resource_bf16o")])
 metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [resource]
-script = ExtResource("3_0glw2")
-location = ExtResource("2_m2e2t")
-character = ExtResource("1_rf5a3")
+script = ExtResource("7_4ug0i")
+location = ExtResource("2_3s2ws")
+character = ExtResource("1_4s2ns")
 main_conversation = SubResource("Resource_e2btw")
-presented_evidence = Dictionary[ExtResource("1_tnetd"), ExtResource("2_l7480")]({})
+presented_evidence = Dictionary[ExtResource("6_lvfxj"), ExtResource("5_83s7b")]({})
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

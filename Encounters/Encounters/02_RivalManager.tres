@@ -10,14 +10,14 @@
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_tk3o1"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_3g570"]
 [ext_resource type="Resource" uid="uid://qmldv21k0sgq" path="res://Evidence/Evidence/X_name.tres" id="8_hvmjx"]
-[ext_resource type="Resource" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="9_tt60m"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="11_1a17h"]
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_hvmjx")
 speaker_sprite = ExtResource("4_hvmjx")
 line_type = 0
-text = "What an incredible aquarium! Such a shame all of these fish and equipment to go to waste...must have cost a fortune!"
+text = "What an incredible aquarium. Such a shame all of these fish and equipment to go to waste...must have cost a fortune."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_f82ng"]
@@ -52,7 +52,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 [sub_resource type="Resource" id="Resource_tt60m"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "Oh good you have my card. Fantastic. That strumpet Marine must of given it to you. I really can't believe she wore that dress. I really was trying to give her advice on a better one."
+text = "Oh good you have my card. Fantastic. Marine must of given it to you. I really can't believe she wore that dress. I really was trying to give her advice on a better one."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_1a17h"]
@@ -81,7 +81,9 @@ script = ExtResource("3_hvmjx")
 line_type = 0
 text = "He was a stupid man.
 Had big ideas about \"Changing the world\".
-Not that he even made his money himself, he inherited it all. Then he even went and lost most of it in that awful divorce..."
+Not that he even made his money himself, he inherited it all. 
+
+Then he even went and lost most of it in that awful divorce..."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_b5u0u"]
@@ -93,7 +95,11 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_kpcj8"]
 script = ExtResource("3_hvmjx")
 line_type = 0
-text = "Yes, oh it was quite the ordeal. I heard it was over a conflict of interest. She wanted to fund a think tank, get more stories for her news agency and investigate others. Phil disagreed, said it was a think tank built to destroy lives. I think it was quite the sound investment personally. Always good to control you public image."
+text = "Yes, oh it was quite the ordeal. I heard it was over a conflict of interest. 
+
+She wanted to fund a think tank, get more stories for her news agency and investigate others. Phil disagreed, said it was a think tank built to destroy lives. 
+
+I think it was quite the sound investment personally. Always good to control you public image."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_3edi8"]

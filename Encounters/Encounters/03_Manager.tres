@@ -53,7 +53,9 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_qrsvt"]
 script = ExtResource("3_kloxp")
 line_type = 0
-text = "To hell with the killer! God this is terrible for business...yes, fine, yes I did. Without him we wouldn't have the aquarium. He funded it! Except the bastard wanted a cut! Oh so kind and generous, he wanted 10%! 10%??? Do you know how much that is? The margins here are thin enough as it is!"
+text = "Alright dear slow down. Yes without him we wouldn't have the aquarium. 
+
+He founded the whole thing."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_evdx8"]
@@ -70,7 +72,11 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_0shsl"]
 script = ExtResource("3_kloxp")
 line_type = 0
-text = "Well yes, but this is a business and unfortunately not all of the money goes to me. You can't just put the fish in water and call it it a day sadly. They thrive in the ocean current, then you plop them into water and they just forget how to stay alive. I am a bit upset that you spoke to him first dear, you should've spoken to me first."
+text = "Well yes, but this is a business and unfortunately not all of the money goes to me. 
+
+You can't just put the fish in water and call it it a day sadly. They thrive in the ocean current, then you plop them into water and they just forget how to stay alive. 
+
+I am a bit upset that you spoke to him first dear, you should've spoken to me first."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_8qh1e"]
@@ -82,7 +88,15 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_5lclk"]
 script = ExtResource("3_kloxp")
 line_type = 0
-text = "Oh he did, did he? Well that's good to know that he has an opinion on my work. 10% is high yes, but I supposed that it was better than not having an aquarium. Another asset is better than no asset. I mean look at Dr Ackular, he asked Phil to fund a clinic he wanted to open but Phil declined. Said \"A blood clinic should be free to the public good.\" but Dr Ackular wanted to make it profitable. Said he wanted to store the blood there? What a strange thing to do. Here take this, I printed it out for a laugh, but maybe it'll help jog his memory."
+text = "Oh he did, did he? Well that's good to know that he has an opinion on my work. 
+
+10% is high yes, but I supposed that it was better than not having an aquarium. Another asset is better than no asset. 
+
+I mean look at Dr Ackular, he asked Phil to fund a clinic he wanted to open but Phil declined. Said \"A blood clinic should be free to the public good.\" but Dr Ackular wanted to make it profitable. 
+
+Said he wanted to store the blood there? What a strange thing to do. 
+
+Here take this, I printed it out for a laugh, but maybe it'll help jog his memory."
 recieved_evidence = ExtResource("8_8ph3q")
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
