@@ -1,25 +1,15 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=26 format=3 uid="uid://7fbms1isntul"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=25 format=3 uid="uid://7fbms1isntul"]
 
 [ext_resource type="Resource" uid="uid://df1t6ibmhos47" path="res://Characters/MarineBio/marine_bio.tres" id="1_6huvg"]
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_g7k0b"]
 [ext_resource type="Resource" uid="uid://d1db5ytn8uupp" path="res://Map/Locations/Locations/jellyfish_room.tres" id="2_b2kej"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_e5rbb"]
+[ext_resource type="Resource" uid="uid://ca43q26gjkkyo" path="res://Characters/MarineBio/failure_dialogue.tres" id="2_l75ay"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_gbark"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_vylco"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_l75ay"]
 [ext_resource type="Resource" uid="uid://c0rx7djt1hy02" path="res://Evidence/Evidence/Business_card.tres" id="5_b2kej"]
 [ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_gbark"]
-
-[sub_resource type="Resource" id="Resource_b2kej"]
-script = ExtResource("3_gbark")
-line_type = 0
-text = "I don't know anything about that, please leave me alone."
-metadata/_custom_type_script = "uid://cyus3nuisb47q"
-
-[sub_resource type="Resource" id="Resource_41liw"]
-script = ExtResource("2_e5rbb")
-lines = Array[ExtResource("3_gbark")]([SubResource("Resource_b2kej")])
-metadata/_custom_type_script = "uid://wyclueyiircq"
 
 [sub_resource type="Resource" id="Resource_8ekco"]
 script = ExtResource("3_gbark")
@@ -37,7 +27,13 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_gbark"]
 script = ExtResource("3_gbark")
 line_type = 0
-text = "Yeah I'm okay... I just hope the fish are going to be okay. The tanks, these are specialist tanks you know? A lot of money has been put into this. These fish were brought from all over the world, with enclosures made specifically for them. Yes sorry, no I didn't see anything. Just mingling with the crowd. Oh god, I bet they're going to go to that other awful aquarium. I bet it's all he's thinking about."
+text = "Yeah I'm okay... I just hope the fish are going to be okay. The tanks, these are specialist tanks you know? 
+
+A lot of money has been put into this. These fish were brought from all over the world, with enclosures made specifically for them. 
+
+Yes sorry, no I didn't see anything. Just mingling with the crowd. 
+
+Oh god, I bet they're going to go to that other awful aquarium. I bet it's all he's thinking about."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_l75ay"]
@@ -49,7 +45,9 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_qrsvt"]
 script = ExtResource("3_gbark")
 line_type = 0
-text = "That awful man over there in that awful turtle neck. Thinks he's some genius. He owns multiple businesses around town, including an aquarium. He even came up to me to show photos of the gift shop! I don't give a shit about your gift shop!"
+text = "That awful man over there in that awful turtle neck. He thinks he's some genius. He owns multiple businesses around town, including an aquarium. 
+
+He even came up to me to show photos of the gift shop! I don't give a shit about your gift shop!"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_4ykt3"]
@@ -113,5 +111,5 @@ presented_evidence = Dictionary[ExtResource("1_g7k0b"), ExtResource("2_e5rbb")](
 ExtResource("5_b2kej"): SubResource("Resource_274va"),
 ExtResource("8_gbark"): SubResource("Resource_7tpsd")
 })
-failed_evidence = SubResource("Resource_41liw")
+failed_evidence = ExtResource("2_l75ay")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

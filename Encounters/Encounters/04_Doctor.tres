@@ -29,7 +29,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 [sub_resource type="Resource" id="Resource_hjhqv"]
 script = ExtResource("4_gis7i")
 line_type = 0
-text = "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist! I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
+text = "Hmmm, yes, I did, 'The great Philanthropist, Phill Anthropist!' I'm sorry but are you serious? What an awful name...should be asking him about what happened to his parents."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_dt2c1"]

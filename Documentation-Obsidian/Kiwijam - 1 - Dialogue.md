@@ -156,4 +156,4 @@ Talk to the doctor
 - Jan: "I found it in this bucket of meat! No one would go near it, but with the help of Dr Ackular, he reached in and plucked it free."
 - X: "And why would my ring be in there? And why would it be me, it could have been planted."
 - Jan: "It could have, but it didn't. I found the ring in there. And for your motive. You convinced him to fund a think tank for your evil gain! An innocent man, twisted for your gain. He was mortified, and broke it off! It ruined your career, destroyed it! The whole world turned against you. Your life was over. Furious, you found out about this event, and decided to end his life."
-- X: "HE DESERVED IT!!! FOR ENDING MINE!"
+- X: "HE DESERVED IT!!! FOR ENDING MINE!
