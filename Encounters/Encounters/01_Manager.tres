@@ -1,9 +1,10 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=18 format=3 uid="uid://bx1gugam5e2m3"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=19 format=3 uid="uid://bx1gugam5e2m3"]
 
 [ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_2ynkx"]
 [ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_261m5"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_w7nc3"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_2ynkx"]
+[ext_resource type="Resource" uid="uid://bpq7le3hbhoyv" path="res://Characters/Manager/failure_dialogue.tres" id="2_jbrkv"]
 [ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="2_t75es"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_5g22d"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="4_jbrkv"]
@@ -73,4 +74,5 @@ main_conversation = SubResource("Resource_sfmi8")
 presented_evidence = Dictionary[ExtResource("1_2ynkx"), ExtResource("2_2ynkx")]({
 ExtResource("7_j42wf"): SubResource("Resource_asruw")
 })
+failed_evidence = ExtResource("2_jbrkv")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"

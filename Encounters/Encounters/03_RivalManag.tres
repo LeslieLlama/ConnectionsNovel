@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="Encounter" load_steps=12 format=3 uid="uid://03c2b4se2pxl"]
+[gd_resource type="Resource" script_class="Encounter" load_steps=13 format=3 uid="uid://03c2b4se2pxl"]
 
 [ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_4s2ns"]
 [ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="2_3s2ws"]
+[ext_resource type="Resource" uid="uid://jf5ca05b5amx" path="res://Characters/Rival/failure_dialogue.tres" id="2_6ml0o"]
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_xwn4y"]
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="4_sr8ru"]
 [ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="5_83s7b"]
@@ -38,4 +39,5 @@ location = ExtResource("2_3s2ws")
 character = ExtResource("1_4s2ns")
 main_conversation = SubResource("Resource_e2btw")
 presented_evidence = Dictionary[ExtResource("6_lvfxj"), ExtResource("5_83s7b")]({})
+failed_evidence = ExtResource("2_6ml0o")
 metadata/_custom_type_script = "uid://dm4hymlpjhfx"
