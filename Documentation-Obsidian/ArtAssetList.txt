@@ -1,6 +1,6 @@
 Art Asset List:
 
-Being Produced:
+Drawn:
 -Janitor Charcter Sprite
 -Doctor Character Sprite
 -Ex Character Sprite
@@ -10,5 +10,13 @@ Being Produced:
 -Penguin Suit Character Sprite
 -Murder Scene Full Spread 
 
-Needed:
-(place art asset requests here)
+Manipulated Photos (artistic filter in Clip Studio Paint)
+-Gift Shop : https://piratespoint.com/wp-content/uploads/2023/03/Copy-of-002.jpg
+-Managers Office : https://images.squarespace-cdn.com/content/v1/59de9f6eccc5c5ab68ae911d/1508973662542-ZC0NGOFVNNP6IN1STPI1/Office+Manager.png?format=1000w
+-Aqua Tunnel : https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-fd9jd1ujrh31kbr99krv35a0r6-20230530235310.Medi.jpeg
+-Matinence Room : https://romtec.com/wp-content/uploads/2019/11/standard-8-foot-mechanical-room.jpg
+-Jellyfish Room : https://unsplash.com/photos/photo-of-brown-jellyfish-JtVyK2Sej2I
+-Penguin Room : https://media-cdn.tripadvisor.com/media/photo-s/06/b5/d4/b9/loro-parque.jpg
+-Podcast Room : https://www.blancfw.com/podcast
+-Shark Room : https://www.sheddaquarium.org/stories/meet-the-sharks
+-Small Creaturs Tank : https://biotope-aquarium.info/aquariums/tidal-pool-near-the-inlet-of-yantai-shandong-128-l/
