@@ -10,7 +10,7 @@
 [ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_goekv"]
 [ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="5_ys7v5"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="6_goekv"]
-[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="9_egsxc"]
+[ext_resource type="Resource" uid="uid://de7v3um3f5sw5" path="res://Characters/Placeholder/Sprites/blank.tres" id="9_egsxc"]
 
 [sub_resource type="Resource" id="Resource_72ic1"]
 script = ExtResource("1_72ic1")

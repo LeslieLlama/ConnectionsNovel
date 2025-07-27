@@ -37,7 +37,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 [sub_resource type="Resource" id="Resource_vb8vc"]
 script = ExtResource("4_uwj0w")
 line_type = 2
-text = "You show Sloan Shark the finance notes that Sloan wrote."
+text = "You show Sloane Sharke the finance notes that Sloan wrote."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_uwj0w"]
