@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="1_n7ltg"]
 [ext_resource type="AudioStream" uid="uid://cvcc06fw22nlj" path="res://Assets/Music/GrandOpening.ogg" id="2_x1gnk"]
-[ext_resource type="Resource" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
+[ext_resource type="Resource" uid="uid://de7v3um3f5sw5" path="res://Characters/Placeholder/Sprites/blank.tres" id="2_xf7la"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="3_x1gnk"]
 [ext_resource type="Texture2D" uid="uid://bm3yc5r2joyne" path="res://Assets/Backgrounds/FoyerBackground.png" id="4_378lr"]
 [ext_resource type="Resource" uid="uid://rkkxodlml40x" path="res://Characters/MarineBio/Sprites/marine_bio_default.tres" id="4_d2e85"]
@@ -50,7 +50,7 @@ metadata/_custom_type_script = "uid://cyus3nuisb47q"
 script = ExtResource("1_n7ltg")
 speaker_sprite = ExtResource("5_lma1i")
 line_type = 2
-text = "The slick Sloan Shark standing proud and slick."
+text = "The slick Sloane Sharke standing proud and slick."
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_8uisl"]

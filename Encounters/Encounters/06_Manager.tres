@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_3aq17"]
 [ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_6th6e"]
 [ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="4_ltc22"]
-[ext_resource type="Resource" uid="uid://blax55u1dc88" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_3aq17"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_3aq17"]
 [ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="8_ltc22"]
 [ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="10_ow6pt"]
 
@@ -56,7 +56,7 @@ metadata/_custom_type_script = "uid://wyclueyiircq"
 [sub_resource type="Resource" id="Resource_0q05d"]
 script = ExtResource("3_3aq17")
 line_type = 2
-text = "You show her the finance notes from Sloan Shark"
+text = "You show her the finance notes from Sloane Sharke"
 metadata/_custom_type_script = "uid://cyus3nuisb47q"
 
 [sub_resource type="Resource" id="Resource_u3qpv"]
