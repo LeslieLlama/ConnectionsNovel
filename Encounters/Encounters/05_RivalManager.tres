@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=18 format=3 uid="uid://bjfuv5cj42j4n"]
+
+[ext_resource type="Resource" uid="uid://cm0jhil312k3k" path="res://Characters/Rival/Rival.tres" id="1_rx42p"]
+[ext_resource type="Resource" uid="uid://ylfrf6r5wbpb" path="res://Characters/Rival/failure_dialogue.tres" id="2_wnlky"]
+[ext_resource type="Resource" uid="uid://0r7g5re4qwhx" path="res://Map/Locations/Locations/small_creature_exhibit.tres" id="3_vb8vc"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="4_uwj0w"]
+[ext_resource type="Resource" uid="uid://dc0k8cfmtflgq" path="res://Characters/Rival/Sprites/rival_default.tres" id="5_lqq2v"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="6_63jok"]
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="7_1niaf"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="8_bypsw"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="8_vb8vc"]
+[ext_resource type="Resource" uid="uid://c0rx7djt1hy02" path="res://Evidence/Evidence/Business_card.tres" id="9_uwj0w"]
+
+[sub_resource type="Resource" id="Resource_qy2f7"]
+script = ExtResource("4_uwj0w")
+speaker_sprite = ExtResource("5_lqq2v")
+line_type = 0
+text = "Hello again, how goes the investigation?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_isekh"]
+script = ExtResource("6_63jok")
+lines = Array[ExtResource("4_uwj0w")]([SubResource("Resource_qy2f7")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_b428u"]
+script = ExtResource("4_uwj0w")
+line_type = 0
+text = "What the hell is that? Where you just carrying it around? God you're an awful detective no get that away from me!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_lqq2v"]
+script = ExtResource("6_63jok")
+lines = Array[ExtResource("4_uwj0w")]([SubResource("Resource_b428u")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_vb8vc"]
+script = ExtResource("4_uwj0w")
+line_type = 2
+text = "You show Sloan Shark the finance notes that Sloan wrote."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_uwj0w"]
+script = ExtResource("4_uwj0w")
+line_type = 0
+text = "Brilliant aren't they? Have you read them? I hope you showed them to the manager. You Why don't you go and show them now?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_63jok"]
+script = ExtResource("6_63jok")
+lines = Array[ExtResource("4_uwj0w")]([SubResource("Resource_vb8vc"), SubResource("Resource_uwj0w")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("8_bypsw")
+location = ExtResource("3_vb8vc")
+character = ExtResource("1_rx42p")
+main_conversation = SubResource("Resource_isekh")
+presented_evidence = Dictionary[ExtResource("7_1niaf"), ExtResource("6_63jok")]({
+ExtResource("8_vb8vc"): SubResource("Resource_lqq2v"),
+ExtResource("9_uwj0w"): SubResource("Resource_63jok")
+})
+failed_evidence = ExtResource("2_wnlky")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

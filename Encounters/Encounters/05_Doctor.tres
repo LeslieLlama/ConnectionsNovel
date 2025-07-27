@@ -1,0 +1,147 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=33 format=3 uid="uid://dkrimmtv6d5l2"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_30kqa"]
+[ext_resource type="Resource" uid="uid://vtkiitpiyma0" path="res://Characters/Doctor/doctor.tres" id="1_xkpkw"]
+[ext_resource type="Resource" uid="uid://67bc2k8jvmg3" path="res://Characters/Doctor/failure_dialogue.tres" id="2_bvmmy"]
+[ext_resource type="Resource" uid="uid://careb6xuaup2s" path="res://Map/Locations/Locations/aqua_tunnel.tres" id="2_cn51x"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_ry1ah"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_5yuyi"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_kf8ha"]
+[ext_resource type="Resource" uid="uid://cohlk5rje0auo" path="res://Characters/Doctor/Sprites/doctor_default.tres" id="4_xboxc"]
+[ext_resource type="Resource" uid="uid://bsa4b06wtv4e3" path="res://Evidence/Evidence/School photo.tres" id="7_kf8ha"]
+[ext_resource type="Resource" uid="uid://ckih8q1mp0prq" path="res://Evidence/Evidence/Perfume_name.tres" id="8_xboxc"]
+[ext_resource type="Resource" uid="uid://cgv0rtfowk1qu" path="res://Evidence/Evidence/Bucket_of_meat.tres" id="10_ss3up"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="11_1vji0"]
+
+[sub_resource type="Resource" id="Resource_ybvef"]
+script = ExtResource("3_kf8ha")
+speaker_sprite = ExtResource("4_xboxc")
+line_type = 0
+text = "Why hello there. How goes your investigation?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bvmmy"]
+script = ExtResource("2_ry1ah")
+lines = Array[ExtResource("3_kf8ha")]([SubResource("Resource_ybvef")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_khqt7"]
+script = ExtResource("3_kf8ha")
+line_type = 1
+text = "I spoke to the manager, he said you went to school with Phil?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_w7fsa"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Oh DID he know? Oh great, so I suppose that now we're in a murder mystery every one has lost their mind? Yes, I suppose I did. Phil was....well he just had it easier didn't he."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_82p8o"]
+script = ExtResource("3_kf8ha")
+line_type = 1
+text = "He said you wanted to open a new clinic?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_naapu"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Yes...I did....and the mighty Phill, what did he do when I offered the opportunity for people to give blood? He said no!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_dg8d6"]
+script = ExtResource("3_kf8ha")
+line_type = 1
+text = "He said he disagreed about you wanting to store the blood there? Said it should be given out to help others and to hoard blood is inhuman."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_3ykru"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Inhumane hmm? Well then. I suppose storing blood for a crisis, storing blood for a disaster. That rich blood, oh yes, let's just give it away! And now look at Phil, floating in that pool. Good thing he died, not a drop to go around!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_5igab"]
+script = ExtResource("3_kf8ha")
+line_type = 1
+text = "You killed him for that?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_t1li8"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Oh goodness no, what good would that do. Killing him won't give me my clinic. Have you seen the person in the penguin suit? I swear I recognised it..that stance...that...perfume...."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_vdo6q"]
+script = ExtResource("3_kf8ha")
+line_type = 1
+text = "You know them? What was the name of that perfume? Could be a clue?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_phf7j"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Do you have a pen and paper? You'd butcher the pronunciation if I told you."
+recieved_evidence = ExtResource("8_xboxc")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7bqsv"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Ask the penguin if that's the right one. It's very hard to come by and I'd love to know where they got it."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_yg7gl"]
+script = ExtResource("3_kf8ha")
+line_type = 2
+text = "(I left the room after that)"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ss3up"]
+script = ExtResource("2_ry1ah")
+lines = Array[ExtResource("3_kf8ha")]([SubResource("Resource_khqt7"), SubResource("Resource_w7fsa"), SubResource("Resource_82p8o"), SubResource("Resource_naapu"), SubResource("Resource_dg8d6"), SubResource("Resource_3ykru"), SubResource("Resource_5igab"), SubResource("Resource_t1li8"), SubResource("Resource_vdo6q"), SubResource("Resource_phf7j"), SubResource("Resource_7bqsv"), SubResource("Resource_yg7gl")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_lvvsu"]
+script = ExtResource("3_kf8ha")
+line_type = 2
+text = "*You hand the bucket of meat to Dr Ackular*"
+consumed_evidence = ExtResource("10_ss3up")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_coht1"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Wow...what a mysterious thing...that, hmm hang on? What is this?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_o0q0i"]
+script = ExtResource("3_kf8ha")
+line_type = 2
+text = "*Dr Ackular sticks his hand in. You stomach twists, hand jumping up to cover your mouth before anything can come up*"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7s77v"]
+script = ExtResource("3_kf8ha")
+line_type = 0
+text = "Huh, what a strange ring? It's a lovely ring, has a big X on it? How strange? Perhaps the killer lost it in the bucket. Might be useful?"
+recieved_evidence = ExtResource("11_1vji0")
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_agdxi"]
+script = ExtResource("2_ry1ah")
+lines = Array[ExtResource("3_kf8ha")]([SubResource("Resource_lvvsu"), SubResource("Resource_coht1"), SubResource("Resource_o0q0i"), SubResource("Resource_7s77v")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_5yuyi")
+location = ExtResource("2_cn51x")
+character = ExtResource("1_xkpkw")
+main_conversation = SubResource("Resource_bvmmy")
+presented_evidence = Dictionary[ExtResource("1_30kqa"), ExtResource("2_ry1ah")]({
+ExtResource("7_kf8ha"): SubResource("Resource_ss3up"),
+ExtResource("10_ss3up"): SubResource("Resource_agdxi")
+})
+failed_evidence = ExtResource("2_bvmmy")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"

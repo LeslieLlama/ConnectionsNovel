@@ -1,0 +1,144 @@
+[gd_resource type="Resource" script_class="Encounter" load_steps=32 format=3 uid="uid://c7e2s7qsm7bqt"]
+
+[ext_resource type="Script" uid="uid://dud2ohjq2nnl2" path="res://Evidence/evidence.gd" id="1_0kqh3"]
+[ext_resource type="Resource" uid="uid://dolmyrhfklgpc" path="res://Characters/Manager/Manager.tres" id="1_qlroe"]
+[ext_resource type="Resource" uid="uid://dgviqcsf6jvjo" path="res://Map/Locations/Locations/Managers_office.tres" id="2_civ2h"]
+[ext_resource type="Resource" uid="uid://bpq7le3hbhoyv" path="res://Characters/Manager/failure_dialogue.tres" id="2_wxhyj"]
+[ext_resource type="Script" uid="uid://wyclueyiircq" path="res://Dialogue/Conversations/Conversation.gd" id="2_ycyw0"]
+[ext_resource type="Script" uid="uid://cyus3nuisb47q" path="res://Dialogue/Conversations/ConversationLine.gd" id="3_3aq17"]
+[ext_resource type="Script" uid="uid://dm4hymlpjhfx" path="res://Encounters/encounter.gd" id="3_6th6e"]
+[ext_resource type="Resource" uid="uid://dn7dwgf4a1tff" path="res://Characters/Manager/Sprites/manager_default.tres" id="4_ltc22"]
+[ext_resource type="Resource" path="res://Evidence/Evidence/PeguinsIdentity.tres" id="7_3aq17"]
+[ext_resource type="Resource" uid="uid://83sesbs6vpq7" path="res://Evidence/Evidence/Finance notes.tres" id="8_ltc22"]
+[ext_resource type="Resource" uid="uid://dke8werhuqa4x" path="res://Evidence/Evidence/X_ring.tres" id="10_ow6pt"]
+
+[sub_resource type="Resource" id="Resource_wxhyj"]
+script = ExtResource("3_3aq17")
+speaker_sprite = ExtResource("4_ltc22")
+line_type = 0
+text = "Hello dear. The loading truck is almost here, did you manage to find anything useful?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_ow6pt"]
+script = ExtResource("2_ycyw0")
+lines = Array[ExtResource("3_3aq17")]([SubResource("Resource_wxhyj")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_1fps1"]
+script = ExtResource("3_3aq17")
+line_type = 2
+text = "You reveal the identity of the penguin"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_6bjub"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Oh how exciting!!!! Maybe she is the killer! I hope you managed to find evidence to get her!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_8qfiy"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Looks like the loading truck is here! Don't tell me who it is yet, I want to see their face when it's all revealed!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_yg62s"]
+script = ExtResource("3_3aq17")
+line_type = 2
+text = "You continue to the loading bay."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_bo2xi"]
+script = ExtResource("2_ycyw0")
+lines = Array[ExtResource("3_3aq17")]([SubResource("Resource_1fps1"), SubResource("Resource_6bjub"), SubResource("Resource_8qfiy"), SubResource("Resource_yg62s")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_0q05d"]
+script = ExtResource("3_3aq17")
+line_type = 2
+text = "You show her the finance notes from Sloan Shark"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_u3qpv"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Oh look, notes from Sloan? Well that's lovely but I don't have the time to go through them dear, the loading truck is almost here."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_idxa0"]
+script = ExtResource("3_3aq17")
+line_type = 1
+text = "Did you kill Phil so he wouldn't get the 10% cut?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_a3g0m"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Oh heavens no why would I do that? 10% is a lot but not enough to kill someone."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_kexqw"]
+script = ExtResource("3_3aq17")
+line_type = 1
+text = "Such a clean way to cover up the evidence, no one would know. But I do, I know!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_rydo1"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Dear no, although I suppose having that 10% back would be nice. I just think it's funny that this is the 6th aquarium this has happened in! Oopsie!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_gaif6"]
+script = ExtResource("2_ycyw0")
+lines = Array[ExtResource("3_3aq17")]([SubResource("Resource_0q05d"), SubResource("Resource_u3qpv"), SubResource("Resource_idxa0"), SubResource("Resource_a3g0m"), SubResource("Resource_kexqw"), SubResource("Resource_rydo1")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[sub_resource type="Resource" id="Resource_07adt"]
+script = ExtResource("3_3aq17")
+line_type = 2
+text = "You show the manager the ring"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_x37d7"]
+script = ExtResource("3_3aq17")
+line_type = 1
+text = "Sloan found this in the bucket of meat, thought it might be useful?"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_7hu84"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Oh goodness me, I'm surprised anyone could dig through that! You'd have to be a hungry shark to do that!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_1mlql"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "But what a delightful find! Maybe it's the killers ring! Or maybe it was Sloan! I always thought something was off with Sloan, they kept blood in glass bottles in the fridge! Silly Sloan."
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_x55an"]
+script = ExtResource("3_3aq17")
+line_type = 0
+text = "Look at that the truck is here! Off we pop, down to the loading bay!
+How exciting!"
+metadata/_custom_type_script = "uid://cyus3nuisb47q"
+
+[sub_resource type="Resource" id="Resource_41u5s"]
+script = ExtResource("2_ycyw0")
+lines = Array[ExtResource("3_3aq17")]([SubResource("Resource_07adt"), SubResource("Resource_x37d7"), SubResource("Resource_7hu84"), SubResource("Resource_1mlql"), SubResource("Resource_x55an")])
+metadata/_custom_type_script = "uid://wyclueyiircq"
+
+[resource]
+script = ExtResource("3_6th6e")
+location = ExtResource("2_civ2h")
+character = ExtResource("1_qlroe")
+main_conversation = SubResource("Resource_ow6pt")
+presented_evidence = Dictionary[ExtResource("1_0kqh3"), ExtResource("2_ycyw0")]({
+ExtResource("7_3aq17"): SubResource("Resource_bo2xi"),
+ExtResource("8_ltc22"): SubResource("Resource_gaif6"),
+ExtResource("10_ow6pt"): SubResource("Resource_41u5s")
+})
+failed_evidence = ExtResource("2_wxhyj")
+metadata/_custom_type_script = "uid://dm4hymlpjhfx"
